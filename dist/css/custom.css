@@ -1,0 +1,17 @@
+#eventlist{
+	text-align: center;
+}
+#dow{
+	margin: 1em;
+	text-align: center;
+}
+#dow > span{
+  	border-style: solid;
+ 	border-width: 1px;
+  	padding: 1.5em;
+  	border-radius: 1px;
+  	margin-right: 1em;
+}
+#navdown{
+	text-align: center;
+}
