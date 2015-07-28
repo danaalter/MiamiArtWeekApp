@@ -15,3 +15,12 @@
 #navdown{
 	text-align: center;
 }
+
+.logo {
+	text-align: left;
+	margin: 10px 0;
+}
+
+.title {
+    line-height: 24px;
+}
