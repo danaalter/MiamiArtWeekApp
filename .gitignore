@@ -1,6 +1,6 @@
-/dist/css/rachet-theme-android.css
-/dist/css/rachet-theme-android.min.css
-/dist/css/rachet-theme-ios.css
-/dist/css/rachet-theme-ios.min.css
-/dist/js/bower_components/src
-/.idea
+rachet-theme-android.css
+rachet-theme-android.min.css
+rachet-theme-ios.css
+rachet-theme-ios.min.css
+bower_components/src
+.idea
