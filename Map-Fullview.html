@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Miami Art Week mApp</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="dist/css/ratchet.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="dist/js/ratchet.js"></script>
+
+    <!-- Include the phonegap JS -->
+    <!--<script src="phonegap.js"></script>-->
+
+    <!-- styles CSS -->
+    <link href="dist/css/accordion.css" rel="stylesheet">
+    <link href="dist/css/custom.css" rel="stylesheet">
+
+
+    <!-- javascript link-->
+    <script src="dist/js/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="dist/js/accordion.js"></script>
+</head>
+
+
+
+<body>
+
+<!-----------------  Header   --------------->
+
+
+<!-- Make sure all your bars are the first things in your <body> -->
+<header class="bar bar-nav">
+    <h1 class="title logo">Miami Art Week mApp</h1>
+</header>
+
+<!----------------- Secondary Header   --------------->
+
+
+<div class="bar bar-standard bar-header-secondary">
+<div class="segmented-control">
+    <a class="control-item active">DD</a>
+    <a class="control-item">WW</a>
+    <a class="control-item">DT</a>
+    <a class="control-item">MB</a>
+</div>
+</div>
+
+
+<!----------------- Map List   --------------->
+
+<div class="content">
+<ul class="table-view">
+    <li class="table-view-cell media">
+        <a class="navigate-right">
+            <img class="media-object pull-left" src="http://placehold.it/42x42" width="42"  height="42">
+            <div class="media-body">
+                LOCUST ART
+                <p>Locust Projects is a not for profit exhibition space dedicated to providing contemporary visual artists the freedom to experiment with new ideas without the pressures of gallery sales or limitations of conventional exhibition spaces. </p>
+            </div>
+        </a>
+    </li>
+    <li class="table-view-cell media">
+        <a class="navigate-right">
+            <img class="media-object pull-left" src="http://placehold.it/42x42">
+            <div class="media-body">
+                PEREZ ART MUSEUM
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+            </div>
+        </a>
+    </li>
+    <li class="table-view-cell media">
+        <a class="navigate-right">
+            <img class="media-object pull-left" src="http://placehold.it/42x42">
+            <div class="media-body">
+                SCOPE GALLERY
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+            </div>
+        </a>
+    </li>
+    <li class="table-view-cell media">
+        <a class="navigate-right">
+            <img class="media-object pull-left" src="http://placehold.it/42x42">
+            <div class="media-body">
+                EMERSON
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+            </div>
+        </a>
+    </li>
+    <li class="table-view-cell media">
+        <a class="navigate-right">
+            <img class="media-object pull-left" src="http://placehold.it/42x42">
+            <div class="media-body">
+                EMERSON
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+            </div>
+        </a>
+    </li>
+</ul>
+</div>
+
+<!-----------------  Bottom Nav    --------------->
+
+<nav class="bar bar-tab">
+    <a class="tab-item active" href="#">
+        Map
+    </a>
+    <a class="tab-item" href="#">
+        Events
+    </a>
+    <a class="tab-item" href="#">
+        Explore
+    </a>
+</nav>
+
+</body>
+</html>
