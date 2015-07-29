@@ -2,5 +2,4 @@ rachet-theme-android.css
 rachet-theme-android.min.css
 rachet-theme-ios.css
 rachet-theme-ios.min.css
-bower_components/src
-.idea
+.idea/
