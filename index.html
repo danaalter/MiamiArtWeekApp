@@ -18,10 +18,16 @@
     <script src="dist/js/ratchet.js"></script>
 
     <!-- Include the phonegap JS -->
-    <script src="phonegap.js"></script>
+    <!--<script src="phonegap.js"></script>-->
 
     <!-- styles CSS -->
+    <link href="dist/css/accordion.css" rel="stylesheet">
     <link href="dist/css/custom.css" rel="stylesheet">
+
+
+    <!-- javascript link-->
+      <script src="dist/js/bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="dist/js/accordion.js"></script>
   </head>
   <body>
 
@@ -32,8 +38,61 @@
 
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
-      <p class="content-padded">content here</p>
-    </div>
+        <!--accordion menu-->
+        <div class="accordion-container">
+            <div class="set">
+                <h3>
+                    MAPS
+                    <span class="icon icon-down"></span>
+                </h3>
+                <div class="menu-content">
+                    <ul>
+                        <li><a href="#"> Miami Beach</a></li>
+                        <li><a href="#">Downtown</a> </li>
+                        <li><a href="#">Wynwood</a> </li>
+                        <li><a href="#">Midtown</a> </li>
+                    </ul>
+                </div>
+            </div><!--end set-->
+            <div class="set">
+                <h3>
+                    EVENTS
+                    <span class="icon icon-down"></span>
+                </h3>
+                <div class="menu-content content-padded">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+            </div><!--end set-->
+            <div class="set">
+                <h3>
+                    EXPLORE
+                    <span class="icon icon-down"></span>
+                </h3>
+                <div class="menu-content">
+                    <ul>
+                        <li><a href="#"> Restaurants</a></li>
+                        <li><a href="#">Hotels</a> </li>
+                    </ul>
+                </div>
+            </div><!--end set-->
+            <div class="set">
+                <h3>
+                    INFORMATION
+                    <span class="icon icon-down"></span>
+                </h3>
+                <div class="menu-content content-padded">
+                    <ul>
+                        <li><a href="#"> About</a></li>
+                        <li><a href="#">Sponsors</a> </li>
+                    </ul>
+                </div>
+            </div><!--end set-->
+
+        </div><!--End accordion menu-->
+
+    </div><!--end content-->
+
+    <!--bottom nav-->
 
     <nav class="bar bar-tab">
 	  <a class="tab-item active" href="#">
