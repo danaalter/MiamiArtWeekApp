@@ -73,4 +73,51 @@ h3{
 .copy{
 	background-color:pink;
 	font-size: 12px;}
+
+/*Accordion css*/
+.set h3{
+    padding: 20px 10px 20px 30px;
+    margin-bottom: 0px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.set h3:first-child {
+    margin-top: -1px;
+}
+
+.set h3>span{
+    float:right;
+}
+
+.set > h3.active{
+    background-color:#3399cc;
+    color: #fff;
+}
+.set > h3.active a{
+    color: #fff;
+}
+.menu-content ul{
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+}
+.menu-content ul li {
+    padding: 18px 0px;
+    text-align:center;
+    border-bottom: 1px solid #ddd;
+}
+.menu-content ul li:last-child{
+    border-bottom: none;
+}
+.menu-content ul:last-child li{
+    border-bottom: 1px solid #ddd;
+}
+.menu-content ul li a{
+    color:#000;
+    font-size:20px;
+}
+
+/*End accordion CSS*/
 	
