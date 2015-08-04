@@ -191,7 +191,7 @@ and (max-device-width: 568px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: landscape) {
     .mainslidedown {
-        top: 437px;
+        top: 190px;
     }
 }
 
