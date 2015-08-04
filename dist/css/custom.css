@@ -120,4 +120,79 @@ h3{
 }
 
 /*End accordion CSS*/
+
+/*map slide up box css*/
+#container{
+    position:relative;
+    overflow:hidden;
+}
+#main{
+    padding:10px;
+    height: 100vh;
+}
+.mainslide{
+    background-color:rgba(217,217,217,0);
+    height:100%;
+    padding-top:10px;
+    position:absolute;
+    z-index:200;
+    transition:all 1s ease-in-out;
+}
+.mainslidedown{
+    top:537px;
+}
+.mainslideup{
+    top:0px;
+    background-color:rgba(217,217,217,1);
+}
+.mainslideicon{
+    text-align: center;
+    width: 56vh;
+}
+
+
+/*------media queries------*/
+/*iphone 6*/
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+    .mainslidedown{
+        top:246px;
+    }
+    .mainslide{
+        width:178vh;
+    }
+    .mainslideicon{
+        text-align: center;
+        width: 176vh;
+    }
+
+
+}
+/*iphone 5*/
+/* Portrait */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    .mainslidedown {
+        top: 437px;
+    }
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+    .mainslidedown {
+        top: 437px;
+    }
+}
+
 	
