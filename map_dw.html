@@ -62,7 +62,49 @@
 <h1>Downtown Map</h1>
 </div>
 
+        <!--map list slide up-->
+        <span class="mainslideicon icon icon-up"></span>
+        <div id="container">
 
+            <div id="main">
+                <h1>This is where the map should go</h1>
+                <p>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah </p>
+            </div>
+
+            <div class="mainslide mainslidedown">
+                <ul class="table-view">
+                    <li class="table-view-cell table-view-divider">Divider</li>
+                    <li class="table-view-cell">
+                        <a class="navigate-right">
+                            Item 1
+                        </a>
+                    </li>
+                    <li class="table-view-cell">
+                        <a class="navigate-right">
+                            Item 2
+                        </a>
+                    </li>
+                    <li class="table-view-cell">
+                        <a class="navigate-right">
+                            Item 3
+                        </a>
+                    </li>
+                    <li class="table-view-cell table-view-divider">Divider</li>
+                    <li class="table-view-cell">
+                        <a class="navigate-right">
+                            Item 2
+                        </a>
+                    </li>
+                    <li class="table-view-cell">
+                        <a class="navigate-right">
+                            Item 3
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div><!--end container-->
+
+        <!--End map list slide up-->
  
 
     </div><!--end content-->
@@ -82,4 +124,18 @@
     </nav>
 
   </body>
+  <script>
+      var slideup = $(".mainslide");
+      var slideupicon = $("span");
+      slideupicon.click(function(){
+          if(slideup.hasClass("mainslidedown")){
+              slideup.removeClass("mainslidedown").addClass("mainslideup");
+              slideupicon.removeClass("icon-up").addClass("icon-down");
+          }else {
+              slideup.addClass("mainslidedown").removeClass("mainslideup");
+              slideupicon.removeClass("icon-down").addClass("icon-up");
+          }
+      })
+
+  </script>
 </html>
