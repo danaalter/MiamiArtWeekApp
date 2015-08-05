@@ -252,3 +252,8 @@ min-height:55px;
 	background-color: #0FAAFA;
 	font-weight:bold;
 	}
+
+.bar-header-secondary ~ .content {
+    margin-bottom: 50px;
+}
+
