@@ -244,3 +244,11 @@ min-height:55px;
 
 .calendar:active{
 	opacity:.5;}	
+/*Map Landing Page*/	
+.segmented-control .control-item.active {
+    background-color: #5AD445;
+}
+.segmented-control .control-item{
+	background-color: #0FAAFA;
+	font-weight:bold;
+	}
