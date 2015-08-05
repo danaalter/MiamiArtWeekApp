@@ -195,4 +195,52 @@ and (orientation: landscape) {
     }
 }
 
-	
+/*Calendar Events Page*/
+.calendar{
+	margin:.25em 5px 5px 0;
+	padding-top:5px;
+	float:left;
+	width:14%;
+min-height:55px;
+	background:#ededef;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededef), to(#ccc)); 
+	background: -moz-linear-gradient(top,  #ededef,  #ccc); 
+	font:bold 1em/2em Arial Black, Arial, Helvetica, sans-serif;
+	text-align:center;
+	color:#000;
+	text-shadow:#fff 0 1px 0;	
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;	
+	position:relative;
+	-moz-box-shadow:0 2px 2px #888;
+	-webkit-box-shadow:0 2px 2px #888;
+	box-shadow:0 2px 2px #888;
+	}
+.calendar em{
+	display:block;
+	font:normal bold 14px/30px Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-shadow:#00365a 0 -1px 0;	
+	background:#36A8FF;
+	background:-webkit-gradient(linear, left top, left bottom, from(#36A8FF), to(#00365a)); 
+	background:-moz-linear-gradient(top,  #36A8FF,  #00365a); 
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-bottom-right-radius:3px;	
+	border-bottom-right-radius:3px;
+	-moz-border-radius-bottomleft:3px;
+	-webkit-border-bottom-left-radius:3px;	
+	border-bottom-left-radius:3px;	
+	border-top:1px solid #00365a;
+	}
+
+.box{
+	text-align:center;
+	width:96%;
+	min-height:96px;
+	margin:1em;
+	padding:5px;
+}
+
+.calendar:active{
+	opacity:.5;}	
