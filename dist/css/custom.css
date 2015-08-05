@@ -133,13 +133,14 @@ h3{
 .mainslide{
     background-color:rgba(217,217,217,0);
     height:100%;
+    width:100%;
     padding-top:10px;
     position:absolute;
     z-index:200;
     transition:all 1s ease-in-out;
 }
 .mainslidedown{
-    top:537px;
+    top:700px;
 }
 .mainslideup{
     top:0px;
@@ -148,6 +149,9 @@ h3{
 .mainslideicon{
     text-align: center;
     width: 56vh;
+    bottom:60px;
+    position:fixed;
+    z-index:999;
 }
 
 
@@ -158,10 +162,7 @@ and (min-device-width: 375px)
 and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: landscape) {
-
-    .mainslidedown{
-        top:246px;
-    }
+    
     .mainslide{
         width:178vh;
     }
@@ -179,9 +180,7 @@ and (min-device-width: 320px)
 and (max-device-width: 568px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
-    .mainslidedown {
-        top: 437px;
-    }
+
 }
 
 /* Landscape */
@@ -190,9 +189,7 @@ and (min-device-width: 320px)
 and (max-device-width: 568px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: landscape) {
-    .mainslidedown {
-        top: 190px;
-    }
+
 }
 
 /*Calendar Events Page*/
