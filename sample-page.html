@@ -12,33 +12,21 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
     <!-- Include the compiled Ratchet CSS -->
-    <link href="dist/css/ratchet.min.css">
+    <link href="dist/css/ratchet.css" rel="stylesheet">
 
     <!-- Include the compiled Ratchet JS -->
-    <script src="dist/js/ratchet.min.js"></script>
+    <script src="dist/js/ratchet.js"></script>
 
     <!-- Include the phonegap JS -->
-    <script src="phonegap.js"></script>
+    <!--<script src="phonegap.js"></script>-->
 
     <!-- styles CSS -->
     <link href="dist/css/custom.css" rel="stylesheet">
-    
-    <style>
-	h2{
-		text-align:center;
-		margin:7% auto;	
-	}
-	h3{
-		text-align:center;
-		margin-top:20%;
-		color:#ccc;
-	}
-	
-	.content p #intro{
-		color:red;
-	}
-	</style>
-    
+
+
+    <!-- javascript link-->
+      <script src="dist/js/bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="dist/js/accordion.js"></script>
   </head>
   <body>
 
@@ -52,23 +40,24 @@
 
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
-      <h2>Our Partners</h2>
-      <p class="content-padded" #id="intro">		Art Basel maintains close collaboration with our partners, who share the common aspiration of creating a global platform for the exchange of ideas that drive the artworld forward. They share a fundamental commitment to the arts beyond Art Basel. It is this passion for enhancing the experience of art for all which adds to the vibrancy of every Art Basel show.</p>
-      <h3>Lead Partner</h3>
-      <h3>Associate Partner</h3>
-    </div>
+
+
+    </div><!--end content-->
+
+    <!--bottom nav-->
 
     <nav class="bar bar-tab">
-	  <a class="tab-item active" href="#">
-	    Map
-	  </a>
-	  <a class="tab-item" href="#">
-	    Events
-	  </a>
-	  <a class="tab-item" href="#">
-	    Explore
-	  </a>
-	</nav>
+      <a class="tab-item active" href="index.html">
+        Map
+      </a>
+      <a class="tab-item" href="events.html">
+        Events
+      </a>
+      <a class="tab-item" href="explore.html">
+        Explore
+      </a>
+    </nav>
 
   </body>
+
 </html>

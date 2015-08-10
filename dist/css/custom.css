@@ -1,6 +1,9 @@
 #eventlist{
 	text-align: center;
 }
+.title{
+    line-height: 44px !important;
+}
 #dow{
 	margin: 1em;
 	text-align: center;
@@ -124,7 +127,7 @@ h3{
 /*map slide up box css*/
 #container{
     position:relative;
-    overflow:hidden;
+    overflow: hidden;
 }
 #main{
     padding:10px;
@@ -132,7 +135,6 @@ h3{
 }
 .mainslide{
     background-color:rgba(217,217,217,0);
-    height:100%;
     width:100%;
     padding-top:10px;
     position:absolute;
@@ -140,7 +142,7 @@ h3{
     transition:all 1s ease-in-out;
 }
 .mainslidedown{
-    top:700px;
+    top:9999px;
 }
 .mainslideup{
     top:0px;
@@ -149,9 +151,11 @@ h3{
 .mainslideicon{
     text-align: center;
     width: 56vh;
-    bottom:60px;
+    bottom:50px;
     position:fixed;
     z-index:999;
+    padding: 5px 0px;
+    background-color: #ddd;
 }
 
 
