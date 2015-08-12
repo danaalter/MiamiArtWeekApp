@@ -44,25 +44,31 @@
 
 
 <div class="segmented-control" id="artfair">
-  <a class="control-item active" href="#item1mobile">
+<a class="control-item active" href="#all">
+    All
+  </a>
+  <a class="control-item " href="#downtown">
     Downtown
   </a>
-  <a class="control-item" href="#item2mobile">
+  <a class="control-item" href="#miami">
     Miami Beach
   </a>
-  <a class="control-item" href="#item3mobile">
+  <a class="control-item" href="#midtown">
     Midtown
   </a>
-    <a class="control-item" href="#item3mobile">
+    <a class="control-item" href="#wynwood">
     Wynwood
   </a>
 </div>
+
+
 
 
 <div class="box">
 
 
 <p class="calendar">30 <em>Nov</em></p>
+<p class="calendar">1 <em>Dec</em></p>
 <p class="calendar">2 <em>Dec</em></p>
 <p class="calendar">3 <em>Dec</em></p>
 <p class="calendar">4 <em>Dec</em></p>
@@ -70,18 +76,84 @@
 <p class="calendar">6 <em>Dec</em></p>
 
 </div>
-<span style="width:300px;height:300px; clear:both; float:left></span>
+
 
 <div class="card" id="eventlist">
-  <ul class="table-view">
+
+  <!--Downtown Events -->   
+    <span id="downtown" class="control-content ">
+
+            <ul class="table-view">
+                  <li class="table-view-cell media">Concept Art Fair</li>
+            		<li class="table-view-cell media">McCormick Place</li>
+                  <li class="table-view-cell media">Miami International University of Art & Design</li>
+                  <li class="table-view-cell media">Miami River Art Fair/li>
+                  <li class="table-view-cell media">Perez Art Museum</li>
+			</ul>
+
+     </span>
+          <!--Miami Beach --> 
+          
+    <span id="miami" class="control-content ">
+
+            <ul class="table-view">
+                  <li class="table-view-cell media">Art Basel Miami Beach</li>
+                  <li class="table-view-cell media">Art Center Miami</li>
+                  <li class="table-view-cell media">Bass Museum of Art</li>
+                  <li class="table-view-cell media">Ink Miami</li>
+                  <li class="table-view-cell media">Miami Project</li>
+					<li class="table-view-cell media">Ping Pong Miami</li>
+                  <li class="table-view-cell media">Pulse Art Fair</li>
+                  <li class="table-view-cell media">Spectrum Miami Art Spot</li>
+			 </ul>
+
+      </span>
+          
+          <!--Midtown Events --> 
+          
+      <span id="midtown" class="control-content ">
+
+            <ul class="table-view">
+                  <li class="table-view-cell media">Art Miami</li>
+                  <li class="table-view-cell media">Cifo Art Foundations</li>
+                  <li class="table-view-cell media">Context Art Fair</li>
+            </ul>
+
+      </span>
+          
+          <!--Wynwood Events --> 
+      <span id="wynwood" class="control-content ">
+
+            <ul class="table-view">
+            		<li class="table-view-cell media">Dot Fiftyone</li>
+                  <li class="table-view-cell media">Emerson Dorsch</li>
+                  <li class="table-view-cell media">Locust Projects</li>
+                  <li class="table-view-cell media">Margulies Collection</li>
+                  <li class="table-view-cell media">M + V Art</li>
+                  <li class="table-view-cell media">Pan American Art Projects</li>
+					<li class="table-view-cell media">Rubell Family Collection</li>
+                  <li class="table-view-cell media">Wynwood Art Group</li>
+                  <li class="table-view-cell media">Wynwood Warehouse</li>
+                  <li class="table-view-cell media">Wynwood Walls</li>
+                  
+                  
+            </ul>
+
+      </span>
+  
+  
+   <!--All Events -->   
+    <span id="all" class="control-content active ">
+
+            <ul class="table-view">
+    
     <li class="table-view-cell table-view-divider">Day</li>
     <li class="table-view-cell" id="ddevent">Art Center Maimi</li>
     <li class="table-view-cell" id="ddevent">Art Miami</li>
     <li class="table-view-cell" id="mbevent">Art Basel Miami Beach</li>
     <li class="table-view-cell" id="mbevent">Bass Museum of Art</li>
     <li class="table-view-cell" id="dtevent">Cifo Art Foundations</li>
-    <li class="table-view-cell" id="mbevent">Concept Art Fair</li>
-    <li class="table-view-cell" id="ddevent">Context Art Fair</li>    
+    <li class="table-view-cell" id="mbevent">Concept Art Fair</li>   
     <li class="table-view-cell" id="mbevent">Design Miami</li>  
     <li class="table-view-cell" id="ddevent">Dot Fiftyone</li> 
     <li class="table-view-cell" id="wwevent">Emerson - Dosch</li>
@@ -102,6 +174,7 @@
     <li class="table-view-cell" id="wwevent">Wynwood Art Group</li>
     <li class="table-view-cell" id="wwevent">Wynwood Warehouse</li> 
     <li class="table-view-cell" id="wwevent">Wynwood Walls</li>
+     </span>
 </div>  
   <div id="navdown">
     <span class="icon icon-down-nav"></span>
@@ -112,7 +185,7 @@
     <!--bottom nav-->
 
     <nav class="bar bar-tab">
-      <a class="tab-item" href="index.html">
+      <a class="tab-item" href="map_landing.html">
         Map
       </a>
       <a class="tab-item" href="events.html">
