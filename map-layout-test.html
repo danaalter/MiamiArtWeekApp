@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Miami Art Week mApp</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="dist/css/ratchet.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="dist/js/ratchet.js"></script>
+
+    <!-- Include the phonegap JS -->
+    <!--<script src="phonegap.js"></script>-->
+
+    <!-- styles CSS -->
+    <link href="dist/css/custom.css" rel="stylesheet">
+
+
+    <!-- javascript link-->
+      <script src="dist/js/bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="dist/js/accordion.js"></script>
+  </head>
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+        <button class="btn pull-left">
+            <<a href="index.html">Menu</a>
+        </button>
+        <h1 class="title">Miami Art Week mApp</h1>
+    </header>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+
+        <div class="segmented-control">
+          <a class="control-item active" href="#all">
+            ALL
+          </a>
+          <a class="control-item" href="#downtown">
+            DOWNTOWN
+          </a>
+          <a class="control-item" href="#miamibeach">
+            MIAMI BEACH
+          </a>
+          <a class="control-item" href="#midtown">
+            MIDTOWN
+          </a>
+          <a class="control-item" href="#wynwood">
+            WYNWOOD
+          </a>
+        </div>
+        <div class="mapcard">
+          <span id="all" class="control-content active">
+
+
+    				<div class="">
+    			        
+    			        <div id="container">
+
+    			            <div id="main" style="height: 90vh;">
+    			                <iframe width='100%' height='100%' frameBorder='0' src='https://a.tiles.mapbox.com/v4/mawmapp.e163ed3e/attribution,zoompan,zoomwheel,geocoder,share.html?access_token=pk.eyJ1IjoibWF3bWFwcCIsImEiOiJlZTcxNWQ0NTUwMGZlMWY4NGJjZGM1MWNhZjgwNjQyYiJ9.rhqya-EKOClCGCt8YSaeAg'></iframe>
+    			            </div>
+                      <span class="mainslideicon icon icon-up" style="width:100%;bottom:70px;"></span>
+    			            <div class="mainslide mainslidedown">
+    			                <ul class="table-view">
+    			                    <li class="table-view-cell table-view-divider">Divider</li>
+    			                    <li class="table-view-cell">
+    			                        <a class="navigate-right">
+    			                            Item 1
+    			                        </a>
+    			                    </li>
+    			                    <li class="table-view-cell">
+    			                        <a class="navigate-right">
+    			                            Item 2
+    			                        </a>
+    			                    </li>
+    			                    <li class="table-view-cell">
+    			                        <a class="navigate-right">
+    			                            Item 3
+    			                        </a>
+    			                    </li>
+    			                    <li class="table-view-cell table-view-divider">Divider</li>
+    			                    <li class="table-view-cell">
+    			                        <a class="navigate-right">
+    			                            Item 2
+    			                        </a>
+    			                    </li>
+    			                    <li class="table-view-cell">
+    			                        <a class="navigate-right">
+    			                            Item 3
+    			                        </a>
+    			                    </li>
+    			                </ul>
+    			            </div><!--End Slide up-->
+    			        </div><!--end container-->
+
+    			    </div><!--end content-->
+		        
+
+          </span>
+          <span id="downtown" class="control-content">
+              
+            <div class="">
+                  
+                  <div id="container">
+
+                      <div id="main" style="height: 90vh;">
+                          <iframe width='100%' height='100%' frameBorder='0' src='https://a.tiles.mapbox.com/v4/mawmapp.e163ed3e/attribution,zoompan,zoomwheel,geocoder,share.html?access_token=pk.eyJ1IjoibWF3bWFwcCIsImEiOiJlZTcxNWQ0NTUwMGZlMWY4NGJjZGM1MWNhZjgwNjQyYiJ9.rhqya-EKOClCGCt8YSaeAg'></iframe>
+                      </div>
+                      <span class="mainslideicon icon icon-up" style="width:100%;bottom:70px;"></span>
+                      <div class="mainslide mainslidedown">
+                          <ul class="table-view">
+                              <li class="table-view-cell table-view-divider">Divider</li>
+                              <li class="table-view-cell">
+                                  <a class="navigate-right">
+                                      Item 1
+                                  </a>
+                              </li>
+                              <li class="table-view-cell">
+                                  <a class="navigate-right">
+                                      Item 2
+                                  </a>
+                              </li>
+                              <li class="table-view-cell">
+                                  <a class="navigate-right">
+                                      Item 3
+                                  </a>
+                              </li>
+                              <li class="table-view-cell table-view-divider">Divider</li>
+                              <li class="table-view-cell">
+                                  <a class="navigate-right">
+                                      Item 2
+                                  </a>
+                              </li>
+                              <li class="table-view-cell">
+                                  <a class="navigate-right">
+                                      Item 3
+                                  </a>
+                              </li>
+                          </ul>
+                      </div><!--End Slide up-->
+                  </div><!--end container-->
+
+              </div><!--end content-->
+
+          </span>
+          <span id="miamibeach" class="control-content">
+              
+            <ul class="table-view">
+                  <li class="table-view-cell media">
+                    <a class="navigate-right">
+                      <img class="media-object pull-left" src="http://placehold.it/42x42">
+                      <div class="media-body">
+                        Wynwood Walls<br>
+                        Phone: (305) 531-4411<br>
+                        Address: 2516 NW 2nd Ave, Miami, FL 33127<br>
+                        <a href="http://thewynwoodwalls.com/">Visit Website</a>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="table-view-cell media">
+                    <a class="navigate-right">
+                      <img class="media-object pull-left" src="http://placehold.it/42x42">
+                      <div class="media-body">
+                        Adrian Arsht Center for the Performing Arts<br>
+                        Phone: (305) 949-6722<br>
+                        Address: 1300 Biscayne Blvd, Miami, FL 33132<br>
+                        <a href="http://www.loewshotels.com/miami-beach/?&utm_medium=cpc&utm_source=google&utm_campaign=Miami%20Brand%20-%20Exact&utm_content=Miami%20|%20Name&utm_keyword=loews%20miami%20beach&cid=cpc_google_Brand_Miami%20Brand%20-%20Exact_trvlclkhttp://www.loewshotels.com/miami-beach/?&utm_medium=cpc&utm_source=google&utm_campaign=Miami%20Brand%20-%20Exact&utm_content=Miami%20|%20Name&utm_keyword=loews%20miami%20beach&cid=cpc_google_Brand_Miami%20Brand%20-%20Exact_trvlclk">Visit Website</a>
+                      </div>
+                    </a>
+                  </li>
+            </ul>
+
+          </span>
+          <span id="midtown" class="control-content">
+              
+            <div class="">
+                  
+                  <div id="container">
+
+                      <div id="main" style="height: 90vh;">
+                          <iframe width='100%' height='100%' frameBorder='0' src='https://a.tiles.mapbox.com/v4/mawmapp.e163ed3e/attribution,zoompan,zoomwheel,geocoder,share.html?access_token=pk.eyJ1IjoibWF3bWFwcCIsImEiOiJlZTcxNWQ0NTUwMGZlMWY4NGJjZGM1MWNhZjgwNjQyYiJ9.rhqya-EKOClCGCt8YSaeAg'></iframe>
+                      </div>
+                      <span class="mainslideicon icon icon-up" style="width:100%;bottom:70px;"></span>
+                      <div class="mainslide mainslidedown">
+                          <ul class="table-view">
+                              <li class="table-view-cell table-view-divider">Divider</li>
+                              <li class="table-view-cell">
+                                  <a class="navigate-right">
+                                      Item 1
+                                  </a>
+                              </li>
+                              <li class="table-view-cell">
+                                  <a class="navigate-right">
+                                      Item 2
+                                  </a>
+                              </li>
+                              <li class="table-view-cell">
+                                  <a class="navigate-right">
+                                      Item 3
+                                  </a>
+                              </li>
+                              <li class="table-view-cell table-view-divider">Divider</li>
+                              <li class="table-view-cell">
+                                  <a class="navigate-right">
+                                      Item 2
+                                  </a>
+                              </li>
+                              <li class="table-view-cell">
+                                  <a class="navigate-right">
+                                      Item 3
+                                  </a>
+                              </li>
+                          </ul>
+                      </div><!--End Slide up-->
+                  </div><!--end container-->
+
+              </div><!--end content-->
+
+          </span>
+          <span id="wynwood" class="control-content">
+              
+            <div class="">
+                  
+                  <div id="container">
+
+                      <div id="main" style="height: 90vh;">
+                          <iframe width='100%' height='100%' frameBorder='0' src='https://a.tiles.mapbox.com/v4/mawmapp.e163ed3e/attribution,zoompan,zoomwheel,geocoder,share.html?access_token=pk.eyJ1IjoibWF3bWFwcCIsImEiOiJlZTcxNWQ0NTUwMGZlMWY4NGJjZGM1MWNhZjgwNjQyYiJ9.rhqya-EKOClCGCt8YSaeAg'></iframe>
+                      </div>
+                      <span class="mainslideicon icon icon-up" style="width:100%;bottom:70px;"></span>
+                      <div class="mainslide mainslidedown">
+                          <ul class="table-view">
+                              <li class="table-view-cell table-view-divider">Divider</li>
+                              <li class="table-view-cell">
+                                  <a class="navigate-right">
+                                      Item 1
+                                  </a>
+                              </li>
+                              <li class="table-view-cell">
+                                  <a class="navigate-right">
+                                      Item 2
+                                  </a>
+                              </li>
+                              <li class="table-view-cell">
+                                  <a class="navigate-right">
+                                      Item 3
+                                  </a>
+                              </li>
+                              <li class="table-view-cell table-view-divider">Divider</li>
+                              <li class="table-view-cell">
+                                  <a class="navigate-right">
+                                      Item 2
+                                  </a>
+                              </li>
+                              <li class="table-view-cell">
+                                  <a class="navigate-right">
+                                      Item 3
+                                  </a>
+                              </li>
+                          </ul>
+                      </div><!--End Slide up-->
+                  </div><!--end container-->
+
+              </div><!--end content-->
+              
+          </span>
+        </div>
+
+        
+
+    </div><!--end content-->
+
+    <!--bottom nav-->
+
+    <nav class="bar bar-tab">
+	  <a class="tab-item" href="index.html">
+	    Map
+	  </a>
+	  <a class="tab-item" href="events.html">
+	    Events
+	  </a>
+	  <a class="tab-item active" href="explore.html">
+	    Explore
+	  </a>
+	</nav>
+
+  </body>
+  <script>
+    var slideup = $(".mainslide");
+    var slideupicon = $("span");
+    slideupicon.click(function(){
+        if(slideup.hasClass("mainslidedown")){
+            slideup.removeClass("mainslidedown").addClass("mainslideup");
+            slideupicon.removeClass("icon-up").addClass("icon-down");
+        }else {
+            slideup.addClass("mainslidedown").removeClass("mainslideup");
+            slideupicon.removeClass("icon-down").addClass("icon-up");
+        }
+    })
+
+</script>
+</html>
