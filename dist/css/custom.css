@@ -129,9 +129,13 @@ h3{
     position:relative;
     overflow: hidden;
 }
+
+/* -- #map { position:absolute;  bottom:0; width:100%;}  */
+
 #main{
     padding:10px;
     height: 100vh;
+
 }
 .mainslide{
     background-color:rgba(217,217,217,0);
