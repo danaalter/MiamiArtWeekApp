@@ -277,3 +277,29 @@ min-height:55px;
 	font-size:20px;
 	font-weight: 500;
 	}
+	
+/*Sponsors Page*/
+#sponsors-content{
+		text-align:center;
+}
+#sponsors-content h2{
+		margin:7% auto;	
+}
+#sponsors-content h3{
+		margin-top:20%;
+		color:#ccc;
+}
+#sponsors-content p #intro{
+		color:red;
+}
+#sponsors-content img{
+		display:block;
+		margin:auto;
+}
+
+/*Home Sponsor Logos*/
+.home-sponsors table{
+	margin:auto;  
+}
+
+	
