@@ -265,3 +265,7 @@ min-height:55px;
 .content {
   
     bottom: 50px;}
+.eventname{
+	font-size:20px;
+	font-weight: 500;
+	}
