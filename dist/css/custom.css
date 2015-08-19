@@ -162,6 +162,14 @@ h3{
     background-color: #ddd;
 }
 
+.chevron-up{
+    content: '\e80d';
+}
+
+.chevron-down{
+    content: '\e820';
+}
+
 
 /*------media queries------*/
 /*iphone 6*/
@@ -268,4 +276,34 @@ min-height:55px;
 .eventname{
 	font-size:20px;
 	font-weight: 500;
+<<<<<<< HEAD
 	}
+=======
+	}
+	
+/*Sponsors Page*/
+#sponsors-content{
+		text-align:center;
+}
+#sponsors-content h2{
+		margin:7% auto;	
+}
+#sponsors-content h3{
+		margin-top:20%;
+		color:#ccc;
+}
+#sponsors-content p #intro{
+		color:red;
+}
+#sponsors-content img{
+		display:block;
+		margin:auto;
+}
+
+/*Home Sponsor Logos*/
+.home-sponsors table{
+	margin:auto;  
+}
+
+	
+>>>>>>> origin/master
