@@ -162,6 +162,14 @@ h3{
     background-color: #ddd;
 }
 
+.chevron-up{
+    content: '\e80d';
+}
+
+.chevron-down{
+    content: '\e820';
+}
+
 
 /*------media queries------*/
 /*iphone 6*/
