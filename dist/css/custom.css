@@ -283,22 +283,41 @@ min-height:55px;
 	
 /*Sponsors Page*/
 #sponsors-content{
-		text-align:center;
+	text-align:center;
 }
 #sponsors-content h2{
-		margin:7% auto;	
+	margin:7% auto;
+	text-align:center;
 }
 #sponsors-content h3{
-		margin-top:20%;
-		color:#ccc;
+	margin:8% auto;
+	color:#ccc;
+		
 }
 #sponsors-content p #intro{
-		color:red;
+	color:red;
 }
-#sponsors-content img{
-		display:block;
-		margin:auto;
+
+.sponsor-logos{
+	text-align:center;
+	padding:0;
 }
+
+.sponsor-logos ul{
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+
+.sponsor-logos li{
+	list-style-type:none;
+	display:inline-block;
+}
+
+#presenting-sponsors{
+	margin-top:15%;
+}
+
 
 /*Home Sponsor Logos*/
 .home-sponsors table{
