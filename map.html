@@ -128,7 +128,6 @@
   <!-- Mapbox prevent ZoomOut -->
   <script>
 
-
       L.mapbox.accessToken = 'pk.eyJ1IjoibWF3bWFwcCIsImEiOiJlZTcxNWQ0NTUwMGZlMWY4NGJjZGM1MWNhZjgwNjQyYiJ9.rhqya-EKOClCGCt8YSaeAg';
 
 
@@ -155,6 +154,7 @@
           map.setView([25.789845, -80.134792], 12);
       }
 //downtown
+
       function moveDowntown(){
 
           map.setView([25.7667, -80.2000], 14);
@@ -177,6 +177,15 @@
 
       }
 
+      function position(){
+          if( window.location.hash == '#downtown' ){
+              alert(window.location.hash)
+              moveDowntown();
+          } ;
+      }
+
+      position();
+
 
   </script>
 
@@ -195,4 +204,7 @@
     })
 
 </script>
+
+
+
 </html>
