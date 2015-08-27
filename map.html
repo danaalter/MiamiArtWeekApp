@@ -73,8 +73,9 @@
 
 
                                 <div class="mainslide mainslidedown">
-                                    <ul class="table-view">
-                                        <li class="table-view-cell table-view-divider">Divider</li>
+                                      
+                                    <ul class="table-view downtown">
+                                        <li class="table-view-cell table-view-divider">Downtown</li>
                                         <li class="table-view-cell">
                                             <a class="navigate-right">
                                                 Item 1
@@ -90,7 +91,53 @@
                                                 Item 3
                                             </a>
                                         </li>
-                                        <li class="table-view-cell table-view-divider">Divider</li>
+                                    </ul>
+
+                                    <ul class="table-view miamibeach">
+                                        <li class="table-view-cell table-view-divider">Miami Beach</li>
+                                        <li class="table-view-cell">
+                                            <a class="navigate-right">
+                                                Item 1
+                                            </a>
+                                        </li>
+                                        <li class="table-view-cell">
+                                            <a class="navigate-right">
+                                                Item 2
+                                            </a>
+                                        </li>
+                                        <li class="table-view-cell">
+                                            <a class="navigate-right">
+                                                Item 3
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="table-view midtown">
+                                        <li class="table-view-cell table-view-divider">Midtown</li>
+                                        <li class="table-view-cell">
+                                            <a class="navigate-right">
+                                                Item 1
+                                            </a>
+                                        </li>
+                                        <li class="table-view-cell">
+                                            <a class="navigate-right">
+                                                Item 2
+                                            </a>
+                                        </li>
+                                        <li class="table-view-cell">
+                                            <a class="navigate-right">
+                                                Item 3
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="table-view wynwood">
+                                        <li class="table-view-cell table-view-divider">Wynwood</li>
+                                        <li class="table-view-cell">
+                                            <a class="navigate-right">
+                                                Item 1
+                                            </a>
+                                        </li>
                                         <li class="table-view-cell">
                                             <a class="navigate-right">
                                                 Item 2
@@ -152,29 +199,46 @@
       map.setView([25.789845, -80.134792], 12);
       function mapAll(){
           map.setView([25.789845, -80.134792], 12);
+          $(".table-view.downtown").show();
+          $(".table-view.miamibeach").show();
+          $(".table-view.midtown").show();
+          $(".table-view.wynwood").show();
       }
 //downtown
 
       function moveDowntown(){
 
           map.setView([25.7667, -80.2000], 14);
-
+          $(".table-view.downtown").show();
+          $(".table-view.miamibeach").hide();
+          $(".table-view.midtown").hide();
+          $(".table-view.wynwood").hide();
       }
 // miami beach
       function moveMiamiBeach(){
 
           map.setView([25.789845, -80.134792], 14);
-
+          $(".table-view.downtown").hide();
+          $(".table-view.miamibeach").show();
+          $(".table-view.midtown").hide();
+          $(".table-view.wynwood").hide();
       }
 // midtown
       function moveMidtown(){
          map.setView([25.807849, -80.191197], 14);
+          $(".table-view.downtown").hide();
+          $(".table-view.miamibeach").hide();
+          $(".table-view.midtown").show();
+          $(".table-view.wynwood").hide();
       }
 // wynwood
       function moveWynwood(){
 
           map.setView([25.804472, -80.198736], 14);
-
+          $(".table-view.downtown").hide();
+          $(".table-view.miamibeach").hide();
+          $(".table-view.midtown").hide();
+          $(".table-view.wynwood").show();
       }
 
       function position(){
