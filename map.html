@@ -35,7 +35,7 @@
     <!-- Make sure all your bars are the first things in your <body> -->
     <header class="bar bar-nav">
         <button class="btn pull-left">
-            <a href="index.html">Menu</a>
+            <a href="index.html" data-ignore="push">Menu</a>
         </button>
         <h1 class="title">Miami Art Week mApp</h1>
     </header>
@@ -240,14 +240,20 @@
           $(".table-view.midtown").hide();
           $(".table-view.wynwood").show();
       }
-
+//function to match links from menu to maps. From the menu added anchor links to url and using this function looking to see if the id i called and if it is then runs the function to the already called map function.
       function position(){
           if( window.location.hash == '#downtown' ){
-              alert(window.location.hash)
               moveDowntown();
-          } ;
-      }
+          }else if( window.location.hash == '#miamibeach' ){
+              moveMiamiBeach();
+          }else if( window.location.hash == '#midtown' ){
+              moveMidtown();
+          }else if( window.location.hash == '#wynwood' ){
+              moveWynwood();
+          }else{
 
+          };
+      }
       position();
 
 
