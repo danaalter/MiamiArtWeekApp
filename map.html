@@ -44,7 +44,7 @@
     <div class="content">
 
         <div class="segmented-control">
-              <a class="control-item" href="#all" onclick="javascript: mapAll();">
+              <a class="control-item" href="#all" onclick="mapAll();">
                 ALL
               </a>
               <a class="control-item" href="#downtown" onclick="moveDowntown();">
@@ -78,7 +78,7 @@
                                         <li class="table-view-cell table-view-divider">Downtown</li>
                                         <li class="table-view-cell">
                                             <a class="navigate-right">
-                                                Item 1
+                                                <p id="info"></p>
                                             </a>
                                         </li>
                                         <li class="table-view-cell">
@@ -240,6 +240,36 @@
           $(".table-view.midtown").hide();
           $(".table-view.wynwood").show();
       }
+
+      //json data
+      var info = document.getElementById("info");
+      $.ajax({
+          url: 'dist/js/data.json',
+          dataType: 'json',
+          success: function(data){
+              info.innerHTML=data.location[0].downtown.fairs.concept.name;
+              
+          }
+      });
+
+
+      /*var xhr = new XMLHttpRequest();
+      xhr.open("GET", "dist/js/data.json", true);
+      xhr.send();
+
+      xhr.onreadystatechange = function(){
+          if(xhr.readyState == 4 && xhr.status == 200){
+
+              var data = JSON.parse(xhr.responseText);
+              document.write("<p id="+"'info'"+">" + data.fairs[0].concept.time + "</"+"p>")
+          }
+      };
+
+       */
+
+      //end json data
+
+
 //function to match links from menu to maps. From the menu added anchor links to url and using this function looking to see if the id i called and if it is then runs the function to the already called map function.
       function position(){
           if( window.location.hash == '#downtown' ){
@@ -252,7 +282,7 @@
               moveWynwood();
           }else{
 
-          };
+          }
       }
       position();
 
