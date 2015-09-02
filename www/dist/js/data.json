@@ -1,0 +1,16 @@
+{
+  "location": [{
+    "downtown":{
+      "fairs":{
+        "concept": {
+          "name":"Concept",
+          "time": "3:00pm-4:00pm",
+          "price": "$24.00",
+          "time": "3:00pm-4:00pm",
+          "highlights": "New Mexico Experimental Mobile Dome Program"
+        }
+      }
+      }
+    }
+  ]
+}
