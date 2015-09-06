@@ -1,0 +1,43 @@
+{
+  "location": [{
+    "downtown":{
+      "fairs":{
+        "": {
+          "name":"",
+          "address": {
+              "street_address":"",
+              "city":"",
+              "state":"",
+              "zip_code": ""
+          },
+          "website": "",
+          "director": "",
+          "dates": {
+              "day": "",
+              "time": ""
+           },
+          "admission": {
+              "entryLevel": "",
+              "price": "",
+              "age": ""
+          },
+          "highlights": "",
+          "contact": {
+              "name": "",
+              "phone": "",
+              "email": ""
+          },
+          "sponsor": "",
+          "maps": ""
+        }
+      }
+      }
+    }
+  ]
+}
+
+
+
+}
+
+
