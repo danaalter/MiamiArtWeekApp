@@ -1,0 +1,49 @@
+{
+  "location": [{
+    "miami_beach":{
+      "fairs":{
+        " ": {
+          "name":"",
+          "address": {
+              "street_address":"",
+              "city":"",
+              "state":"",
+              "zip_code": ""
+          },
+          "website": "",
+          "director": "",
+          "dates":  [{
+              "day": "",
+              "month":"",
+              "time": "",
+              "information": ""
+            }, 
+            ],
+          "admission": [
+            {
+              "entryLevel": "",
+              "price": "",
+              "age": "",
+              "information": ""
+            },   
+          ],
+          "highlights": "",
+          "contact": {
+              "name": "",
+              "phone": "",
+              "email": ""
+          },
+          "sponsor": "",
+          "maps": ""
+        }
+      }
+      }
+    }
+  ]
+}
+
+
+
+}
+
+
