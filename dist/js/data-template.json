@@ -2,19 +2,20 @@
   "location": [{
     "downtown":{
       "fairs":{
-        "": {
-          "name":"",
+        "pulse contemporary art fair 11th edition": {
+          "name":"Pulse Contemporary Art Fair",
           "address": {
-              "street_address":"",
-              "city":"",
-              "state":"",
-              "zip_code": ""
+              "street_address":"Indiana Beach Park, 4601 Collins Avenue",
+              "city":"Miami Beach",
+              "state":"FL",
+              "zip_code": "33140"
           },
-          "website": "",
-          "director": "",
+          "website": "www.pulse-art.com",
+          "director": "Helen Toomer",
           "dates": {
-              "day": "",
-              "time": ""
+              "day": "Tuesday",
+              "time": "1:00pm - 4pm",
+              "information":""
            },
           "admission": {
               "entryLevel": "",
