@@ -1,0 +1,623 @@
+{
+  "location": [{
+    "midtown":{
+      "fairs":{
+        "art miami 26th edition": {
+          "name":"Art Miami Fair",
+          "address": {
+              "street_address":"Art Miami Pavilion, 3101 NE 1st Avenue
+",
+              "city":"Miami",
+              "state":"FL",
+              "zip_code": "33137"
+          },
+          "website": "www.artmiamifair.com",
+          "director": "Nick Korniloff & Juian Navarro",
+          "dates": [
+            {
+              "day": "Tuesday, December 1",
+              "month":"December",
+              "time": "5:30pm - 10:00pm",
+              "information": "VIP Preview Access for Context, Art Miami & Aqua VIP Cardholders & Press"
+            }, 
+            {
+              "day": "Wednesday, December 2",
+              "month":"December",
+              "time": "11:00am - 8:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Thursday, December 3",
+              "month":"December",
+              "time": "11:00am - 8:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Friday, December 4",
+              "month":"December",
+              "time": "11:00am - 8:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Saturday, December 5",
+              "month":"December",
+              "time": "11:00am - 8:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Sunday, December 6",
+              "month":"December",
+              "time": "11:00am - 6:00pm",
+              "information": "Open to the public"
+            }, 
+           ],
+          "admission": [
+            {
+              "entryLevel": "General Admission",
+              "price": "$40",
+              "age": "all ages",
+              "information": "Includes admission for Art Miami and CONTEXT only- Aqua Art Miami requires separate ticket"
+            },  
+            {
+              "entryLevel": "Multi-Pass",
+              "price": "$85",
+              "age": "all ages",
+              "information": "Includes admission for Art Miami, CONTEXT and Aqua Art Miami"
+            }, 
+            {
+              "entryLevel": "Seniors",
+              "price": "$25",
+              "age": "",
+              "information": "Seniors 62 years +"
+            },   
+            {
+              "entryLevel": "Students",
+              "price": "$15",
+              "age": "Ages 12-18",
+              "information": ""
+            },
+			{
+              "entryLevel": "Children",
+              "price": "Free",
+              "age": "Under 12 years",
+              "information": "Must be accompanied by an adult"
+            },
+			{
+              "entryLevel": "Groups",
+              "price": "$25",
+              "age": "",
+              "information": "Groups of 10 or more (online ticket purchases only)"
+            },      
+          ],
+          "highlights": "Art Miami, now in its 26th year, is the city’s original and longest running contemporary​ ​and modern art fair. For over a quarter century, Art Miami has maintained a​ ​preeminent position in America’s contemporary art fair market, as well as preserving​ ​its well-deserved​ ​place as Miami’s premier anchor fair.
+
+Art Miami, along with its adjacent sister fair, CONTEXT, will again demonstrate a​ ​continued commitment to exhibiting investment quality works of art for acquision​ ​in the most accessible format in 2015.",
+          "contact": {
+              "name": "Tina Margherio, Graphic Design Director",
+              "phone": "239.297.6037",
+              "email": "tina@art-miami.com",
+			  "email": "marissa@art-miami.com"
+          },
+          "sponsor": "",
+          "maps": ""
+        }
+      },
+	  
+	        
+	  "context 26th edition": {
+          "name":"Context",
+          "address": {
+              "street_address":"Art Miami Pavilion, 2901 NE 1st Avenue",
+              "city":"Miami",
+              "state":"FL",
+              "zip_code": "33137"
+          },
+          "website": "www.contextartmiami.com",
+          "director": "Nick Korniloff & Juian Navarro",
+          "dates": [
+            {
+              "day": "Tuesday, December 1",
+              "month":"December",
+              "time": "5:30pm - 10:00pm",
+              "information": "VIP Preview Access for Context, Art Miami & Aqua VIP Cardholders & Press"
+            }, 
+            {
+              "day": "Wednesday, December 2",
+              "month":"December",
+              "time": "11:00am - 8:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Thursday, December 3",
+              "month":"December",
+              "time": "11:00am - 8:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Friday, December 4",
+              "month":"December",
+              "time": "11:00am - 8:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Saturday, December 5",
+              "month":"December",
+              "time": "11:00am - 8:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Sunday, December 6",
+              "month":"December",
+              "time": "11:00am - 6:00pm",
+              "information": "Open to the public"
+            }, 
+           ],
+          "admission": [
+            {
+              "entryLevel": "General Admission",
+              "price": "$40",
+              "age": "all ages",
+              "information": "Includes admission for Art Miami and CONTEXT only- Aqua Art Miami requires separate ticket"
+            },  
+            {
+              "entryLevel": "Multi-Pass",
+              "price": "$85",
+              "age": "all ages",
+              "information": "Includes admission for Art Miami, CONTEXT and Aqua Art Miami"
+            }, 
+            {
+              "entryLevel": "Seniors",
+              "price": "$25",
+              "age": "",
+              "information": "Seniors 62 years +"
+            },   
+            {
+              "entryLevel": "Students",
+              "price": "$15",
+              "age": "Ages 12-18",
+              "information": ""
+            },
+			{
+              "entryLevel": "Children",
+              "price": "Free",
+              "age": "Under 12 years",
+              "information": "Must be accompanied by an adult"
+            },
+			{
+              "entryLevel": "Groups",
+              "price": "$25",
+              "age": "",
+              "information": "Groups of 10 or more (online ticket purchases only)"
+            },      
+          ],
+          "highlights": "",
+          "contact": {
+              "email": "marissa@art-miami.com"
+          },
+          "sponsor": "",
+          "maps": ""
+        }
+      },
+	  
+	  
+	  
+	  "miami project 4th edition": {
+          "name":"Miami Project",
+          "address": {
+              "street_address":"Tent, NE 1st Avenue 34 Street
+",
+              "city":"Miami",
+              "state":"FL",
+              "zip_code": "33137"
+          },
+          "website": "www.miami-project.com",
+          "director": "Max Fishko & Jeffrey Wainhause",
+          "dates": [
+		  	{
+              "day": "Monday, November 30",
+              "month":"November",
+              "time": "5:30pm - 10:00pm",
+              "information": "VIP"
+            }, 
+            {
+              "day": "Tuesday, December 1",
+              "month":"December",
+              "time": "10:00am - 7:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Wednesday, December 2",
+              "month":"December",
+              "time": "10:00am - 7:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Thursday, December 3",
+              "month":"December",
+              "time": "10:00am - 7:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Friday, December 4",
+              "month":"December",
+              "time": "10:00am - 7:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Saturday, December 5",
+              "month":"December",
+              "time": "10:00am - 7:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Sunday, December 6",
+              "month":"December",
+              "time": "10:00am - 6:00pm",
+              "information": "Open to the public"
+            }, 
+           ],
+          "admission": [
+            {
+              "entryLevel": "Single Day",
+              "price": "$25",
+              "age": "",
+              "information": ""
+            },  
+            {
+              "entryLevel": "Multi-Pass",
+              "price": "$35",
+              "age": "",
+              "information": ""
+            }, 
+           ],
+          "highlights": "Cultural partners for this year's Miami Project include the Pérez Art Museum Miami, ICA Miami, and the Bass Museum of Art",
+          "contact": {
+              "name": "Kelly Freeman, Communications",
+              "phone": "212.518.6912",
+              "email": "kelly@artmarketproductions.com"
+		  },
+          "sponsor": "",
+          "maps": ""
+        }
+      },
+	  
+	  
+	  
+	  "pinta miami 9th edition": {
+          "name":"Pinta Miami",
+          "address": {
+              "street_address":"Tent, 3401 NE 1st Avenue
+",
+              "city":"Miami",
+              "state":"FL",
+              "zip_code": "33137"
+          },
+          "website": "www.pintamiami.com",
+          "director": "Diego Costa Peuser",
+          "dates": [
+            {
+              "day": "Monday, November 30",
+              "month":"November",
+              "time": "6:00pm - 9:00pm",
+              "VIP"
+            },
+			{
+              "day": "Tuesday, December 1",
+              "month":"December",
+              "time": "3:00pm - 9:00pm",
+              "information": "Preview"
+            }, 
+            {
+              "day": "Wednesday, December 2",
+              "month":"December",
+              "time": "11:00am - 8:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Thursday, December 3",
+              "month":"December",
+              "time": "11:00am - 8:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Friday, December 4",
+              "month":"December",
+              "time": "11:00am - 8:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Saturday, December 5",
+              "month":"December",
+              "time": "11:00am - 6:00pm",
+              "information": "Open to the public"
+            }, 
+           ],
+          "admission": [
+            {
+              "entryLevel": "Single Day",
+              "price": "$20/$15",
+              "age": "",
+              "information": ""
+            },  
+            {
+              "entryLevel": "Multi-Pass",
+              "price": "$45",
+              "age": "",
+              "information": ""
+            },       
+          ],
+          "highlights": "Modern and Contemporary art from Latin America, Spain, and Portugal.",
+          "contact": {
+              "name": "Carolina Ledezma, Press Contact",
+              "email": "press@pintamiami.com"
+          },
+          "sponsor": "",
+          "maps": ""
+        }
+      },
+	  
+	  
+	  
+	  "spectrum maimi/ artspot 3rd edition": {
+          "name":"Spectrum Miami/ ArtSpot",
+          "address": {
+              "street_address":"Tent, 3011 NE 1st Avenue 30th Street
+",
+              "city":"Miami",
+              "state":"FL",
+              "zip_code": "33137"
+          },
+          "website": "www.spectrum-miami.com",
+          "director": "Eric Smith & Aldo Castillo",
+          "dates": [
+            {
+              "day": "Wednesday, December 2",
+              "month":"December",
+              "time": "6:00pm - 10:00pm",
+              "information": "Opening Preview"
+            }, 
+            {
+              "day": "Thursday, December 3",
+              "month":"December",
+              "time": "1:00pm - 9:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Friday, December 4",
+              "month":"December",
+              "time": "1:00pm - 9:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Saturday, December 5",
+              "month":"December",
+              "time": "1:00pm - 9:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Sunday, December 6",
+              "month":"December",
+              "time": "12:00pm - 6:00pm",
+              "information": "Open to the public"
+            }, 
+           ],
+          "admission": [
+            {
+              "entryLevel": "General Admission",
+              "price": "$20",
+              "age": "",
+              "information": "Valid for one time use only. Excludes VIP Opening & Late Night Party Events"
+            },  
+            {
+              "entryLevel": "Opening Preview + 5 day show pass",
+              "price": "$50",
+              "age": "",
+              "information": ""
+            }, 
+            {
+              "entryLevel": " VIP Late Night Parties Evening Pass",
+              "price": "$20",
+              "age": "21+",
+              "information": "Includes Special Events & Drinks Dec. 3, 4, 5 from 7pm – 9pm, valid for one night use ONLY"
+            },   
+            {
+              "entryLevel": "Students/ Seniors Admission",
+              "price": "$10",
+              "age": "",
+              "information": "Valid for one time use only, excludes VIP Opening & Late Night Party Events"
+            },
+			{
+              "entryLevel": "Children",
+              "price": "Free",
+              "age": "Under 15 years",
+              "information": ""
+            },
+		  ],
+          "highlights": "Discover SPECTRUM Miami— a juried, contemporary art fair in the heart of Midtown Miami featuring an international slate of artists and galleries",
+          "contact": {
+              "email": "info@redwoodmg.com"
+		  },
+          "sponsor": "",
+          "maps": ""
+        }
+      },
+	  
+	  
+	  "red dot art fair miami 9th edition": {
+          "name":"Red Dot Art Miami",
+          "address": {
+              "street_address":"Tent, 3011 NE 1st Avenue (corner 31st Street)",
+              "city":"Miami",
+              "state":"FL",
+              "zip_code": "33137"
+          },
+          "website": "www.reddotfair.com",
+          "director": "George Billis",
+          "dates": [
+            {
+              "day": "Tuesday, November 30",
+              "month":"November",
+              "time": "6:00pm - 10:00pm",
+              "information": ""
+            }, 
+			{
+              "day": "Tuesday, December 1",
+              "month":"December",
+              "time": "11:00am - 5:00pm",
+              "information": ""
+            }, 
+            {
+              "day": "Wednesday, December 2",
+              "month":"December",
+              "time": "11:00am - 8:00pm",
+              "information": ""
+            }, 
+            {
+              "day": "Thursday, December 3",
+              "month":"December",
+              "time": "11:00am - 8:00pm",
+              "information": ""
+            }, 
+            {
+              "day": "Friday, December 4",
+              "month":"December",
+              "time": "11:00am - 8:00pm",
+              "information": ""
+            }, 
+            {
+              "day": "Saturday, December 5",
+              "month":"December",
+              "time": "11:00am - 8:00pm",
+              "information": ""
+            }, 
+            {
+              "day": "Sunday, December 6",
+              "month":"December",
+              "time": "11:00am - 6:00pm",
+              "information": "Open to the public"
+            }, 
+           ],
+          "admission": [
+            {
+              "entryLevel": "Single Day",
+              "price": "$15",
+              "age": "",
+              "information": ""
+            },  
+            {
+              "entryLevel": "Weekly",
+              "price": "$25",
+              "age": "",
+              ""
+            }, 
+          ],
+          "highlights": "60 galleries exhibiting contemporary painting, sculpture, photography and secondary market.",
+          "contact": {
+              "name": "George Billis, Director",
+              "phone": "917.273.8621",
+              "email": "info@reddotfair.com"
+          },
+          "sponsor": "",
+          "maps": ""
+        }
+      },
+	  
+	  
+	  
+	  "x-contemporary 1st edition - debut": {
+          "name":"X-Contemporary",
+          "address": {
+              "street_address":"3401 NE 1st Avenue
+",
+              "city":"Miami",
+              "state":"FL",
+              "zip_code": "33137"
+          },
+          "website": "www.x-contemporary.com",
+          "director": "Alexis Hubshman ",
+          "dates": [
+            {
+              "day": "Tuesday - Sunday",
+              "month":"December",
+              "time": "",
+              "VIP"
+            }, 
+			{
+              "day": "Tuesday, December 1",
+              "month":"December",
+              "time": "5:00pm - 10:00pm",
+              "information":"Open to the public"
+            }, 
+            {
+              "day": "Wednesday, December 2",
+              "month":"December",
+              "time": "12:00pm - 9:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Thursday, December 3",
+              "month":"December",
+              "time": "12:00pm - 9:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Friday, December 4",
+              "month":"December",
+              "time": "12:00pm - 9:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Saturday, December 5",
+              "month":"December",
+              "time": "12:00pm - 9:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Sunday, December 6",
+              "month":"December",
+              "time": "12:00pm - 6:00pm",
+              "information": "Open to the public"
+            }, 
+           ],
+          "admission": [
+            {
+              "entryLevel": "General Admission",
+              "price": "$20",
+              "age": "",
+              "information": ""
+            },  
+            {
+              "entryLevel": "Multi-Pass",
+              "price": "$25",
+              "age": "",
+              "information": ""
+            }, 
+            {
+              "entryLevel": "VIP",
+              "price": "$50",
+              "age": "",
+              "information": ""
+            },   
+          ],
+          "highlights": "In addition to the fair’s open hours, there will be a nightly schedule of live events meant to create a destination spot at X Contemporary when fair business hours transition to nightlife.The symbol X represents a destination point and an area of intersection, an evocative title for a new breed of art fair that will emphasize a crossover between the visual and performing arts and invite unique music, fashion and brand collaborations. 
+",
+          "contact": {
+              "name": "",
+              "phone": "",
+              "email": "contact@aopublic.com"
+		  },
+          "sponsor": "",
+          "maps": ""
+        }
+      },
+	  
+	  
+	  
+      }
+    }
+  ]
+}
+
+
+
+}
