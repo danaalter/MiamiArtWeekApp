@@ -1,9 +1,9 @@
 {
   "location": [{
-    "miami_beach":{
+    "wynwood":{
       "fairs":{
-        " ": {
-          "name":"",
+        "fusion mia": {
+          "name":"Fus",
           "address": {
               "street_address":"",
               "city":"",
@@ -11,13 +11,19 @@
               "zip_code": ""
           },
           "website": "",
-          "director": "",
+          "director": "M",
           "dates":  [{
               "day": "",
               "month":"",
               "time": "",
               "information": ""
-            }, 
+            },
+            {
+              "day": "",
+              "month":"",
+              "time": "",
+              "information": ""
+            }
             ],
           "admission": [
             {
@@ -36,13 +42,11 @@
           "sponsor": "",
           "maps": ""
         }
+
       }
       }
     }
   ]
-}
-
-
 
 }
 
