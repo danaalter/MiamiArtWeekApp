@@ -3,122 +3,27 @@
     "wynwood":{
       "fairs":{
         "fusion mia": {
-          "name":"Fusion MIA 3rd Edition",
+          "name":"Fus",
           "address": {
-              "street_address":"NW 2nd Ave & NW 22nd ST",
-              "city":"Miami",
-              "state":"FL",
-              "zip_code": "33127"
+              "street_address":"",
+              "city":"",
+              "state":"",
+              "zip_code": ""
           },
-          "website": "http://fusionmia.com/",
-          "director": "Michelle Spence-Jones & Gail Seahy",
+          "website": "",
+          "director": "M",
           "dates":  [{
-              "day": "Wednesday",
-              "month":"December 3",
-              "time": "8:15 p.m - 9:15 p.m",
-              "information": "BET Art Lounge"
-            }, 
+              "day": "",
+              "month":"",
+              "time": "",
+              "information": ""
+            },
             {
-              "day": "Wednesday",
-              "month":"December 3 ",
-              "time": "10:30 p.m - 2:00 a.m",
-              "information": "Fusion After Dark"
-            }, 
-            {
-              "day": "Wednesday",
-              "month":"December 3 ",
-              "time": "10:30 p.m - 2:00 a.m",
-              "information": "Fusion After Dark"
-            }, 
-            {
-              "day": "Thursday",
-              "month":"December 4",
-              "time": "4:00 p.m - 7:00 p.m",
-              "information": "BET Art Lounge"
-            }, 
-            {
-              "day": "Thursday",
-              "month":"December 4",
-              "time": "10:00 p.m - 2:00 a.m",
-              "information": "Fusion After Dark"
-            }, 
-            {
-              "day": "Friday",
-              "month":"December 5",
-              "time": "10:00 p.m - 2:00 a.m",
-              "information": "Fusion After Dark"
-            }, 
-            {
-              "day": "Friday",
-              "month":"December 5",
-              "time": "9:00 a.m",
-              "information": "High School Students Arrive"
-            }, 
-            {
-              "day": "Friday",
-              "month":"December 5",
-              "time": "10:00 a.m",
-              "information": "Gallery opens - Student visit Gallery"
-            }, 
-            {
-              "day": "Friday",
-              "month":"December 5",
-              "time": "11:00 a.m",
-              "information": "BET Panel featuring talent, Dr. Tuliza Fleming, Debra L. Lee, 
-               Najee Dorsey, Jumaane N´namdi, Tasha Boue and Cristen Mills"
-            }, 
-            {
-              "day": "Friday",
-              "month":"December 5",
-              "time": "12:30 a.m",
-              "information": "FUSION MIA ART GALLERY/BET ART LOUNGE 
-              DINNER honoring Dr. Tuliza Fleming, David Driskell, Debra Lee"
-            }, 
-            {
-              "day": "Friday",
-              "month":"December 5",
-              "time": "6:00 p.m - 8:00 p.m",
-              "information": "Private Reception and Red Carpet Event 
-              in FUSION MIA Pop Up Gallery"
-            }, 
-            {
-              "day": "Friday",
-              "month":"December 5",
-              "time": "8:00 p.m - 10:00 p.m",
-              "information": "Dinner, Party to follow"
-            }, 
-            {
-              "day": "Friday",
-              "month":"December 5",
-              "time": "10:00 p.m - 2:00 a.m",
-              "information": "Fusion After Dark"
-            }, 
-            {
-              "day": "Saturday",
-              "month":"December 6",
-              "time": "10:00 a.m - 10:00 p.m",
-              "information": "Art Talk - Featuring: Dr. Tuliza Fleming and Dr. David Driskoll"
-            }, 
-            {
-              "day": "Saturday",
-              "month":"December 6",
-              "time": "6:00 p.m",
-              "information": "BET PRESENTS: THE BOOK OF NEGROS (Preview and Panel Discussion)"
-            }, 
-            {
-              "day": "Saturday",
-              "month":"December 6",
-              "time": "7:30 p.m- 9:00 p.m",
-              "information": "CENTRIC PRESENTS: SINGLE LADIES & THE ART OF FABULOUS"
-            }, 
-            {
-              "day": "Saturday",
-              "month":"December 6",
-              "time": "10:00 p.m- 2:00 a.m",
-              "information": "Fusion After Dark - Featuring: Erykah Badu"
-            }, 
-
-
+              "day": "",
+              "month":"",
+              "time": "",
+              "information": ""
+            }
             ],
           "admission": [
             {
@@ -136,18 +41,12 @@
           },
           "sponsor": "",
           "maps": ""
-        },
-
-
-
+        }
 
       }
       }
     }
   ]
-}
-
-
 
 }
 
