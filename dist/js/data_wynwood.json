@@ -1,0 +1,280 @@
+{
+  "location": [{
+    "wynwood":{
+      "fairs":{
+        "fusion mia": {
+          "name":"Fusion MIA 3rd Edition",
+          "address": {
+              "street_address":"NW 2nd Ave & NW 22nd ST",
+              "city":"Miami",
+              "state":"FL",
+              "zip_code": "33127"
+          },
+          "website": "http://fusionmia.com/",
+          "director": "Michelle Spence-Jones & Gail Seahy",
+          "dates":  [{
+              "day": "Wednesday",
+              "month":"December 3",
+              "time": "8:15 p.m - 9:15 p.m",
+              "information": "BET Art Lounge"
+            }, 
+            {
+              "day": "Wednesday",
+              "month":"December 3 ",
+              "time": "10:30 p.m - 2:00 a.m",
+              "information": "Fusion After Dark"
+            }, 
+            {
+              "day": "Wednesday",
+              "month":"December 3 ",
+              "time": "10:30 p.m - 2:00 a.m",
+              "information": "Fusion After Dark"
+            }, 
+            {
+              "day": "Thursday",
+              "month":"December 4",
+              "time": "4:00 p.m - 7:00 p.m",
+              "information": "BET Art Lounge"
+            }, 
+            {
+              "day": "Thursday",
+              "month":"December 4",
+              "time": "10:00 p.m - 2:00 a.m",
+              "information": "Fusion After Dark"
+            }, 
+            {
+              "day": "Friday",
+              "month":"December 5",
+              "time": "10:00 p.m - 2:00 a.m",
+              "information": "Fusion After Dark"
+            }, 
+            {
+              "day": "Friday",
+              "month":"December 5",
+              "time": "9:00 a.m",
+              "information": "High School Students Arrive"
+            }, 
+            {
+              "day": "Friday",
+              "month":"December 5",
+              "time": "10:00 a.m",
+              "information": "Gallery opens - Student visit Gallery"
+            }, 
+            {
+              "day": "Friday",
+              "month":"December 5",
+              "time": "11:00 a.m",
+              "information": "BET Panel featuring talent, Dr. Tuliza Fleming, Debra L. Lee, 
+               Najee Dorsey, Jumaane N´namdi, Tasha Boue and Cristen Mills"
+            }, 
+            {
+              "day": "Friday",
+              "month":"December 5",
+              "time": "12:30 a.m",
+              "information": "FUSION MIA ART GALLERY/BET ART LOUNGE 
+              DINNER honoring Dr. Tuliza Fleming, David Driskell, Debra Lee"
+            }, 
+            {
+              "day": "Friday",
+              "month":"December 5",
+              "time": "6:00 p.m - 8:00 p.m",
+              "information": "Private Reception and Red Carpet Event 
+              in FUSION MIA Pop Up Gallery"
+            }, 
+            {
+              "day": "Friday",
+              "month":"December 5",
+              "time": "8:00 p.m - 10:00 p.m",
+              "information": "Dinner, Party to follow"
+            }, 
+            {
+              "day": "Friday",
+              "month":"December 5",
+              "time": "10:00 p.m - 2:00 a.m",
+              "information": "Fusion After Dark"
+            }, 
+            {
+              "day": "Saturday",
+              "month":"December 6",
+              "time": "10:00 a.m - 10:00 p.m",
+              "information": "Art Talk - Featuring: Dr. Tuliza Fleming and Dr. David Driskoll"
+            }, 
+            {
+              "day": "Saturday",
+              "month":"December 6",
+              "time": "6:00 p.m",
+              "information": "BET PRESENTS: THE BOOK OF NEGROS (Preview and Panel Discussion)"
+            }, 
+            {
+              "day": "Saturday",
+              "month":"December 6",
+              "time": "7:30 p.m- 9:00 p.m",
+              "information": "CENTRIC PRESENTS: SINGLE LADIES & THE ART OF FABULOUS"
+            }, 
+            {
+              "day": "Saturday",
+              "month":"December 6",
+              "time": "10:00 p.m- 2:00 a.m",
+              "information": "Fusion After Dark - Featuring: Erykah Badu"
+            }, 
+            {
+              "day": "Sunday",
+              "month":"December 7",
+              "time": "10:00 a.m- 5:00 p.m",
+              "information": "Gallery Opens"
+            }, 
+
+
+            ],
+          "admission": [
+            {
+              "entryLevel": "everyone",
+              "price": "free",
+              "age": "all ages",
+              "information": ""
+            },   
+          ],
+          "highlights": "Curated by N'Namdi Galleries,featuring African-American artists",
+          "contact": {
+              "name": "Lisa Palley",
+              "phone": "305.642.3132",
+              "email": "lpalley@bellsouth.net"
+          },
+          "sponsor": "",
+          "maps": ""
+        },
+     "mana miami": {
+          "name":"Mana Miami @nd Edition",
+          "address": {
+              "street_address":"318 NW 23rd St",
+              "city":"Miami",
+              "state":"FL",
+              "zip_code": "33127"
+          },
+          "website": "http://mana-miami.com/",
+          "director": "Eugene Lemay",
+          "dates":  [{
+              "day": "Wednesday",
+              "month":"December 3",
+              "time": "8:15 p.m - 9:15 p.m",
+              "information": "BET Art Lounge"
+            }, 
+            {
+              "day": "Wednesday",
+              "month":"December 3 ",
+              "time": "3:00 p.m",
+              "information": "A Dialogue About the Creation of the
+              (I feel ya) Exhibition Moderator: Andrew Bevan, style
+              features director, Teen Vogue Featuring: Paula Wallace,
+              president and co-founder, SCAD; Greg Brunkalla, new media 
+              director; André 3000 Benjamin, musician"
+            }, 
+            {
+              "day": "Thursday",
+              "month":"December 4",
+              "time": "10:00 a.m",
+              "information": "Perpetual Syncretism: Rail(s) in Dialogue 
+               Featuring: Phong Bui, artist and publisher, The Brooklyn
+               Rail; Nina Johnson-Milewski, publisher and founder, The 
+               Miami Rail; Cameron Gainer, artist, The Third Rail"
+            }, 
+            {
+              "day": "Thursday",
+              "month":"December 4",
+              "time": "2:00 p.m",
+              "information": "This Is What I’d Tell You If We Were Alone:
+               A View of Alternative Pedagogy Moderator: Jarrett Earnest, 
+               co-director at 1:1 Featuring: Sean J Patrick Carney, comedian,
+               artist and writer; Joe Kay, co-founder, Soulection; Andrea Arrubla, 
+               artist; Josh Lawson, artist"
+            }, 
+            {
+              "day": "Friday",
+              "month":"December 5",
+              "time": "12:00 p.m",
+              "information": "Dirty Geometry Roundtable Moderator: Osvaldo Romberg,
+               artist and curator, Dirty Geometry Featuring: Cecilia Fajardo-Hill, 
+               art historian and curator; Jaime Gili, artist; Pablo León de la Barra,
+               curator, Latin America, Guggenheim UBS MAP Global Art Initiative"
+            }, 
+            {
+              "day": "Friday",
+              "month":"December 5",
+              "time": "5:00 p.m",
+              "information": "24/7: Formal Strategies for Addressing Perception 
+              in a Digital Age Featuring: Alex Bacon, curator; Harrison Tenzer,
+              curator; Torey Thornton, artist; Anna-Sophie Berger, artist"
+            },  
+            {
+              "day": "Saturday",
+              "month":"December 6",
+              "time": "2:00 a.m",
+              "information": "Identifications: A Discussion About Non-Conformity,
+               Labeling, and Forms of Identity Presented by: Witches of Bushwick
+               Moderator: C. Finley, artist Featuring: Alli Coates, artist; Hayden 
+               Dunham, artist; Abel Macias, artist; Signe Pierce, artist; 
+               Ilana Savdie, artist; James Moore, artist"
+            }, 
+            ],
+          "admission": [
+            {
+              "entryLevel": "everyone",
+              "price": " $20 - $25",
+              "age": "all ages",
+              "information": " Day or Multipass"
+            },   
+          ],
+          "highlights": "Dirty Geometry: Latin American Geometric Art curated by Oswaldo Romberg",
+          "contact": {
+              "name": "Selena Ricks ",
+              "position": "Public Relations Director",
+              "phone": "201.484.1495 ext. 672",
+              "email": "sricks@manacontemporary.com"
+          },
+          "sponsor": "",
+          "maps": ""
+        },  
+          "Sculpt": {
+          "name":"Sculpt 8th Edition",
+          "address": {
+              "street_address":"46 NW 36th St.",
+              "city":"Miami",
+              "state":"FL",
+              "zip_code": "33127"
+          },
+          "website": "http://www.sculptmiami.com/",
+          "director": "Gala Kavachnina",
+          "dates":  {
+              "day": "Wednesday - Sunday",
+              "month":"December 4 - December 7",
+              "time": "11:00 a.m - 8:00 p.m",
+              "information": "BET Art Lounge"
+            }, 
+          "admission": [
+            {
+              "entryLevel": "everyone",
+              "price": "Free",
+              "age": "all ages",
+              "information": ""
+            },   
+          ],
+          "highlights": "Monumental Contemporary Sculpture",
+          "contact": {
+              "name": "",
+              "position": "Public Relations Director",
+              "phone": "",
+              "email": "info@sculptmiami.com"
+          },
+          "sponsor": "",
+          "maps": ""
+        },     
+
+
+      }
+      }
+    }
+  ]
+
+}
+
+
