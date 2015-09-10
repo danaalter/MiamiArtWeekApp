@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 /*Color scheme*/
 .content{
-    background: rgba(146,38,72,1)!important;
+    background: rgba(146,38,72,1);
     background: -moz-linear-gradient(-45deg, rgba(146,38,72,1) 0%, rgba(85,32,120,1) 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(146,38,72,1)), color-stop(100%, rgba(85,32,120,1)));
     background: -webkit-linear-gradient(-45deg, rgba(146,38,72,1) 0%, rgba(85,32,120,1) 100%);
@@ -61,9 +61,6 @@
 .bar-nav .btn a{
     color:#ffffff;
 }
-
-=======
->>>>>>> 3d1443ed87eab88e1672d83b713232633832a6d5
 #eventlist{
 	text-align: center;
 }
@@ -142,11 +139,18 @@ h3{
 	font-size: 12px;}
 
 /*Accordion css*/
+
+.set{
+    background-color: rgba(255,255,255,.4);
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: 1px solid;
+    overflow: hidden;
+}
+
 .set h3{
     padding: 20px 10px 20px 30px;
     margin-bottom: 0px;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
     text-align: center;
 }
 
@@ -159,7 +163,7 @@ h3{
 }
 
 .set > h3.active{
-    background-color:#3399cc;
+    background-color:#5a2073;
     color: #fff;
 }
 .set > h3.active a{
@@ -182,7 +186,7 @@ h3{
     border-bottom: 1px solid #ddd;
 }
 .menu-content ul li a{
-    color:#000;
+    color:#fff;
     font-size:20px;
 }
 
