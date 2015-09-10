@@ -1,0 +1,105 @@
+{
+  "location": [{
+    "miami_beach":{
+      "fairs":{
+        "pulse contemporary art fair 11th edition": {
+          "name":"Pulse Contemporary Art Fair",
+          "address": {
+              "street_address":"Indiana Beach Park, 4601 Collins Avenue",
+              "city":"Miami Beach",
+              "state":"FL",
+              "zip_code": "33140"
+          },
+          "website": "www.pulse-art.com",
+          "director": "Helen Toomer",
+          "dates": [
+            {
+              "day": "Tuesday December 1",
+              "month":"December",
+              "time": "1:00pm - 4:00pm",
+              "information": "Private Preview Brunch-VIP invitation only"
+            }, 
+            {
+              "day": "Tuesday",
+              "month":"December",
+              "time": "4:00pm - 7:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Wednesday",
+              "month":"December",
+              "time": "10:00am - 7:00pm",
+              "information": "Open to the public"
+            },  
+            {
+              "day": "Thursday",
+              "month":"December",
+              "time": "10:00am - 7:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Friday",
+              "month":"December",
+              "time": "10:00am - 7:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Saturday",
+              "month":"December",
+              "time": "10:00am - 5:00pm",
+              "information": "Open to the public"
+            }, 
+            {
+              "day": "Saturday",
+              "month":"December",
+              "time": "5:00pm - 7:00pm",
+              "information": "Sunset Celebration-open to the public"
+            }, 
+           ],
+          "admission": [
+            {
+              "entryLevel": "General Admission",
+              "price": "$25",
+              "age": "all ages",
+              "information": ""
+            },  
+            {
+              "entryLevel": "Multi-Pass",
+              "price": "$40",
+              "age": "all ages",
+              "information": "5 day unlimited entry"
+            }, 
+            {
+              "entryLevel": "Student/Senior",
+              "price": "$15",
+              "age": "",
+              "information": "with valid ID"
+            },   
+            {
+              "entryLevel": "Group Discount",
+              "price": "$10",
+              "age": "all ages",
+              "information": "10 or more"
+            },  
+          ],
+          "highlights": "A complimentary shuttle service will operate between Art Basel
+                         Miami Beach and PULSE Miami Beach during all fair hours",
+          "contact": {
+              "name": "Tiana Weeb Evans",
+              "phone": "212.255.2327",
+              "email": "info@pulse-art.com"
+          },
+          "sponsor": "no",
+          "maps": "500"
+        }
+      }
+      }
+    }
+  ]
+}
+
+
+
+}
+
+
