@@ -37,13 +37,12 @@
 .bar {
     padding-top: 10px;
     box-sizing: content-box;
-    background: rgba(188,125,146,1);
-    background: -moz-linear-gradient(left, rgba(188,125,146,1) 0%, rgba(176,124,157,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(188,125,146,1)), color-stop(100%, rgba(176,124,157,1)));
-    background: -webkit-linear-gradient(left, rgba(188,125,146,1) 0%, rgba(176,124,157,1) 100%);
-    background: -o-linear-gradient(left, rgba(188,125,146,1) 0%, rgba(176,124,157,1) 100%);
-    background: -ms-linear-gradient(left, rgba(188,125,146,1) 0%, rgba(176,124,157,1) 100%);
-    background: linear-gradient(to right, rgba(188,125,146,1) 0%, rgba(176,124,157,1) 100%);
+    background: -moz-linear-gradient(left, rgb(156, 42, 85) 0%, rgb(142, 48, 113) 95%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgb(156, 42, 85)), color-stop(100%, rgba(176,124,157,1)));
+    background: -webkit-linear-gradient(left, rgb(156, 42, 85) 0%, rgb(142, 48, 113) 100%);
+    background: -o-linear-gradient(left, rgb(156, 42, 85) 0%, rgb(142, 48, 113) 100%);
+    background: -ms-linear-gradient(left, rgb(156, 42, 85) 0%, rgb(142, 48, 113) 100%);
+    background: linear-gradient(to right, rgb(156, 42, 85) 0%, rgb(142, 48, 113) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc7d92', endColorstr='#b07c9d', GradientType=1 );
 
 }
@@ -53,7 +52,7 @@
 }
 
 .bar-nav .btn {
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,.2);
     border: 1px solid white;
     color: white;
 }
@@ -141,7 +140,7 @@ h3{
 /*Accordion css*/
 
 .set{
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(255,255,255,.1);
     margin-bottom: 12px;
     border-radius: 10px;
     border: 1px solid;
@@ -149,7 +148,7 @@ h3{
 }
 
 .set h3{
-    padding: 20px 10px 20px 30px;
+    padding: 20px 10px 20px 41px;
     margin-bottom: 0px;
     text-align: center;
 }
@@ -163,8 +162,8 @@ h3{
 }
 
 .set > h3.active{
-    background-color:#5a2073;
-    color: #fff;
+    background-color:rgba(255,255,255,1);
+    color: #5a2073;
 }
 .set > h3.active a{
     color: #fff;
