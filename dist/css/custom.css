@@ -434,7 +434,9 @@ and (orientation: portrait) {
 	
 }
 
-
+.table-view-cell {
+    width: 100%;
+}
 
 
 
