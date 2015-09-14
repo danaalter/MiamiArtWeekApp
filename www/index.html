@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Miami Art Week mApp</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+      <!-- styles CSS -->
+      <link href="dist/css/custom.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="dist/css/ratchet.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="dist/js/ratchet.js"></script>
+
+    <!-- javascript link-->
+    <script src="dist/js/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="dist/js/accordion.js"></script>
+
+    <!-- Include the phonegap JS -->
+    <!--<script src="phonegap.js"></script>-->
+
+  </head>
+ 
+ 
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+        <h1 class="title"><img src="dist/img/mawlogo.png" width="50%" alt="Miami Art Week mApp"></h1>
+    </header>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+        <!--accordion menu-->
+        <div class="accordion-container">
+            <div class="set">
+                <h3>
+                    MAPS
+                    <span class="icon icon-down"></span>
+                </h3>
+                <div class="menu-content">
+                    <ul>
+                        <li><a class="tab-item active" href="map.html#all" data-ignore="push">All</a></li>
+                        <li><a class="tab-item active" href="map.html#downtown" data-ignore="push">Downtown</a></li>
+                        <li><a class="tab-item active" href="map.html#miamibeach" data-ignore="push">Miami Beach</a> </li>
+                        <li><a class="tab-item active" href="map.html#midtown" data-ignore="push">Midtown</a> </li>
+                        <li><a class="tab-item active" href="map.html#wynwood" data-ignore="push">Wynwood</a> </li>
+                    </ul>
+                </div>
+            </div><!--end set-->
+            <div class="set">
+                <h3>
+                    EVENTS
+                    <span class="icon icon-down"></span>
+                </h3>
+                <div class="menu-content">
+                    <ul>
+                        <li><a class="tab-item active" href="events.html">All</a></li>
+                        <li><a class="tab-item active" href="events.html">Downtown</a></li>
+                        <li><a class="tab-item active" href="events.html">Miami Beach</a> </li>
+                        <li><a class="tab-item active" href="events.html">Midtown</a> </li>
+                        <li><a class="tab-item active" href="events.html">Wynwood</a> </li>
+                    </ul>
+                </div>
+            </div><!--end set-->
+            <div class="set">
+                <h3>
+                    EXPLORE
+                    <span class="icon icon-down"></span>
+                </h3>
+                <div class="menu-content">
+                    <ul>
+                        <li><a class="tab-item active" href="explore.html">Hotels</a></li>
+                        <li><a class="tab-item active" href="explore.html">Restaurants</a> </li>
+                        <li><a class="tab-item active" href="explore.html">Landmarks</a> </li>
+                    </ul>
+                </div>
+            </div><!--end set-->
+            <div class="set">
+                <h3>
+                    INFORMATION
+                    <span class="icon icon-down"></span>
+                </h3>
+                <div class="menu-content">
+                    <ul>
+                        <li><a class="tab-item active" href="about.html"> About</a></li>
+                        <li><a class="tab-item active" href="sponsors.html">Sponsors</a> </li>
+                    </ul>
+                </div>
+            </div><!--end set-->
+
+        </div><!--End accordion menu-->
+        
+        
+        
+        <!--Sponsor Logos-->
+        <div class="home-sponsors">
+    		<table>
+				<tr>
+					<td><a href="http://spectrum-miami.com/?gclid=Cj0KEQjwvJqvBRCL77m2-uKczsIBEiQAkx8VjPJv2KL062ca9XlmtbehjBRDdzekRjtIUS1CGsXyLiEaAruv8P8HAQ"><img src="dist/img/sponsors/spectrum-logo-bw.png" width="150"></a>
+					</td>
+                </tr>
+                <tr>
+					<td><a href="https://www.artinstitutes.edu/miami"><img src="dist/img/sponsors/50th-MIU-bw.png" width="150"></a>
+                    </td>
+				</tr>
+			</table>
+         </div><!--end sponsor logos-->
+
+    </div><!--end content-->
+    
+    <!--bottom nav-->
+
+    <nav class="btm-barnav bar bar-tab">
+      <a class="tab-item" href="map.html">
+        Map
+      </a>
+      <a class="tab-item" href="events.html">
+        Events
+      </a>
+      <a class="tab-item" href="explore.html">
+        Explore
+      </a>
+    </nav>
+  </body>
+</html>
