@@ -1,0 +1,36 @@
+{
+    "fairs": [
+        {
+            "name": "Pulse",
+            "location": "downtown",
+            "dates": "dec1 dec3",
+            "time": "3: 00pm-4: 00pm",
+            "price": "$24.00",
+            "highlights": "Boom shakalaka boom",
+            "website": "www.example.com",
+            "director": "Helen Toomer",
+            "address": {
+                "street_address": "Indiana Beach Park, 4601 Collins Avenue",
+                "city": "Miami Beach",
+                "state": "FL",
+                "zip_code": "33140"
+            }
+        },
+        {
+            "name": "Concept",
+            "location": "miami",
+            "dates": "dec1 dec2",
+            "time": "3: 00pm-4: 00pm",
+            "price": "$124.00",
+            "highlights": "New Mexico Experimental Bla bla",
+            "website": "www.example.com",
+            "director": "HelenToomer",
+            "address": {
+                "street_address": "IndianaBeachPark,4601CollinsAvenue",
+                "city": "MiamiBeach",
+                "state": "FL",
+                "zip_code": "33140"
+            }
+        }
+    ]
+}
