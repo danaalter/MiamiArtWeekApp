@@ -337,6 +337,20 @@ li.table-view-cell {
 	  color:#ffffff;
 }
 
+div.ui-group.box button {
+	border-radius:3px;
+	background-color: rgba(255,255,255,.2);
+	color:#fff;
+	border: 0px solid white;
+	padding:5px;
+	line-height: 17px;
+	margin-bottom:5px;
+}
+
+div.ui-group.box button:hover {
+	background-color: rgba(255,255,255,.1);
+}
+
 .calendar:active{
 	opacity:.5;}	
 /*Map Landing Page*/	
