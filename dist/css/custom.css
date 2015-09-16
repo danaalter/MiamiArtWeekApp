@@ -354,13 +354,27 @@ div.ui-group.box button:hover {
 .calendar:active{
 	opacity:.5;}	
 /*Map Landing Page*/	
-.segmented-control .control-item.active {
-    background-color: #5AD445;
+.segmented-control {
+	background:none;
+	border: 0px solid white;
 }
+
+
 .segmented-control .control-item{
-	background-color: #0FAAFA;
-	font-weight:bold;
-	}
+	background-color: rgba(255,255,255,.1);
+    font-weight:bold;
+	border: 0px solid white;
+	color:#fff;
+	border-bottom: 2px solid rgba(255,255,255,0);
+}
+
+.segmented-control .control-item:hover{
+	border-bottom: 2px solid white;
+}
+
+.segmented-control .control-item:active {
+    background-color: rgba(255,255,255,.2);
+}
 
 .bar-header-secondary ~ .content {
     margin-bottom: 50px;
