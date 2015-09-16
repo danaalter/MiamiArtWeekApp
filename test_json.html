@@ -77,10 +77,11 @@
     </div>
     <!--end content-->
     <script>
-    $.ajax({
-        url: 'dist/js/test.json',
-        dataType: 'json',
-        success: function(data) {
+
+    var jqxhr = $.ajax({
+                    url: 'dist/js/test.json',
+                    dataType: 'json' })
+    .done(function(data) {
             $.each(data.fairs, function(i,item){
               console.log(item);
               //adding classes for filtering
@@ -100,12 +101,11 @@
               $li.append($a);
               $li.appendTo(".table-view");
             });
-            // var d = document.getElementById("test");
-            // d.className = d.cla
-            // ssName + " downtown " + data.location[0].downtown.fairs.concept.date;
-            // document.getElementById("test").innerHTML = data.location[0].downtown.fairs.concept.name;
-        }
+    })
+    .fail(function(e) {
+    console.log(e);
     });
+
     </script>
 
     <script src="dist/js/isotop.js"></script>
