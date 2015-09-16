@@ -34,7 +34,7 @@
 }
 
 .bar {
-    padding-top: 10px;
+    padding: 5px;
     box-sizing: content-box;
 	background: -moz-linear-gradient(left, rgb(126, 8, 53) 0%, rgb(96, 15, 71) 95%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgb(126, 8, 53)), color-stop(100%, rgb(96, 15, 71)));
@@ -43,7 +43,7 @@
 	background: -ms-linear-gradient(left, rgb(126, 8, 53) 0%, rgb(96, 15, 71) 100%);
 	background: linear-gradient(to right, rgb(126, 8, 53) 0%, rgb(96, 15, 71) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7E0835', endColorstr='#600F47', GradientType=1 );
-
+    text-align: center;
 }
 
 .bar-nav ~ .content {
@@ -87,6 +87,10 @@
 
 .title {
     line-height: 24px;
+}
+
+img.headerlogo {
+padding: 5px
 }
 
 
@@ -316,7 +320,6 @@ min-height:55px;
 .box{
     text-align:center;
 	width:96%;
-	min-height:96px;
 	margin:1em;
 	padding:5px;
 }
