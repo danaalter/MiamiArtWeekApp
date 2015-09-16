@@ -394,7 +394,7 @@ div.ui-group.box button:hover {
 	text-transform: uppercase;
 }
 	
-/*Sponsors Page*/
+/*=== Sponsors Page ===*/
 #sponsors-content{
 	text-align:center;
 }
@@ -432,27 +432,24 @@ div.ui-group.box button:hover {
 }
 
 
-/*Home Sponsor Logos*/
-.home-sponsors table{
-	margin:auto;  
-}
-
-
+/*=== Home Sponsor Logos ===*/
 .home-sponsors img{
 	padding:15px 0;
+	display:block;
+	margin:auto;
 }
 
 .set h4{
-background-color: #330033;
+	background-color: #330033;
     color: #fff;
-	    padding: 20px 10px 20px 30px;
+	padding: 20px 10px 20px 30px;
     margin-bottom: 0;
     text-align: center;
 	font-size:45px;}
 
 
 
-/*About*/	
+/*=== About ===*/	
 
 #about-column{
 	width:70%;
@@ -460,31 +457,38 @@ background-color: #330033;
 	text-align:center;
 }
 
-#about-column li{
-	/*margin:auto 10% auto 10%;*/
-	font-size:85%;
-	
+#about-column ul{
+	width:60%;
+	padding-left:0;
+	margin:auto;
 }
 
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1024px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: portrait) {
-	
-	#about-column{
-		width:100%;
-	}
-	
-	
-	#about-column li{
-		width:90%;
-		margin:auto;
-		padding:0;
-		padding-top:10px;
-	}
-	
+#about-column li{
+	/*margin:auto 10% auto 10%;
+	font-size:100%;*/
+	list-style:none;
+	margin:0 auto 10% auto;
 }
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+	
+#about-column li{
+	font-size:170%;
+}
+#about-column p{
+	font-size:85%;
+	margin-top:3%;
+}
+
+#about-column img{
+	margin-bottom:3%;
+}
+
+}
+
+
 
 .table-view-cell {
     width: 100%;
