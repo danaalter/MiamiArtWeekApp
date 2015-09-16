@@ -32,9 +32,9 @@
     <!-- Make sure all your bars are the first things in your <body> -->
     <header class="bar bar-nav">
         <button class="btn pull-left">
-            <a href="index.html">Menu</a>
+            <a href="index.html" data-ignore="push">Menu</a>
         </button>
-        <h1 class="title"><img src="dist/img/mawlogo.png" width="50%" alt="Miami Art Week mApp"></h1>
+        <img src="dist/img/mawlogo.png" height="100%" alt="Miami Art Week mApp" class="headerlogo">
     </header>
 
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
@@ -69,17 +69,17 @@
       </p>
     </div>
 
-    <nav class="bar bar-tab">
-    <a class="tab-item active" href="map.html">
-      Map
-    </a>
-    <a class="tab-item" href="events.html">
-      Events
-    </a>
-    <a class="tab-item" href="explore.html">
-      Explore
-    </a>
-  </nav>
-
+    <nav class="btm-nav bar bar-tab">
+        <a class="tab-item" href="map.html" data-ignore="push">
+            Map
+        </a>
+        <a class="tab-item" href="events.html" data-ignore="push">
+            Events
+        </a>
+        <a class="tab-item" href="explore.html" data-ignore="push">
+            Explore
+        </a>
+    </nav>
+    
   </body>
 </html>

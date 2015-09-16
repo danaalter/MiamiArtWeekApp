@@ -14,7 +14,7 @@
 }
 
 .btm-nav{
-    padding-top: 0 !important;
+    padding: 0 5px !important;
 	background: -moz-linear-gradient(left, rgb(126, 8, 53) 0%, rgb(96, 15, 71) 95%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgb(126, 8, 53)), color-stop(100%, rgb(96, 15, 71)));
 	background: -webkit-linear-gradient(left, rgb(126, 8, 53) 0%, rgb(96, 15, 71) 100%);
@@ -224,7 +224,7 @@ h3{
 }
 .mainslideicon{
     text-align: center;
-    width: 56vh;
+    width: 100%;
     bottom:50px;
     position:fixed;
     z-index:999;
