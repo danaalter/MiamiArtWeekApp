@@ -22,7 +22,6 @@
 
     <!-- styles CSS -->
     <link href="dist/css/custom.css" rel="stylesheet">
-    <link href="dist/css/test.css" rel="stylesheet">
 
 
     <!-- javascript link-->
@@ -36,10 +35,24 @@
     <!-- Make sure all your bars are the first things in your <body> -->
     <header class="bar bar-nav">
         <button class="btn pull-left">
-            <a href="index.html">Menu</a>
+            <a href="index.html" data-transition="slide-out">Menu</a>
         </button>
-        <h1 class="title"><img src="dist/img/mawlogo.png" width="50%" alt="Miami Art Week mApp"></h1>
+        <img src="dist/img/mawlogo.png" height="100%" alt="Miami Art Week mApp" class="headerlogo">
     </header>
+
+    <!--bottom nav-->
+
+    <nav class="bar bar-tab">
+      <a class="tab-item" href="map.html" data-transition="slide-out">
+        Map
+      </a>
+      <a class="tab-item" href="#">
+        Events
+      </a>
+      <a class="tab-item active" href="explore.html" data-transition="slide-in">
+        Explore
+      </a>
+    </nav>    
 
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
@@ -49,17 +62,25 @@
 
 <div class="filters">
 
-  <div class="ui-group ">
-   
-    <div class="button-group js-radio-button-group" data-filter-group="location">
-      <button class="button is-checked " data-filter="">ALL</button>
-      <button class="button " data-filter=".downtown">DOWNTOWN</button>
-      <button class="button " data-filter=".miami">MIAMI BEACH</button>
-      <button class="button " data-filter=".midtown">MIDTOWN</button>
-      <button class="button " data-filter=".wynwood">WYNWOOD</button>
-    
+        <!--
+        <div class="ui-group box">
+          <div class="button-group js-radio-button-group" data-filter-group="location">
+            <button class="button is-checked " data-filter="">ALL</button>
+            <button class="button " data-filter=".downtown">DOWNTOWN</button>
+            <button class="button " data-filter=".miami">MIAMI BEACH</button>
+            <button class="button " data-filter=".midtown">MIDTOWN</button>
+            <button class="button " data-filter=".wynwood">WYNWOOD</button>
+          
+          </div>
+        </div> -->
+
+  <div class="segmented-control" data-filter-group="location">
+      <a class="button is-checked control-item" data-filter="">ALL</a>
+      <a class="button control-item" data-filter=".downtown">DOWNTOWN</a>
+      <a class="button control-item" data-filter=".miami">MIAMI BEACH</a>
+      <a class="button control-item" data-filter=".midtown">MIDTOWN</a>
+      <a class="button control-item" data-filter=".wynwood">WYNWOOD</a>
   </div>
-</div>
 
 
  <div class="ui-group box">
@@ -471,19 +492,6 @@
 
     </div><!--end content-->
 
-    <!--bottom nav-->
-
-    <nav class="bar bar-tab">
-      <a class="tab-item" href="map.html">
-        Map
-      </a>
-      <a class="tab-item" href="events.html">
-        Events
-      </a>
-      <a class="tab-item active" href="explore.html">
-        Explore
-      </a>
-    </nav>
 
   </body>
 </html>

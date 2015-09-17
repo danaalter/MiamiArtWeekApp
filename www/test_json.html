@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Miami Art Week mApp</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="dist/css/ratchet.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="dist/js/ratchet.js"></script>
+
+    <!-- Include the phonegap JS -->
+    <!--<script src="phonegap.js"></script>-->
+
+    <!-- styles CSS -->
+    <link href="dist/css/custom.css" rel="stylesheet">
+    <link href="dist/css/test.css" rel="stylesheet">
+
+
+    <!-- javascript link-->
+      <script src="dist/js/bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="dist/js/accordion.js"></script>
+      <script src="dist/js/isotop.js"></script>
+     <script src=" http://mfzy.co/isotope.pkgd.js"></script>
+  </head>
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+        <button class="btn pull-left">
+            <a href="index.html" data-transition="slide-out">Menu</a>
+        </button>
+        <h1 class="title"><img src="dist/img/mawlogo.png" width="50%" alt="Miami Art Week mApp"></h1>
+    </header>
+
+    <!--bottom nav-->
+
+    <nav class="bar bar-tab">
+      <a class="tab-item" href="map.html">
+        Map
+      </a>
+      <a class="tab-item" href="events.html">
+        Events
+      </a>
+      <a class="tab-item active" href="explore.html">
+        Explore
+      </a>
+    </nav>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+
+
+
+
+<div class="filters">
+
+  <div class="ui-group ">
+   
+    <div class="button-group js-radio-button-group" data-filter-group="location">
+      <button class="button is-checked " data-filter="">ALL</button>
+      <button class="button " data-filter=".downtown">DOWNTOWN</button>
+      <button class="button " data-filter=".miami">MIAMI BEACH</button>
+      <button class="button " data-filter=".midtown">MIDTOWN</button>
+      <button class="button " data-filter=".wynwood">WYNWOOD</button>
+    
+  </div>
+</div>
+
+
+ <div class="ui-group box">
+   
+    <div class="button-group js-radio-button-group" data-filter-group="date">
+      <button class="button is-checked full " data-filter="">All  </button>
+      <button class="button full" data-filter=".nov30">Nov 30</button>
+      <button class="button full" data-filter=".dec1">Dec 1</button>
+      <button class="button full" data-filter=".dec2">Dec 2</button>
+      <button class="button full" data-filter=".dec3">Dec 3</button>
+      <button class="button full" data-filter=".dec4">Dec 4</button>
+      <button class="button full" data-filter=".dec5">Dec 5</button>
+      <button class="button full" data-filter=".dec6">Dec 6</button>
+    </div>
+  </div>
+
+ 
+</div>
+
+
+
+<div class="card" >
+
+  
+   <!--All Events -->   
+    
+
+            <ul class="table-view">
+    
+    
+    
+    				 
+
+            	
+                  <li id="test" class="table-view-cell media artfair  navigate-right " >
+                  <div class="media-body">
+                        <b class="eventname"></b><br>
+                        
+                  </div>
+                  </li>
+                  <li id ="test2" class="table-view-cell media artfair navigate-right " >
+                  <div class="media-body">
+                        <b class="eventname"></b><br>
+                        
+                  </div>
+                  </li>
+                  
+
+   </ul>
+ 
+</div>
+
+    </div><!--end content-->
+
+
+<script>
+
+      $.ajax({
+          url: 'dist/js/data.json',
+          dataType: 'json',
+          success: function(data){
+			 var d = document.getElementById("test");
+			  d.className = d.className + " downtown "+ data.location[0].downtown.fairs.concept.date;
+			  var b = document.getElementById("test2");
+			  b.className = b.className + " downtown "+ data.location[0].downtown.fairs.pulse.date;
+           document.getElementById("test").innerHTML=data.location[0].downtown.fairs.concept.name;
+		    document.getElementById("test2").innerHTML=data.location[0].downtown.fairs.pulse.name;
+ 			
+          
+          }
+      });</script>
+  </body>
+</html>

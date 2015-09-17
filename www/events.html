@@ -22,138 +22,92 @@
 
     <!-- styles CSS -->
     <link href="dist/css/custom.css" rel="stylesheet">
+    <link href="dist/css/test.css" rel="stylesheet">
 
 
     <!-- javascript link-->
       <script src="dist/js/bower_components/jquery/dist/jquery.min.js"></script>
       <script src="dist/js/accordion.js"></script>
-       
-
->
-
+      <script src="dist/js/isotop.js"></script>
+     <script src=" http://mfzy.co/isotope.pkgd.js"></script>
   </head>
   <body>
 
     <!-- Make sure all your bars are the first things in your <body> -->
     <header class="bar bar-nav">
         <button class="btn pull-left">
-            <a href="index.html" data-ignore="push">Menu</a>
+            <a href="index.html" data-transition="slide-out">Menu</a>
         </button>
-        <h1 class="title">Miami Art Week mApp</h1>
+        <h1 class="title"><img src="dist/img/mawlogo.png" width="50%" alt="Miami Art Week mApp"></h1>
     </header>
+
+    <!--bottom nav-->
+
+    <nav class="bar bar-tab">
+      <a class="tab-item" href="map.html" data-transition="slide-out">
+        Map
+      </a>
+      <a class="tab-item" href="#">
+        Events
+      </a>
+      <a class="tab-item active" href="explore.html" data-transition="slide-in">
+        Explore
+      </a>
+    </nav>    
 
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
 
 
 
-<div class="segmented-control" id="artfair">
-<a class="control-item active" href="#all">
-    ALL
-  </a>
-  <a class="control-item " href="#downtown">
-    DOWNTOWN
-  </a>
-  <a class="control-item" href="#miami">
-    MIAMI BEACH
-  </a>
-  <a class="control-item" href="#midtown">
-    MIDTOWN
-  </a>
-    <a class="control-item" href="#wynwood">
-    WYNWOOD
-  </a>
+
+<div class="filters">
+
+  <div class="ui-group ">
+   
+    <div class="button-group js-radio-button-group" data-filter-group="location">
+      <button class="button is-checked " data-filter="">ALL</button>
+      <button class="button " data-filter=".downtown">DOWNTOWN</button>
+      <button class="button " data-filter=".miami">MIAMI BEACH</button>
+      <button class="button " data-filter=".midtown">MIDTOWN</button>
+      <button class="button " data-filter=".wynwood">WYNWOOD</button>
+    
+  </div>
 </div>
 
 
+ <div class="ui-group box">
+   
+    <div class="button-group js-radio-button-group" data-filter-group="date">
+      <button class="button is-checked full " data-filter="">All  </button>
+      <button class="button full" data-filter=".nov30">Nov 30</button>
+      <button class="button full" data-filter=".dec1">Dec 1</button>
+      <button class="button full" data-filter=".dec2">Dec 2</button>
+      <button class="button full" data-filter=".dec3">Dec 3</button>
+      <button class="button full" data-filter=".dec4">Dec 4</button>
+      <button class="button full" data-filter=".dec5">Dec 5</button>
+      <button class="button full" data-filter=".dec6">Dec 6</button>
+    </div>
+  </div>
 
-
-<div class="box">
-
-
-<p class="calendar">30 <em>Nov</em></p>
-<p class="calendar">1 <em>Dec</em></p>
-<p class="calendar">2 <em>Dec</em></p>
-<p class="calendar">3 <em>Dec</em></p>
-<p class="calendar">4 <em>Dec</em></p>
-<p class="calendar">5 <em>Dec</em></p>
-<p class="calendar">6 <em>Dec</em></p>
-
+ 
 </div>
+
 
 
 <div class="card" >
 
-  <!--Downtown Events -->   
-    <span id="downtown" class="control-content ">
+  
+   <!--All Events -->   
+    
 
             <ul class="table-view">
-            
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Concept Art Fair</b><br>
-                        Phone: (561) 290-8053<br>
-                        Address: 100 Chopin Plaza, Miami, FL 33131<br>
-                        <a href="http://www.concept-fair.com/" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">McCormick Place</b><br>
-                        Phone: (305) 206-4734<br>
-                        Address: 111 SW 3rd Street, Miami, FL 33130<br>
-                        <a href="http://www.mccormickplace-miami.com/" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Miami International University of Art & Design</b><br>
-                        Phone: (305) 428-5700<br>
-                        Address: 1501 Biscayne Blvd #100, Miami, FL 33132<br>
-                        <a href="https://www.artinstitutes.edu/miami" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Miami River Art Fair</b><br>
-                        Phone: (305) 428-5700<br>
-                        Address: 400 SE 2nd Ave, Miami, FL 33131 USA<br>
-                        <a href="http://miamiriverartfair.com/" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Perez Art Museum</b><br>
-                        Phone: (305) 375-3000<br>
-                        Address: 1103 Biscayne Blvd, Miami, FL 33132<br>
-                        <a href="http://www.pamm.org/" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Prizm Art Fair</b><br>
-                        Phone: (954) 372-6241<br>
-                        Address: 100 NE 1st Ave, Miami, FL 33132<br>
-                        <a href="http://www.prizmartfair.com/" >Visit Website</a>
-                  </div>
-                  </li>
-                   
-			</ul>
+    
+    
+    
+    				 
 
-     </span>
-     
-          <!--Miami Beach --> 
-          
-    <span id="miami" class="control-content ">
-
-            <ul class="table-view">
-            
-            		<li class="table-view-cell media navigate-right" >
+            		<li class="table-view-cell media navigate-right artfair miami nov30 dec1 dec2 dec3" >
                   <div class="media-body">
                         <b class="eventname">Art Basel Miami Beach</b><br>
                         Phone: (305) 674-1292<br>
@@ -162,7 +116,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair miami dec1 navigate-right " >
                   <div class="media-body">
                         <b class="eventname">Art Center Miami</b><br>
                         Phone: (800) 376-5850<br>
@@ -171,127 +125,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Aqua Art Miami</b><br>
-                        Phone: (786) 440-8520<br>
-                        Address: 1530 Collins Avenue, Miami Beach, FL 33139<br>
-                        <a href="www.aquaartmiami.com" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Bass Museum of Art</b><br>
-                        Phone: (305) 673-7530<br>
-                        Address: 2100 Collins Ave, Miami Beach, FL 33139<br>
-                        <a href="www.bassmuseum.org/" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Design Miami</b><br>
-                        Phone: (305) 572-0866<br>
-                        Address: Meridian Ave & 19th St, Miami Beach, FL 33139<br>
-                        <a href="http://miami2015.designmiami.com/" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Fridge Art Fair</b><br>
-                        Phone: (213) 840-1201<br>
-                        Address: 4333 Collins Avenue, Miami Beach, FL 33140<br>
-                        <a href="fridgeartfair.com" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Ink Miami</b><br>
-                        Phone: (212) 674-6095<br>
-                        Address: 1850 Collins Avenue (19th St) Miami Beach, Florida 33139<br>
-                        <a href="www.inkartfair.com/" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Miami Project</b><br>
-                        Phone: N/A <br>
-                        Address: 7275 Collins Ave, Miami Beach, FL 33141<br>
-                        <a href="www.inkartfair.com/" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">NADA</b><br>
-                        Phone: (212) 592-0883<br>
-                        Address: 6701 Collins Ave, Miami, FL 33141<br>
-                        <a href="newartdealers.org" >Visit Website</a>
-                  </div>
-                  </li>
-                 
-                 <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Ping Pong Miami</b><br>
-                        Phone: N/A<br>
-                        Address: N/A<br>
-                        <a href="#" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Pulse Art Fair</b><br>
-                        Phone: (212) 255-2327<br>
-                        Address: 4601 Collins Avenue, Miami Beach, FL, 33140<br>
-                        <a href="pulse-art.com" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Scope</b><br>
-                        Phone: (212) 268-1522<br>
-                        Address: 910 Ocean Dr, Miami Beach, FL 33139<br>
-                        <a href="scope-art.com" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Select</b><br>
-                        Phone: (415) 483-0847<br>
-                        Address: Collins Ave & 72nd St, Miami Beach, FL 33141<br>
-                        <a href="select-fair.com" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Untitled</b><br>
-                        Phone: N/A<br>
-                        Address: Ocean Dr & 12th St, Miami Beach, FL 33139<br>
-                        <a href="art-untitled.com" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                 
-
-                 
-			 </ul>
-
-      </span>
-          
-          <!--Midtown Events --> 
-          
-      <span id="midtown" class="control-content ">
-
-            <ul class="table-view">
-            		<li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair midtown dec2 navigate-right " >
                   <div class="media-body">
                         <b class="eventname">Art Miami</b><br>
                         Phone: (239) 297-6037<br>
@@ -300,234 +134,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Cifo Art Foundations</b><br>
-                        Phone: (305) 455-3333<br>
-                        Address: 1018 N Miami Ave, Miami, FL 33136<br>
-                        <a href="https://www.cifo.org/" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Context</b><br>
-                        Phone: (305) 517-7977<br>
-                        Address: 2901 NE 1st Ave, Miami, FL 33137<br>
-                        <a href="www.contextartmiami.com" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Pinta Miami</b><br>
-                        Phone: N/A <br>
-                        Address: 3401 NE 1st Ave, Miami, FL 33137<br>
-                        <a href="www.pintamiami.com" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Red Dot Art Fair Miami  </b><br>
-                        Phone: (917) 273-8621<br>
-                        Address: 3011 NE 1st Ave, Miami, FL 33137<br>
-                        <a href="www.reddotfair.com" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Spectrum Miami / ArtSpot  </b><br>
-                        Phone: N/A<br>
-                        Address: 3011 NE 1st Avenue at NE 30th St, Miami, FL 33137<br>
-                        <a href="spectrum-miami.com" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">X-Contemporary  </b><br>
-                        Phone: N/A<br>
-                        Address: 3401 NE 1st Avenue, Miami, FL 33137<br>
-                        <a href="www.x-contemporary.com" >Visit Website</a>
-                  </div>
-                  </li>
-                 
-                  
-            </ul>
-
-      </span>
-          
-          <!--Wynwood Events --> 
-      <span id="wynwood" class="control-content ">
-
-            <ul class="table-view">
-            		<li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Dot Fiftyone One </b><br>
-                        Phone: (305) 537-9994<br>
-                        Address: 187 NW 27th St, Miami, FL 33127<br>
-                        <a href="www.dotfiftyone.com/" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Emerson Dorsch </b><br>
-                        Phone: (305) 576-1278<br>
-                        Address: 151 NW 24th St, Miami, FL 33127<br>
-                        <a href="www.emersondorsch.com/" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Fusion MIA  </b><br>
-                        Phone: N/A<br>
-                        Address: NW 2nd Ave & NW 22nd Ln, Miami, FL 33127<br>
-                        <a href="fusionmia.com" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Locust Projects</b><br>
-                        Phone: (305) 576-8570<br>
-                        Address: 3852 N Miami Ave, Miami, FL 33127<br>
-                        <a href="www.locustprojects.org/" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">M + V Art</b><br>
-                        Phone: (786) 431- 1186<br>
-                        Address: 2750 NW 3RD AVENUE SUITE 11, MIAMI, FL 33127<br>
-                        <a href="http://mvart.co/" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Mana Miami</b><br>
-                        Phone: N/A <br>
-                        Address: 318 NW 23rd St, Miami, FL 33127<br>
-                        <a href="www.mana-miami.com" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Margulies Collection</b><br>
-                        Phone: (305) 576-1051<br>
-                        Address: 591 NW 27th St, Miami, FL 33127<br>
-                        <a href="www.margulieswarehouse.com/" >Visit Website</a>
-                  </div>
-                  </li>
-            		
-                 
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Pan American Art Projects</b><br>
-                        Phone: (305) 573- 2400<br>
-                        Address: 2450 NW 2nd Ave, Miami, FL 33127<br>
-                        <a href="panamericanart.com/" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Rubell Family Collection</b><br>
-                        Phone: (305) 573- 6090<br>
-                        Address: 95 NW 29th St, Miami, FL 33127<br>
-                        <a href="https://rfc.museum/" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Sculpt</b><br>
-                        Phone: (305) 209- 0278<br>
-                        Address: 46 NW 36th St, Miami, FL 33127<br>
-                        <a href="http://sculptmiami.com/" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Wynwood Art Group</b><br>
-                        Phone: (786) 801- 1119<br>
-                        Address: 335 NE 59th Street, Miami, FL 33137<br>
-                        <a href="http://sculptmiami.com/" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Wynwood Warehouse Project</b><br>
-                        Phone: (786) 709- 1842<br>
-                        Address: 450 NW 27th St, Miami, FL 33127<br>
-                        <a href="www.wynwoodwarehouseproject.com/" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Wynwood Walls</b><br>
-                        Phone: (305) 531- 4411<br>
-                        Address: 2516 NW 2nd Ave, Miami, FL 33127<br>
-                        <a href="thewynwoodwalls.com/" >Visit Website</a>
-                  </div>
-                  </li>
-                 
-            </ul>
-
-      </span>
-  
-  
-   <!--All Events -->   
-    <span id="all" class="control-content active ">
-
-            <ul class="table-view">
-    
-    <li class="table-view-cell table-view-divider">Day</li>
-    
-    				 
-
-            
-                  <a href="events_test2.html">
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Art Basel Miami Beach</b> Test <br>
-                     
-                       
-                  </div></a>
-                  </li>
-                  
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Art Center Miami</b><br>
-                        Phone: (800) 376-5850<br>
-                        Address: 3101 NE 1st Ave, Miami, FL 33137<br>
-                        <a href="www.artmiamifair.com/" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
-                  <div class="media-body">
-                        <b class="eventname">Art Miami</b><br>
-                        Phone: (239) 297-6037<br>
-                        Address: 3101 NE 1st Avenue , Miami, FL 33137<br>
-                        <a href="​www.artmiamifair.com" >Visit Website</a>
-                  </div>
-                  </li>
-                  
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair miami dec6 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Aqua Art Miami</b><br>
                         Phone: (786) 440-8520<br>
@@ -536,7 +143,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair miami dec3 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Bass Museum of Art</b><br>
                         Phone: (305) 673-7530<br>
@@ -545,7 +152,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair midtown dec3 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Cifo Art Foundations</b><br>
                         Phone: (305) 455-3333<br>
@@ -554,7 +161,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media navigate-right artfair downtown dec4" >
                   <div class="media-body">
                         <b class="eventname">Concept Art Fair</b><br>
                         Phone: (561) 290-8053<br>
@@ -564,7 +171,7 @@
 					</li> 
                     
                     
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair midtown dec5 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Context</b><br>
                         Phone: (305) 517-7977<br>
@@ -573,7 +180,7 @@
                   </div>
                   </li>
                   
-    				<li class="table-view-cell media navigate-right" >
+    				<li class="table-view-cell media artfair miami dec4 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Design Miami</b><br>
                         Phone: (305) 572-0866<br>
@@ -582,7 +189,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair wynwood dec2 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Dot Fiftyone One </b><br>
                         Phone: (305) 537-9994<br>
@@ -591,7 +198,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair wynwood nov30 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Emerson Dorsch </b><br>
                         Phone: (305) 576-1278<br>
@@ -600,7 +207,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair miami dec2 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Fridge Art Fair</b><br>
                         Phone: (213) 840-1201<br>
@@ -609,7 +216,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair wynwood dec5 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Fusion MIA  </b><br>
                         Phone: N/A<br>
@@ -618,7 +225,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair miami dec3 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Ink Miami</b><br>
                         Phone: (212) 674-6095<br>
@@ -627,7 +234,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair wynwood dec6 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Locust Projects</b><br>
                         Phone: (305) 576-8570<br>
@@ -636,7 +243,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair wynwood dec4 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">M + V Art</b><br>
                         Phone: (786) 431- 1186<br>
@@ -646,7 +253,7 @@
                   </li>
                   
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair wynwood dec2 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Mana Miami</b><br>
                         Phone: N/A <br>
@@ -655,7 +262,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair wynwood dec5 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Margulies Collection</b><br>
                         Phone: (305) 576-1051<br>
@@ -664,7 +271,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair downtown dec6 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Miami International University of Art & Design</b><br>
                         Phone: (305) 428-5700<br>
@@ -674,7 +281,7 @@
                   </li>
                   
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair miami dec5 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Miami Project</b><br>
                         Phone: N/A <br>
@@ -683,7 +290,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair downtown dec1 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Miami River Art Fair</b><br>
                         Phone: (305) 428-5700<br>
@@ -692,7 +299,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair downtown dec5 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">McCormick Place</b><br>
                         Phone: (305) 206-4734<br>
@@ -701,7 +308,7 @@
                   </div>
                   </li>
                   
-                   <li class="table-view-cell media navigate-right" >
+                   <li class="table-view-cell media artfair miami dec5 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">NADA</b><br>
                         Phone: (212) 592-0883<br>
@@ -710,7 +317,7 @@
                   </div>
                   </li>
                   
-                   <li class="table-view-cell media navigate-right" >
+                   <li class="table-view-cell media artfair wynwood dec3 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Pan American Art Projects</b><br>
                         Phone: (305) 573- 2400<br>
@@ -720,7 +327,7 @@
                   </li>
                   
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair downtown dec6 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Perez Art Museum</b><br>
                         Phone: (305) 375-3000<br>
@@ -730,7 +337,7 @@
                   </li>
                   
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair miami dec3 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Ping Pong Miami</b><br>
                         Phone: N/A<br>
@@ -739,7 +346,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair midtown dec6 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Pinta Miami</b><br>
                         Phone: N/A <br>
@@ -750,7 +357,7 @@
                   
                    
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair downtown dec2 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Prizm Art Fair</b><br>
                         Phone: (954) 372-6241<br>
@@ -760,7 +367,7 @@
                   </li>
 
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair miami nov30 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Pulse Art Fair</b><br>
                         Phone: (212) 255-2327<br>
@@ -770,7 +377,7 @@
                   </li>
                   
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair midtown dec6 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Red Dot Art Fair Miami  </b><br>
                         Phone: (917) 273-8621<br>
@@ -780,7 +387,7 @@
                   </li>
                   
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair wynwood dec5 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Rubell Family Collection</b><br>
                         Phone: (305) 573- 6090<br>
@@ -789,7 +396,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair wynwood dec4 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Sculpt</b><br>
                         Phone: (305) 209- 0278<br>
@@ -799,7 +406,7 @@
                   </li>
                   
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair miami dec1 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Scope</b><br>
                         Phone: (212) 268-1522<br>
@@ -808,7 +415,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair miami dec2 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Select</b><br>
                         Phone: (415) 483-0847<br>
@@ -817,7 +424,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair midtown dec3 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Spectrum Miami / ArtSpot  </b><br>
                         Phone: N/A<br>
@@ -826,7 +433,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair miami dec5 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Untitled</b><br>
                         Phone: N/A<br>
@@ -835,7 +442,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair wynwood dec3 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Wynwood Art Group</b><br>
                         Phone: (786) 801- 1119<br>
@@ -844,7 +451,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair wynwood dec5 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Wynwood Warehouse Project</b><br>
                         Phone: (786) 709- 1842<br>
@@ -853,7 +460,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair wynwood nov30 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">Wynwood Walls</b><br>
                         Phone: (305) 531- 4411<br>
@@ -862,7 +469,7 @@
                   </div>
                   </li>
                   
-                  <li class="table-view-cell media navigate-right" >
+                  <li class="table-view-cell media artfair midtown dec4 navigate-right" >
                   <div class="media-body">
                         <b class="eventname">X-Contemporary  </b><br>
                         Phone: N/A<br>
@@ -872,25 +479,13 @@
                   </li>
                       
 
-     </span>
-</div>  
-
+   </ul>
+ 
+</div>
 
     </div><!--end content-->
 
-    <!--bottom nav-->
 
-    <nav class="bar bar-tab">
-      <a class="tab-item" href="map.html">
-        Map
-      </a>
-      <a class="tab-item" href="events.html">
-        Events
-      </a>
-      <a class="tab-item active" href="explore.html">
-        Explore
-      </a>
-    </nav>
 
   </body>
 </html>
