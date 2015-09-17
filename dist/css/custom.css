@@ -331,6 +331,10 @@ min-height:55px;
   background-color: rgba(255,255,255,.1);
 }
 
+.table-view {
+  background-color: rgba(255,255,255,.1);
+}
+
 li.table-view-cell {
 	  border-top: 1px solid white;
 	  border-bottom: 0px solid;
