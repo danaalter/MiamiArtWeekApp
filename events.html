@@ -12,7 +12,7 @@
     <!-- Include the compiled Ratchet CSS -->
     <link href="dist/css/ratchet.css" rel="stylesheet">
     <!-- Include the compiled Ratchet JS -->
-    <script src="dist/js/ratchet.js"></script>
+    
     <!-- Include the phonegap JS -->
     <!--<script src="phonegap.js"></script>-->
     <!-- styles CSS -->
@@ -85,7 +85,7 @@
               //adding classes for filtering
               var $li = $("<li class='table-view-cell media navigate-right artfair'>").addClass(item.location + " " +item.dates);
               //adding link to details
-              var $a = $("<a href='details.html' data-transition='slide-in'>");
+              var $a = $("<a href='details.html#" + item.name + "' data-transition='slide-in'>");
               var $div = $("<div class='media-body'>");
               //var $name = $("<b class='eventname'").append(item.name);
               var $fair = "<b class='eventname'>" + item.name + "</b> "+ "<br>Address:" + item.address.street_address + " " + item.address.city + " " + item.address.state + " " + item.address.zip_code + "<br>";
@@ -105,7 +105,7 @@
     });
 
     </script>
-
+<script src="dist/js/ratchet.js"></script>
     <script src="dist/js/isotop.js"></script>
     <script src=" dist/js/isotope.pkgd.js"></script>
 
