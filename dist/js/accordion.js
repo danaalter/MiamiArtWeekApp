@@ -1,4 +1,6 @@
-$(document).ready(function(){
+
+
+function accordion(){
     $(".set .menu-content").slideUp();
     $(".set > h3").click(function(){
         if($(this).hasClass('active')){
@@ -20,5 +22,10 @@ $(document).ready(function(){
 
     });
 
-});
+window.addEventListener('push', accordion);    
+
+$(document).ready(
+    accordion()
+)    
+
 
