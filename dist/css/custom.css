@@ -331,6 +331,10 @@ min-height:55px;
   background-color: rgba(255,255,255,.1);
 }
 
+.table-view {
+  background-color: rgba(255,255,255,.1);
+}
+
 li.table-view-cell {
 	  border-top: 1px solid white;
 	  border-bottom: 0px solid;
@@ -397,6 +401,7 @@ div.ui-group.box button:hover {
 /*=== Sponsors Page ===*/
 #sponsors-content{
 	text-align:center;
+    color: #fff;
 }
 #sponsors-content h2{
 	margin:7% auto;
@@ -404,12 +409,14 @@ div.ui-group.box button:hover {
 }
 #sponsors-content h3{
 	margin:8% auto;
-	color:#ccc;
+	color:#D0CECE;
 		
 }
 #sponsors-content p #intro{
 	color:red;
 }
+
+.content-padded { color: #fff;}
 
 .sponsor-logos{
 	text-align:center;

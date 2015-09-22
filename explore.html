@@ -28,7 +28,7 @@
       <script src="dist/js/bower_components/jquery/dist/jquery.min.js"></script>
       <script src="dist/js/accordion.js"></script>
       <script src="dist/js/isotop.js"></script>
-      <script src=" http://mfzy.co/isotope.pkgd.js"></script>
+       <script src=" dist/js/isotope.pkgd.js"></script>
   </head>
   <body>
 
@@ -83,9 +83,9 @@
          
           <div class="button-group js-radio-button-group" data-filter-group="location">
             <button class="button is-checked full " data-filter="">All  </button>
-            <button class="button full" data-filter=".restaurant">Restaurants</button>
-            <button class="button full" data-filter=".hotel">Hotels</button>
-            <button class="button full" data-filter=".landmark">Landmarks</button>
+            <button class="button full" data-filter=".restaurant" onclick="moveRestaurant();"><a href="#resturant">Restaurants</a></button>
+            <button class="button full" data-filter=".hotel" onclick="moveHotel();"> <a href="#hotel">Hotels</a></button>
+            <button class="button full" data-filter=".landmark" onclick="moveLandmark();"><a href="#landmark">Landmarks</a></button>
           </div>
         </div>
 
@@ -163,7 +163,36 @@
 
         
 </div><!--end content-->
+  <script>  
 
+//downtown
+
+      function moveHotel(){
+            alert("asjbakbdsffkd");
+      }
+// miami beach
+      function moveRestaurant(){
+        
+      }
+// midtown
+      function moveLandmark(){
+         
+      }
+
+
+
+
+ function position(){
+          if( window.location.hash == '#hotel' ){
+              moveHotel();
+          }else if( window.location.hash == '#restaurant' ){
+              moveRestaurant();
+          }else if( window.location.hash == '#landmark' ){
+              moveLandmark();
+          }
+      }
+      position();
+  </script>
 
 
   </body>
