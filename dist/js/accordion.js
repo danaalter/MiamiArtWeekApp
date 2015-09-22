@@ -19,13 +19,13 @@ function accordion(){
             $(this).siblings('.menu-content').slideDown(200);
 
         }
-
     });
+}
 
 window.addEventListener('push', accordion);    
 
-$(document).ready(
-    accordion()
-)   
+$(document).ready(function(){
+    accordion();
+});   
 
 
