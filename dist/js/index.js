@@ -22,7 +22,6 @@ function accordion(){
     });
 }
 
-window.addEventListener('push', accordion);    
 
 $(document).ready(function(){
     accordion();

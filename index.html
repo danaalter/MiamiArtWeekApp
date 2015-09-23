@@ -15,6 +15,7 @@
     <link href="dist/css/ratchet.css" rel="stylesheet">
       <!-- styles CSS -->
       <link href="dist/css/custom.css" rel="stylesheet">
+      <link href='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
 
     <!-- Include the compiled Ratchet JS -->
     <script src="dist/js/ratchet.js"></script>
@@ -24,7 +25,8 @@
     <script src="dist/js/preventtouch.js"></script> -->
       <!-- javascript link-->
       <script src="dist/js/bower_components/jquery/dist/jquery.min.js"></script>
-      <script src="dist/js/accordion.js"></script>
+      <script src='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+      <script src="dist/js/app.js"></script>
 
 
     <!-- Include the phonegap JS -->
@@ -57,7 +59,7 @@
     </nav>    
 
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
-    <div class="content">
+    <div class="content" id="index">
         <!--accordion menu-->
         <div class="accordion-container">
             <div class="set">

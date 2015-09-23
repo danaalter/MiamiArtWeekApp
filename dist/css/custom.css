@@ -512,7 +512,8 @@ and (max-device-width : 1024px)  {
 }
 
 
-
+button[disabled], html input[disabled] {
+    opacity: 0.3;
 
 
 
