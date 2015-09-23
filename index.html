@@ -15,6 +15,7 @@
     <link href="dist/css/ratchet.css" rel="stylesheet">
       <!-- styles CSS -->
       <link href="dist/css/custom.css" rel="stylesheet">
+      <link href='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
 
     <!-- Include the compiled Ratchet JS -->
     <script src="dist/js/ratchet.js"></script>
@@ -24,7 +25,8 @@
     <script src="dist/js/preventtouch.js"></script> -->
       <!-- javascript link-->
       <script src="dist/js/bower_components/jquery/dist/jquery.min.js"></script>
-      <script src="dist/js/accordion.js"></script>
+      <script src='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+      <script src="dist/js/app.js"></script>
 
 
     <!-- Include the phonegap JS -->
@@ -57,7 +59,7 @@
     </nav>    
 
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
-    <div class="content">
+    <div class="content" id="index">
         <!--accordion menu-->
         <div class="accordion-container">
             <div class="set">
@@ -97,9 +99,10 @@
                 </h3>
                 <div class="menu-content">
                     <ul>
-                        <li><a class="tab-item active" href="explore.html"  data-transition="slide-in">Hotels</a></li>
-                        <li><a class="tab-item active" href="explore.html"  data-transition="slide-in">Restaurants</a> </li>
-                        <li><a class="tab-item active" href="explore.html"  data-transition="slide-in">Landmarks</a> </li>
+                        <li><a class="tab-item active" href="explore.html" data-ignore="push">All</a></li>
+                        <li><a class="tab-item active" href="explore.html#hotel" data-ignore="push">Hotels</a></li>
+                        <li><a class="tab-item active" href="explore.html#restaurant"  data-ignore="push">Restaurants</a> </li>
+                        <li><a class="tab-item active" href="explore.html#landmark"  data-ignore="push">Landmarks</a> </li>
                     </ul>
                 </div>
             </div><!--end set-->
@@ -122,12 +125,12 @@
         
         <!--Sponsor Logos-->
         <div class="home-sponsors">
-    		<a href="http://spectrum-miami.com/?gclid=Cj0KEQjwvJqvBRCL77m2-uKczsIBEiQAkx8VjPJv2KL062ca9XlmtbehjBRDdzekRjtIUS1CGsXyLiEaAruv8P8HAQ"><img src="dist/img/sponsors/spectrum-logo-bw.png" width="150"></a>
-			<a href="https://www.artinstitutes.edu/miami"><img src="dist/img/sponsors/50th-MIU-bw.png" width="150"></a>
+    		<a href="http://spectrum-miami.com/?gclid=Cj0KEQjwvJqvBRCL77m2-uKczsIBEiQAkx8VjPJv2KL062ca9XlmtbehjBRDdzekRjtIUS1CGsXyLiEaAruv8P8HAQ"><img src="dist/img/sponsors/spectrum-logo-white.png" width="125"></a>
+			<a href="https://www.artinstitutes.edu/miami"><img src="dist/img/sponsors/50th-MIU-wt.png" width="125"></a>
         </div><!--end sponsor logos-->
 
     </div><!--end content-->
-    
+  
 
 
 <!-- For Debugging with weinre -->

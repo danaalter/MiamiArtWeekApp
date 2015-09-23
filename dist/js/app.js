@@ -1,3 +1,22 @@
+window.addEventListener('push', checkPage);
+
+var checkPage = function(){
+
+    var elm = document.getElementsByClassName("content")[0];
+    var script = elm.id;
+
+    if(script) {
+        $.getScript("dist/js/"+elm.id+".js")
+        .done(function( script, textStatus ) {
+           console.log( textStatus );
+        })
+        .fail(function( jqxhr, statusText, errorThrown ) {
+            console.log(errorThrown);
+            console.log(statusText);
+            console.log(jqxhr);
+        });
+    }
+};
 
 
 function accordion(){

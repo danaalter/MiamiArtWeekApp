@@ -22,13 +22,13 @@
 
     <!-- styles CSS -->
     <link href="dist/css/custom.css" rel="stylesheet">
-    <link href='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
+    
 
 
     <!-- javascript link-->
       <script src="dist/js/bower_components/jquery/dist/jquery.min.js"></script>
       <script src="dist/js/accordion.js"></script>
-      <script src='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+
   </head>
   <body>
 
@@ -55,7 +55,7 @@
     </nav>    
 
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
-    <div class="content">
+    <div class="content" id="map">
 
         <div class="segmented-control">
               <a class="control-item" href="#all" onclick="mapAll();">
@@ -74,7 +74,7 @@
                 WYNWOOD
               </a>
         </div>
-        <span class="mainslideicon icon icon-up"></span>
+        <!--<span class="mainslideicon icon icon-up"></span>-->
             <div class="mapcard">
                         <div>
                             <div id="container">
@@ -83,87 +83,6 @@
                                     <iframe width='100%' height='100%' frameBorder='0' src='https://a.tiles.mapbox.com/v4/mawmapp.e163ed3e/attribution,zoompan,zoomwheel,geocoder,share.html?access_token=pk.eyJ1IjoibWF3bWFwcCIsImEiOiJlZTcxNWQ0NTUwMGZlMWY4NGJjZGM1MWNhZjgwNjQyYiJ9.rhqya-EKOClCGCt8YSaeAg'></iframe>
                                 </div>
                               </div><!--end map-->
-
-
-
-                                <div class="mainslide mainslidedown">
-                                      
-                                    <ul class="table-view downtown">
-                                        <li class="table-view-cell table-view-divider">Downtown</li>
-                                        <li class="table-view-cell">
-                                            <a class="navigate-right">
-                                                <p id="info"></p>
-                                            </a>
-                                        </li>
-                                        <li class="table-view-cell">
-                                            <a class="navigate-right">
-                                                Item 2
-                                            </a>
-                                        </li>
-                                        <li class="table-view-cell">
-                                            <a class="navigate-right">
-                                                Item 3
-                                            </a>
-                                        </li>
-                                    </ul>
-
-                                    <ul class="table-view miamibeach">
-                                        <li class="table-view-cell table-view-divider">Miami Beach</li>
-                                        <li class="table-view-cell">
-                                            <a class="navigate-right">
-                                                Item 1
-                                            </a>
-                                        </li>
-                                        <li class="table-view-cell">
-                                            <a class="navigate-right">
-                                                Item 2
-                                            </a>
-                                        </li>
-                                        <li class="table-view-cell">
-                                            <a class="navigate-right">
-                                                Item 3
-                                            </a>
-                                        </li>
-                                    </ul>
-
-                                    <ul class="table-view midtown">
-                                        <li class="table-view-cell table-view-divider">Midtown</li>
-                                        <li class="table-view-cell">
-                                            <a class="navigate-right">
-                                                Item 1
-                                            </a>
-                                        </li>
-                                        <li class="table-view-cell">
-                                            <a class="navigate-right">
-                                                Item 2
-                                            </a>
-                                        </li>
-                                        <li class="table-view-cell">
-                                            <a class="navigate-right">
-                                                Item 3
-                                            </a>
-                                        </li>
-                                    </ul>
-
-                                    <ul class="table-view wynwood">
-                                        <li class="table-view-cell table-view-divider">Wynwood</li>
-                                        <li class="table-view-cell">
-                                            <a class="navigate-right">
-                                                Item 1
-                                            </a>
-                                        </li>
-                                        <li class="table-view-cell">
-                                            <a class="navigate-right">
-                                                Item 2
-                                            </a>
-                                        </li>
-                                        <li class="table-view-cell">
-                                            <a class="navigate-right">
-                                                Item 3
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div><!--End Slide up-->
                             </div><!--end container-->
                         </div><!--end content-->
             </div>
@@ -254,23 +173,6 @@
       });
 
 
-      /*var xhr = new XMLHttpRequest();
-      xhr.open("GET", "dist/js/data.json", true);
-      xhr.send();
-
-      xhr.onreadystatechange = function(){
-          if(xhr.readyState == 4 && xhr.status == 200){
-
-              var data = JSON.parse(xhr.responseText);
-              document.write("<p id="+"'info'"+">" + data.fairs[0].concept.time + "</"+"p>")
-          }
-      };
-
-       */
-
-      //end json data
-
-
 //Position function to match links from menu to maps. From the menu added anchor links to url and using this function looking to see if the id i called and if it is then runs the function to the already called map function.
       function position(){
           if( window.location.hash == '#downtown' ){
@@ -293,7 +195,7 @@
   </script>
 
 
-  <script>
+  <!--<script>
     var slideup = $(".mainslide");
     var slideupicon = $("span");
     slideupicon.click(function(){
@@ -306,7 +208,7 @@
         }
     })
 
-</script>
+</script>-->
 
 
 
