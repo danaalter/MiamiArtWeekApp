@@ -1,35 +1,35 @@
 {
-  "fairs":{
-    "artmiami": {
-    "ArtMiami":"",
-    "location":"midtown",
-    "dates":"dec1dec2dec3dec4dec4dec5dec6",
-    "datesFullText":"VIPPreview(AccessforCONTEXT,ArtMiami&AquaVIPCardholders&Press:<br>Tuesday,December1,2015<br>5:30pm-10pm<br>GeneralAdmission:<br>Wednesday,December2,2015<br>11am- 8pm<br>Thursday,December3,2015<br>11am- 8pm<br>Friday,December4,2015<br>11am- 8pm<br>Saturday,December5,2015<br>11am- 8pm<br>Sunday,December6,2015<br>11am- 6pm", 
-    "admissionFullText":"<br>Dayticket(ArtMiamiandCONTEXTOnly):<br>USD40<br>Seniors(62years+):<br>USD25<br>Children(under12yearsaccompaniedbyadult):<br>Free<br>Groups10+(onlineticketsonly):<br>USD10<br>Multi-dayfairticket(Aqua,CONTEXTandArtMiami):<br>USD85<br>AMulti-DayFairPassprovidesadmissiontoAquaArtMiami,CONTEXT,andArtMiami<br>Allticketsarenonrefundable",    
-    "highlights":"",
-    "website":"http://www.miamifair.com",
-    "phone":"",
-    "address":{
-      "street_address":"3101NE1stAvenue",
-      "city":"Miami",
-      "state":"FL",
-      "zip_code":"33137"}
-    },
-   "context": {
-    "name":"Context",
-    "location":"midtown",
-    "dates":"dec1de1dec3dec4dec5dec6",
-    "datesFullText":"VIPPreview(AccessforCONTEXT,ArtMiami&AquaVIPCardholders&Press:<br>Tuesday,December1,2015<br>5:30pm-10pm<br>GeneralAdmission:<br>Wednesday,December2,2015<br>11am- 8pm<br>Thursday,December3,2015<br>11am- 8pm<br>Friday,December4,2015<br>11am- 8pm<br>Saturday,December5,2015<br>11am- 8pm<br>Sunday,December6,2015<br>11am- 6pm", 
-    "admissionFullText":"Dayticket(ArtMiamiandCONTEXTOnly):<br>USD40<br>Seniors(62years+):<br>USD25<br>Children(under12yearsaccompaniedbyadult):<br>Free<br>Groups10+(onlineticketsonly):<br>USD10<br>Multi-dayfairticket(Aqua,CONTEXTandArtMiami):<br>USD85<br>AMulti-DayFairPassprovidesadmissiontoAquaArtMiami,CONTEXT,andArtMiami<br>Allticketsarenonrefundable",    
-    "highlights":"",
-    "website":"http://www.contextartmiami.com",
-    "phone":"",
-    "address":{
-      "street_address":"2901NE1stAvenue",
-      "city":"MiamiBeach",
-      "state":"FL",
-      "zip_code":"33137"}
-    },
+  "fairs":{
+    "artmiami": {
+    "ArtMiami":"",
+    "location":"midtown",
+    "dates":"dec1dec2dec3dec4dec4dec5dec6",
+    "datesFullText":"VIPPreview(AccessforCONTEXT,ArtMiami&AquaVIPCardholders&Press:<br>Tuesday,December1,2015<br>5:30pm-10pm<br>GeneralAdmission:<br>Wednesday,December2,2015<br>11am- 8pm<br>Thursday,December3,2015<br>11am- 8pm<br>Friday,December4,2015<br>11am- 8pm<br>Saturday,December5,2015<br>11am- 8pm<br>Sunday,December6,2015<br>11am- 6pm",
+    "admissionFullText":"<br>Dayticket(ArtMiamiandCONTEXTOnly):<br>USD40<br>Seniors(62years+):<br>USD25<br>Children(under12yearsaccompaniedbyadult):<br>Free<br>Groups10+(onlineticketsonly):<br>USD10<br>Multi-dayfairticket(Aqua,CONTEXTandArtMiami):<br>USD85<br>AMulti-DayFairPassprovidesadmissiontoAquaArtMiami,CONTEXT,andArtMiami<br>Allticketsarenonrefundable",
+    "highlights":"",
+    "website":"http://www.miamifair.com",
+    "phone":"",
+    "address":{
+      "street_address":"3101NE1stAvenue",
+      "city":"Miami",
+      "state":"FL",
+      "zip_code":"33137"}
+    },
+   "context": {
+    "name":"Context",
+    "location":"midtown",
+    "dates":"dec1de1dec3dec4dec5dec6",
+    "datesFullText":"VIPPreview(AccessforCONTEXT,ArtMiami&AquaVIPCardholders&Press:<br>Tuesday,December1,2015<br>5:30pm-10pm<br>GeneralAdmission:<br>Wednesday,December2,2015<br>11am- 8pm<br>Thursday,December3,2015<br>11am- 8pm<br>Friday,December4,2015<br>11am- 8pm<br>Saturday,December5,2015<br>11am- 8pm<br>Sunday,December6,2015<br>11am- 6pm",
+    "admissionFullText":"Dayticket(ArtMiamiandCONTEXTOnly):<br>USD40<br>Seniors(62years+):<br>USD25<br>Children(under12yearsaccompaniedbyadult):<br>Free<br>Groups10+(onlineticketsonly):<br>USD10<br>Multi-dayfairticket(Aqua,CONTEXTandArtMiami):<br>USD85<br>AMulti-DayFairPassprovidesadmissiontoAquaArtMiami,CONTEXT,andArtMiami<br>Allticketsarenonrefundable",    
+    "highlights":"",
+    "website":"http://www.contextartmiami.com",
+    "phone":"",
+    "address":{
+     "street_address":"2901NE1stAvenue",
+     "city":"MiamiBeach",
+     "state":"FL",
+     "zip_code":"33137"}
+    },
 "pintamiami":{
 "name":"PintaMiami",
 "location":"midtown",
@@ -90,7 +90,7 @@
 "state":"FL",
 "zip_code":"33137"}
 }
-  }
+  }
 }
 
 
