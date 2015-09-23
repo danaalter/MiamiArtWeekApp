@@ -1,905 +1,156 @@
 {
-  "location": [{
-    "miami_beach":{
-      "fairs":{
-        "Art Basel 14th Edition ": {
-          "name":"Art Basel",
-          "address": {
-              "street_address":"Miami Beach Convention Center, 1901 Convention Center Drive",
-              "city":"Miami Beach",
-              "state":"FL",
-              "zip_code": "33139"
-          },
-          "website": "www.artbasel.com",
-          "director": "",
-          "dates": [
-            {
-              "day": "Wednesday",
-              "month":"December",
-              "time": "11:00am - 8:00pm",
-              "information": "Private Event (by invitation only)"
-            },  
-            {
-              "day": "Thursday",
-              "month":"December",
-              "time": "3:00pm - 8:00pm",
-              "information": "Vernissage (by invitation only)"
-            }, 
-            {
-              "day": "Friday",
-              "month":"December",
-              "time": "12:00pm - 8:00pm",
-              "information": "Tickets Avaiable for Sale"
-            }, 
-            {
-              "day": "Saturday",
-              "month":"December",
-              "time": "12:00pm - 8:00pm",
-              "information": "Tickets Avaiable for Sale"
-            }, 
-            {
-              "day": "Sunday",
-              "month":"December",
-              "time": "12:00pm - 6:00pm",
-              "information": "Tickets Avaiable for Sale"
-            }, 
-           ],
-          "admission": [
-            {
-              "entryLevel": "Day Ticket",
-              "price": "$47",
-              "age": "all ages",
-              "information": ""
-            },  
-            {
-              "entryLevel": "Permanent Ticket",
-              "price": "$100",
-              "age": "all ages",
-              "information": ""
-            }, 
-            {
-              "entryLevel": "Student/Senior",
-              "price": "$30",
-              "age": "",
-              "information": "with valid ID"
-            },   
-            {
-              "entryLevel": "Combination day ticket for Art Basel and Design Miami",
-              "price": "$60",
-              "age": "all ages",
-              "information": ""
-            },  
-          ],
-          "highlights": "",
-          "contact": {
-              "name": "",
-              "phone": "]",
-              "email": ""
-          },
-          "sponsor": "",
-          "maps": ""
+    "fairs": {
+        "artbasel"  : {
+        "name": "Art Basel 14th Edition",
+        "location": "Miami Beach",
+        "dates": "dec2 dec3 dec4 dec5 dec6",
+        "datesFullText": "Private day (by invitation only): <br>Wednesday, December 2, 2015 <br>11am - 8pm<br><br>Vernissage (by invitation only): <br>Thursday, December 3, 2015 <br>11am - 3pm<br><br>General Admission:<br>Thursday, December 3, 2015<br>3pm  8pm <br><br>Friday, December 4, 2015 <br>12 noon - 8pm <br><br>Saturday, December 5, 2015 <br>12 noon - 8pm <br><br>Sunday, December 6, 2015 <br>12 noon - 6pm",
+        "Admissions": "Day ticket: <br>USD 47 <br> <br>Permanent ticket: <br>USD 100 <br> <br>Reduced Day ticket for Students/Seniors: <br>USD 30 <br> <br>Combination day ticket for Art Basel and Design Miami: <br>USD 60", 
+        "highlights": "",
+        "website": "",
+        "phone": "",
+        "address": {
+        "street_address": "Miami Beach Convention Center<br>1901 Convention Center Drive",
+        "city": "Miami Beach",
+        "state": "FL",
+        "zip_code": "33139"},
+        }, 
+        "artonpaper": {
+        "name":"Art on Paper",
+        "location": "Miami Beach",
+        "dates": "dec1 dec2 dec3 dec4 dec5 dec6",
+        "datesFullText": "Preview:<br>Tuesday, December 1, 2015 <br>4pm - 10pm<br><br>General Admission: <br>Wednesday, December 2, 2015 <br>11am - 2pm <br><br>Thursday, December 3, 2015 <br>11am - 7pm <br> <br>Friday, December 4, 2015 <br>11am - 7pm <br> <br>Saturday, December 5, 2015 <br>11am - 7pm <br> <br>Sunday, December 6, 2015 <br>11am - 6pm", 
+        "admissionFullText": "",
+        "highlights": "Art on Paper's inaugural Miami Beach edition will launch during this year's Miami Art Week, bringing the acclaimed fair to the epicenter of the international arts community. Art on Paper NYC welcomed over 20,000 visitors in March of 2015 and saw strong sales to top collectors, quickly becoming a New York City favorite. Like its sister fair, Art on Paper Miami's exhibiting galleries will feature sculpture, drawing, painting, and photography, all unified by the medium of paper.",
+        "website": "http://www.thepaperfair.com",
+        "phone": "",
+        "address": {
+        "street_address":"Deauville Beach Resort,<br>6701 Collins Avenue, Miami Beach",
+        "city":"Miami Beach",
+        "state":"FL",
+        "zip_code": "33141"}
+        },
+        "aquaartmiami" :  {
+        "name": "Aqua Art Miami 11th Edition",
+        "location": "Miami Beach",
+        "dates": "dec2 dec3 dec4 dec5 dec6",
+        "datesFullText": "VIP Preview: <br>Wednesday, December 2, 2015 <br>3 pm - 10 pm <br> <br>General Admission: <br>Thursday, December 3, 2015 <br>12 noon - 9pm <br> <br>Friday, December 4, 2015 <br>11am - 9pm <br> <br>Saturday, December 5, 2015 <br>11am - 9pm <br> <br>Sunday, December 6, 2015 <br>11am - 6pm", 
+        "admissionFullText": "Day ticket (Aqua Miami Only): <br>USD 15 <br> <br>Seniors (62 years+): <br>USD 10 <br> <br>Children (under 12 years accompanied by adult): <br>Free <br> <br>Groups 10+ (online tickets only): <br>USD 10 <br> <br>Multi-day fair ticket (Aqua, CONTEXT and Art Miami): <br>USD 85 <br> <br>A Multi-Day Fair Pass provides admission to Aqua Art Miami, CONTEXT, and Art Miami <br> <br>All tickets are nonrefundable", "highlights": "",
+        "website": "",
+        "address": {
+            "street_address": "Aqua Hotel, 1530 Collins Avenue",
+            "city": "Miami Beach",
+            "state": "FL",
+            "zip_code": "33139"}
+        },
+        "designmiami" :  {
+        "name": "Design Miami 11th Edition",
+        "location": "Miami Beac",
+        "dates": "dec1 dec2 dec3 dec4 dec5 dec6",
+        "datesFullText": "Preview Day (by invitation only): <br>Tuesday, December 1, 2015 <br> <br>Collectors Preview: <br>12 noon - 6pm <br> <br>Vernissage <br>6pm - 8pm <br> <br>General Admission: <br>Wednesday, December 2, 2015 <br>10am - 8pm <br> <br>Thursday, December 3, 2015 <br>10am - 8pm <br> <br>Friday, December 4, 2015 <br>11am - 8pm <br> <br>Saturday, December 5, 2015 <br>12 noon - 8pm <br> <br>Sunday, December 6, 2015 <br>12 noon - 6pm ",
+        "admissionFullText": "General Admission: <br>USD 25 <br> <br>Students & Senior Citizens (with valid ID): <br>USD 20 <br> <br>Combination ticket Design Miami/ and <br>Art Basel in Miami Beach: <br>USD 55 <br> <br>Tickets are valid for one day only. <br> <br>Tickets can be purchased at the fair entrance Wednesday to Sunday, December 2-6, 2015. ", "highlights": "",
+        "website": "http://www.designmiami.com",
+        "address": {
+            "street_address": " Aqua Hotel 1530 Collins Avenue",
+            "city": "Miami Beach",
+            "state": "FL",
+            "zip_code": "33139"}
+        },
+        "fridge" :  {
+        "name": "Fridge Art Fair",
+        "location": "Miami Beach",
+        "dates": "dec3 dec4 dec5 dec6",
+        "datesFullText": "VIP and Press Preview: <br>Thursday, December 3, 2015 <br>5pm - 7pm <br> <br>Benefit Galla: <br>Thursday, December 3, 2015 <br>7pm - 10pm <br> <br>General Admission: <br>Friday, December 4, 2015 <br>11am - 9pm <br> <br>Saturday, December 5, 2015 <br>11am - 9pm <br> <br>Sunday, December 6, 2015 <br>11am - 6pm", "admissionFullText": "",
+        "highlights": "One of this year’s special features is the Great Holiday Fridge Fudge Pop Project, a conceptual piece that incorporates a traditional Cuban Xmas roast pork paper mâché sculpture, inflatable “Doggie Dreidel,” plastic holiday art tree, holiday water world, and more. Additional Fair events include a film screening, video projections, and pop-up exhibit.",
+        "website": "http://www.fridgeartfair.com",
+        "address": {
+            "street_address": "Holiday Inn Miami Beach<br>4333 Collins Avenue",
+            "city": "Miami Beach",
+            "state": "FL",
+            "zip_code": "33140"}
+        },
+        "ink" :  {
+        "name": "INK Miami Art Fair",
+        "location": "Miami Beach",
+        "dates": "dec2 dec3 dec4 dec5 dec6",
+        "datesFullText": "Wednesday, December 2, 2015 <br>9am - 5pm <br> <br>Thursday, December 3, 2015 <br>10am - 5pm <br> <br>Friday, December 4, 2015 <br>10am - 8pm <br> <br>Saturday, December 5, 2015 <br>10am - 8pm <br> <br>Sunday, December 6, 2015 <br>10am - 3pm", 
+        "admissionFullText": "",
+        "highlights": "",
+        "website": "http://www.inkartfair.com",
+        "address": {
+            "street_address": "Suites of Dorchester<br> 1850 Collins Avenue (19th St)",
+            "city": "Miami Beach",
+            "state": "FL",
+            "zip_code": "33139"}
+        },
+        "miamiproject" :  {
+        "name": "Miami Project",
+        "location": "Miami Beach",
+        "dates": "dec1 dec2 dec3 dec4 dec5 dec6",
+        "datesFullText": "Preview: <br>Tuesday, December 1, 2015 <br>6pm - 10pm <br> <br>General Admission: <br>Wednesday, December 2, 2015 <br>11am - 2pm <br> <br>Thursday, December 3, 2015 <br>11am - 7pm <br> <br>Friday, December 4, 2015 <br>11am - 7pm <br> <br>Saturday, December 5, 2015 <br>11am - 7pm <br> <br>Sunday, December 6, 2015 <br>11am - 6pm", 
+        "admissionFullText": "Day ticket: <br>USD 35 <br> <br>Opening Night: <br>USD 100",
+        "highlights": "Miami Project returns in 2015 for its fourth edition, bringing the best in modern and contemporary art to the fair's new waterfront location on Collins Avenue at 73rd Street, just blocks from the historic Deauville Beach Resort. Plans are under way for another singularly elegant environment produced with the unique attention to detail that Miami Project has become known for. Building on past years of success, including 2014's record attendance of over 25,000 visitors, Miami Project Edition 4 will feature 60 top galleries from around the world in a bright and airy beachside Pavilion, affording easy access to and from the Miami Beach Convention Center. Our move to the new Miami Project Pavilion and the incredible quality of our exhibiting galleries are sure to make 2015 Miami Project's strongest year yet.  ",
+        "website": "http://www.miami-project.com",
+        "address": {
+            "street_address": "7275 Collins Ave",
+            "city": "Miami Beach",
+            "state": "FL",
+            "zip_code": "33141"}
+        },
+        "nada" :  {
+        "name": "NADA / New Art Dealears Alliance",
+        "location": "Miami Beac",
+        "dates": "dec3 dec4 dec5 dec6",
+        "datesFullText": "Preview (by invitation only): <br>Thursday, December 3, 2015 <br>10am - 2pm <br> <br>General Admission: <br>Thursday, Decemeber 3, 2015 <br>2pm – 8pm <br> <br>Friday, December 4, 2015 <br>10am - 7pm <br> <br>Saturday, December 5, 2015 <br>10am – 7pm <br> <br>Sunday, December 6, 2015 <br>10am – 6pm", 
+        "admissionFullText": "",
+        "highlights": "",
+        "website": "http://www.newartdealers.org",
+        "phone": "",
+        "address": {
+            "street_address": "The Fontainebleau Miami Beach <br>4441 Collins Ave",
+            "city": "Miami Beach",
+            "state": "FL",
+            "zip_code": "33140"}
+        },
+        "pulse" :  {
+        "name": "Pulse Contemporary Art Fair",
+        "location": "Miami Beach",
+        "dates": "dec1 dec2 dec3 dec4 dec5",
+        "datesFullText": "Private Preview Brunch (by VIP invitation only):<br>Tuesday, December 1, 2015 <br>1pm – 4pm <br> <br>Opening Celebration (open to the public): <br>Tuesday, December 1, 2015 <br>4pm – 7pm <br> <br>Wednesday, December 2, 2015 <br>10am – 7pm <br> <br>Thursday, December 3, 2015 <br>10am – 7pm <br> <br>Friday, December 4, 2015 <br>December 5: 10am – 7pm <br> <br>Saturday, December 5, 2015 <br>10am – 5pm <br> <br>Sunset Celebration (open to the public): <br>Saturday, December 5, 2015 <br>5pm – 7pm", 
+        "admissionFullText": "General Admission: <br>USD 25 <br> <br>Multi-Pass (5 day unlimited entry): <br>USD 40 <br> <br>Student/Senior (with valid ID): <br>USD 15 <br> <br>Group Discount (10 or more): <br>USD 10", "highlights": "A complimentary shuttle service will operate between Art Basel Miami Beach and PULSE Miami Beach during all fair hours. <br>More information will also be announced soon about our talks series, PERSPECTIVES, and our theme for the year.",
+        "website": "http://www.pulse-art.com",
+        "address": {
+            "street_address": "Indian Beach Park <br>4601 Collins Avenue",
+            "city": "Miami Beach",
+            "state": "FL",
+            "zip_code": "33140"}       
+        },
+        "scope" :  {
+        "name": "SCOPE - Miami Beach",
+        "location": "Miami Beach",
+        "dates": "",
+        "datesFullText": "Platinum First View (Invitation or Platinum VIP card needed for entry): <br>Tuesday, December 1, 2015 <br>12 noon - 4pm <br> <br>VIP | Press Preview (VIP card holders and Press only): <br>Tuesday, December 1, 2015 <br>4pm - 8pm <br> <br>General Admission: <br> <br>Wednesday, December 2, 2015 <br>11am - 8pm <br> <br>Thursday, December 3, 2015 <br>11am - 8pm <br> <br>Friday, December 4, 2015 <br>11am - 8pm <br> <br>Saturday, December 5, 2015 <br>11am - 8pm <br> <br>Sunday, December 6, 2015 <br>11am - 8pm", 
+        "admissionFullText": "Free for VIP cardholders <br> <br>Platinum First View: <br>USD 150 <br> <br>General VIP & Press: <br>USD 100 <br> <br>General Admission:  <br>USD 35 <br> <br>Students: <br>USD 25",
+        "highlights": "",
+        "website": "http://www.scope-art.com",
+        "address": {
+            "street_address": "801 Ocean Drive",
+            "city": "Miami Beach",
+            "state": "FL",
+            "zip_code": "33139"}
+        },
+        "untitled" :  {
+        "name": "UNTITLED",
+        "location": "Miami Beach",
+        "dates": "",
+        "datesFullText": "VIP Preview: <br>Tuesday, December 1, 2015 <br>4pm - 6pm <br> <br>General Admission: <br> <br>Wednesday, December 2, 2015 <br>11am - 7pm <br> <br>Thursday, December 3, 2015 <br>11am - 7pm <br> <br>Friday, December 4, 2015 <br>11am - 7pm <br> <br>Saturday, December 5, 2015 <br>11am - 7pm <br> <br>Sunday, December 6, 2015 <br>11am - 5pm", 
+        "admissionFullText": "Adults: <br>USD 25 <br> <br>Seniors, students, multi-day, and Miami Beach residents: <br>USD 15", "highlights": "",
+        "website": "http://www.art-untitled.com",
+        "address": {
+            "street_address": "Ocean Drive and 12th Street",
+            "city": "Miami Beach",
+            "state": "FL",
+            "zip_code": "33139"}
         }
-      }
-      }
     }
-  ]
-}
-{
-  "location": [{
-    "miami_beach":{
-      "fairs":{
-        "Art on Paper": {
-          "name":"Art on Paper",
-          "address": {
-              "street_address":"Deauville Beach Resort, 6701 Collins Avenue, Miami Beach",
-              "city":"Miami Beach",
-              "state":"FL",
-              "zip_code": "33140"
-          },
-          "website": "",
-          "director": "",
-          "dates": [
-            {
-              "day": "Tuesday",
-              "month":"December",
-              "time": "4:00pm - 10:00pm",
-              "information": "Art on Paper Miami Preview"
-            }, 
-            {
-              "day": "Wednesday",
-              "month":"December",
-              "time": "11:00am - 2:00pm",
-              "information": "Public Fair"
-            },  
-            {
-              "day": "Thursday",
-              "month":"December",
-              "time": "11:00am - 7:00pm",
-              "information": "Public Fair"
-            }, 
-            {
-              "day": "Friday",
-              "month":"December",
-              "time": "11:00am - 7:00pm",
-              "information": "Public Fair"
-            }, 
-            {
-              "day": "Saturday",
-              "month":"December",
-              "time": "11:00am - 7:00pm",
-              "information": "Public Fair"
-            }, 
-            {
-              "day": "Sunday",
-              "month":"December",
-              "time": "11:00pm - 6:00pm",
-              "information": "Public Fair"
-            }, 
-           ],
-          "admission": [
-            {
-              "entryLevel": "Opening Night",
-              "price": "$100",
-              "age": "all ages",
-              "information": ""
-            },  
-            {
-              "entryLevel": "1 Day Pass",
-              "price": "$35",
-              "age": "all ages",
-              "information": ""
-            },  
-          ],
-          "highlights": "Art on Paper's inaugural Miami Beach edition will launch during this year's Miami Art Week, bringing the acclaimed fair to the epicenter of the international arts community. Art on Paper NYC welcomed over 20,000 visitors in March of 2015 and saw strong sales to top collectors, quickly becoming a New York City favorite. Like its sister fair, Art on Paper Miami's exhibiting galleries will feature sculpture, drawing, painting, and photography, all unified by the medium of paper.",
-          "contact": {
-              "name": "",
-              "phone": "",
-              "email": ""
-          },
-          "sponsor": "no",
-          "maps": "500"
-        }
-      }
-      }
-    }
-  ]
-}
-{
-  "location": [{
-    "miami_beach":{
-      "fairs":{
-        "Aqua Art Miami 11th Edition": {
-          "name":"Art Miami",
-          "address": {
-              "street_address":"Aqua Hotel, 1530 Collins Avenue",
-              "city":"Miami Beach",
-              "state":"FL",
-              "zip_code": "33139"
-          },
-          "website": "www.aquaartmiami.com",
-          "director": "",
-          "dates": [
-            {
-              "day": "Wednesday",
-              "month":"December",
-              "time": "3:00pm - 10:00pm",
-              "information": "VIP Preview"
-            },  
-            {
-              "day": "Thursday",
-              "month":"December",
-              "time": "12:00pm - 9:00pm",
-              "information": "General Admission"
-            }, 
-            {
-              "day": "Friday",
-              "month":"December",
-              "time": "11:00am - 9:00pm",
-              "information": "General Admission"
-            }, 
-            {
-              "day": "Saturday",
-              "month":"December",
-              "time": "11:00am - 9:00pm",
-              "information": "General Admission"
-            }, 
-            {
-              "day": "Sunday",
-              "month":"December",
-              "time": "11:00pm - 6:00pm",
-              "information": "General Admission"
-            }, 
-           ],
-          "admission": [
-            {
-              "entryLevel": "1 Day Fair Pass",
-              "price": "$15",
-              "age": "all ages",
-              "information": "Aqua Miami Only"
-            },  
-            {
-              "entryLevel": "1 Day Pass",
-              "price": "$85",
-              "age": "all ages",
-              "information": "Aqua, Context, adn Art Miami"
-            },
-             {
-              "entryLevel": "Seniors 62 years +",
-              "price": "$10",
-              "age": "62+",
-              "information": "Aqua, Context, adn Art Miami"
-            },
-             {
-              "entryLevel": "Children under 12",
-              "price": "$0",
-              "age": "Under 12",
-              "information": "Must be accompanied by aduld"
-            },
-             {
-              "entryLevel": "Groups of 10 or more",
-              "price": "$10",
-              "age": "all ages",
-              "information": "Online tickets only"
-            },  
-          ],
-          "highlights": "",
-          "contact": {
-              "name": "",
-              "phone": "",
-              "email": ""
-          },
-          "sponsor": "no",
-          "maps": "500"
-        }
-      }
-      }
-    }
-  ]
-}
-{
-  "location": [{
-    "miami_beach":{
-      "fairs":{
-        "Design Miami 11th Edition": {
-          "name":"Design Miami",
-          "address": {
-              "street_address":"Meridian Avenue & 19th Street, Adjacent to the Miami Beach Convention Center",
-              "city":"Miami Beach",
-              "state":"FL",
-              "zip_code": "33139"
-          },
-          "website": "www.designmiami.com",
-          "director": "",
-          "dates": [
-            {
-              "day": "Tuesday",
-              "month":"December",
-              "time": "12:00pm - 6:00pm",
-              "information": "Collectors Preview by Invitation only"
-            }, 
-            {
-              "day": "Tuesday",
-              "month":"December",
-              "time": "6:00pm - 8:00pm",
-              "information": "Vernissage by Invitation only"
-            }, 
-            {
-              "day": "Wednesday",
-              "month":"December",
-              "time": "10:00am - 8:00pm",
-              "information": "Public Show"
-            },  
-            {
-              "day": "Thursday",
-              "month":"December",
-              "time": "10:00am - 8:00pm",
-              "information": "Public Show"
-            }, 
-            {
-              "day": "Friday",
-              "month":"December",
-              "time": "11:00am - 8:00pm",
-              "information": "Public Show"
-            }, 
-            {
-              "day": "Saturday",
-              "month":"December",
-              "time": "12:00pm - 9:00pm",
-              "information": "Public Show"
-            }, 
-            {
-              "day": "Sunday",
-              "month":"December",
-              "time": "12:00pm - 6:00pm",
-              "information": "Public Show"
-            }, 
-           ],
-          "admission": [
-            {
-              "entryLevel": "General Admissions",
-              "price": "$25",
-              "age": "all ages",
-              "information": "Tickets can be purchased at the far entrance Wednesdy to Sunday, December 2-6, 2015."
-            },
-            {
-              "entryLevel": "Student & Sention Citizens",
-              "price": "$20",
-              "age": "all ages",
-              "information": "(with valid id)"
-            },
-            {
-              "entryLevel": "Combination ticket Design Miami and Art Basel in Miami Beach",
-              "price": "$55",
-              "age": "all ages",
-              "information": "Tickets are valid for one day only"
-            },  
-          ],
-          "highlights": "",
-          "contact": {
-              "name": "",
-              "phone": "",
-              "email": ""
-          },
-          "sponsor": "no",
-          "maps": "500"
-        }
-      }
-      }
-    }
-  ]
-}
-{
-  "location": [{
-    "miami_beach":{
-      "fairs":{
-        "Fridge Art Fair 3rd Edition": {
-          "name":"Fridge Art Fair",
-          "address": {
-              "street_address":"Holiday Inn Miami Beach,4333 Collins Avenue",
-              "city":"Miami Beach",
-              "state":"FL",
-              "zip_code": "33140"
-          },
-          "website": "www.fridgeartfair.com",
-          "director": "",
-          "dates": [
-            {
-              "day": "Wednesday",
-              "month":"December",
-              "time": "8:00pm",
-              "information": "Fudge Pop Pre-Party"
-            },  
-            {
-              "day": "Thursday",
-              "month":"December",
-              "time": "4:00pm - 9:00pm",
-              "information": ""
-            }, 
-            {
-              "day": "Friday",
-              "month":"December",
-              "time": "11:00am - 9:00pm",
-              "information": ""
-            }, 
-            {
-              "day": "Saturday",
-              "month":"December",
-              "time": "12:00pm - 9:00pm",
-              "information": ""
-            }, 
-            {
-              "day": "Sunday",
-              "month":"December",
-              "time": "12:00pm - 6:00pm",
-              "information": ""
-            }, 
-           ],
-          "admission": [
-            {
-              "entryLevel": "Adult",
-              "price": "$10",
-              "age": "",
-              "information": ""
-            },
-            {
-              "entryLevel": "Children",
-              "price": "$5",
-              "age": "",
-              "information": ""
-            },
-          ],
-          "highlights": "Fridge Art Fair is the boutique, soft sell, dog-friendly satellite fair dubbed as, “The baby who has refused to obey orders to stand outside the door while the adults confabulate inside,” by Artinfo.",
-          "contact": {
-              "name": "",
-              "phone": "",
-              "email": ""
-          },
-          "sponsor": "no",
-          "maps": "500"
-        }
-      }
-      }
-    }
-  ]
-}
-{
-  "location": [{
-   "miami_beach":{
-      "fairs":{
-        "INK Miami Art Fair / ifppa 10th Edition": {
-          "name":"INK Miami Art Fair",
-          "address": {
-              "street_address":"Suites of Dorchester, 1850 Collins Avenue (19th St)",
-              "city":"Miami Beach",
-              "state":"FL",
-              "zip_code": "33139"
-          },
-          "website": "www.inkartfair.com",
-          "director": "",
-          "dates": [
-            {
-              "day": "Wednesday",
-              "month":"December",
-              "time": "9:00am - 5:00pm",
-              "information": ""
-            },  
-            {
-              "day": "Thursday",
-              "month":"December",
-              "time": "10:00am - 5:00pm",
-              "information": ""
-            }, 
-            {
-              "day": "Friday",
-              "month":"December",
-              "time": "10:00am - 8:00pm",
-              "information": ""
-            }, 
-            {
-              "day": "Saturday",
-              "month":"December",
-              "time": "10:00am - 8:00pm",
-              "information": ""
-            }, 
-            {
-              "day": "Sunday",
-              "month":"December",
-              "time": "10:00pm - 3:00pm",
-              "information": ""
-            }, 
-           ],
-          "admission": [
-            {
-              "entryLevel": "Free",
-              "price": "",
-              "age": "",
-              "information": ""
-            },
-          ],
-          "highlights": "Sponsored by the International Fine Print Dealers",
-          "contact": {
-              "name": "",
-              "phone": "",
-              "email": ""
-          },
-          "sponsor": "no",
-          "maps": "500"
-        }
-      }
-      }
-    }
-  ]
-}
-{
-  "location": [{
-    "miami_beach":{
-      "fairs":{
-        "Miami Project 4th Edition": {
-          "name":"Miami Project",
-          "address": {
-              "street_address":"Collins Avenue & 73rd Street, 7275 Collins Ave",
-              "city":"Miami Beach",
-              "state":"FL",
-              "zip_code": "33141"
-          },
-          "website": "www.miami-project.com",
-          "director": "",
-          "dates": [
-            {
-              "day": "Tuesday",
-              "month":"December",
-              "time": "6:00pm - 10:00pm",
-              "information": "Miami Project Preview"
-            },  
-            {
-              "day": "Wednesday",
-              "month":"December",
-              "time": "11:00am - 2:00pm",
-              "information": ""
-            },  
-            {
-              "day": "Thursday",
-              "month":"December",
-              "time": "11:00am - 7:00pm",
-              "information": ""
-            }, 
-            {
-              "day": "Friday",
-              "month":"December",
-              "time": "11:00am - 7:00pm",
-              "information": ""
-            }, 
-            {
-              "day": "Saturday",
-              "month":"December",
-              "time": "11:00am - 7:00pm",
-              "information": ""
-            }, 
-            {
-              "day": "Sunday",
-              "month":"December",
-              "time": "11:00pm - 6:00pm",
-              "information": ""
-            }, 
-           ],
-          "admission": [
-            {
-              "entryLevel": "",
-              "price": "",
-              "age": "",
-              "information": ""
-            },
-          ],
-          "highlights": "Miami Project returns in 2015 for its fourth edition, bringing the best in modern and contemporary art to the fair's new waterfront location on Collins Avenue at 73rd Street, just blocks from the historic Deauville Beach Resort. Plans are under way for another singularly elegant environment produced with the unique attention to detail that Miami Project has become known for. Building on past years of success, including 2014's record attendance of over 25,000 visitors, Miami Project Edition 4 will feature 60 top galleries from around the world in a bright and airy beachside Pavilion, affording easy access to and from the Miami Beach Convention Center. Our move to the new Miami Project Pavilion and the incredible quality of our exhibiting galleries are sure to make 2015 Miami Project's strongest year yet.",
-          "contact": {
-              "name": "",
-              "phone": "",
-              "email": ""
-          },
-          "sponsor": "no",
-          "maps": "500"
-        }
-      }
-      }
-    }
-  ]
-}
-{
-  "location": [{
-    "miami_beach":{
-      "fairs":{
-        "NADA / New Art Dealears Alliance 13th Edition": {
-          "name":"NADA / New Art Dealers",
-          "address": {
-              "street_address":"The Fontainebleau Miami Beach, 4441 Collins Ave",
-              "city":"Miami Beach",
-              "state":"FL",
-              "zip_code": "33140"
-          },
-          "website": "www.newartdealers.org",
-          "director": "",
-          "dates": [
-            {
-              "day": "Thursday",
-              "month":"December",
-              "time": "",
-              "information": ""
-            }, 
-            {
-              "day": "Friday",
-              "month":"December",
-              "time": "",
-              "information": ""
-            }, 
-            {
-              "day": "Saturday",
-              "month":"December",
-              "time": "",
-              "information": ""
-            }, 
-           ],
-          "admission": [
-            {
-              "entryLevel": "",
-              "price": "",
-              "age": "",
-              "information": "Admission is free and open to the public."
-            },
-          ],
-          "highlights": "Miami Project returns in 2015 for its fourth edition, bringing the best in modern and contemporary art to the fair's new waterfront location on Collins Avenue at 73rd Street, just blocks from the historic Deauville Beach Resort. Plans are under way for another singularly elegant environment produced with the unique attention to detail that Miami Project has become known for. Building on past years of success, including 2014's record attendance of over 25,000 visitors, Miami Project Edition 4 will feature 60 top galleries from around the world in a bright and airy beachside Pavilion, affording easy access to and from the Miami Beach Convention Center. Our move to the new Miami Project Pavilion and the incredible quality of our exhibiting galleries are sure to make 2015 Miami Project's strongest year yet.",
-          "contact": {
-              "name": "",
-              "phone": "",
-              "email": ""
-          },
-          "sponsor": "no",
-          "maps": "500"
-        }
-      }
-      }
-    }
-  ]
-}
-{
-  "location": [{
-    "miami_beach":{
-      "fairs":{
-        "Pulse Contemporary Art Fair 11th Edition": {
-          "name":"Pulse Contemporary Art Fair",
-          "address": {
-              "street_address":"Indian Beach Park, 4601 Collins Avenue",
-              "city":"Miami Beach",
-              "state":"FL",
-              "zip_code": "33140"
-          },
-          "website": "www.pulse-art.com",
-          "director": "",
-          "dates": [
-            {
-              "day": "Tuesday",
-              "month":"December",
-              "time": "1:00pm - 4:00pm",
-              "information": "Private Preview Brunch (by VIP invitation only)"
-            },
-            {
-              "day": "Tuesday",
-              "month":"December",
-              "time": "4:00pm - 7:00pm",
-              "information": "Opening Celbration (open to the public)"
-            },
-            {
-              "day": "Wednesday ",
-              "month":"December",
-              "time": "2:10am - 7:00pm",
-              "information": ""
-            },
-            {
-              "day": "Thursday",
-              "month":"December",
-              "time": "3:10am - 7:00pm",
-              "information": ""
-            }, 
-            {
-              "day": "Friday",
-              "month":"December",
-              "time": "5:10am - 7:00pm",
-              "information": ""
-            }, 
-            {
-              "day": "Saturday",
-              "month":"December",
-              "time": "6:10am - 5:00pm",
-              "information": ""
-            },
-              {
-              "day": "Saturday",
-              "month":"December",
-              "time": "5:00pm - 7:00pm",
-              "information": "Sunset Celebration (open to the public)"
-            },
-           ],
-          "admission": [
-            {
-              "entryLevel": "General Admission",
-              "price": "$25",
-              "age": "",
-              "information": ""
-            },
-            {
-              "entryLevel": "Multi-Pass",
-              "price": "$40",
-              "age": "",
-              "information": "5 day unlimited entry"
-            },
-            {
-              "entryLevel": "Student/Senior",
-              "price": "$15",
-              "age": "",
-              "information": "(with valid ID)"
-            },
-              {
-              "entryLevel": "Group Discount",
-              "price": "$15",
-              "age": "",
-              "information": "(10 or more)"
-            },
-          ],
-          "highlights": "A complimentary shuttle service will operate between Art Basel Miami Beach and PULSE Miami Beach during all fair hours. More information will also be announced soon about our talks series, PERSPECTIVES, and our theme for the year.",
-          "contact": {
-              "name": "",
-              "phone": "",
-              "email": ""
-          },
-          "sponsor": "no",
-          "maps": "500"
-        }
-      }
-      }
-    }
-  ]
-}
-{
-  "location": [{
-    "miami_beach":{
-      "fairs":{
-        "scope Miami Beach 15th Edition": {
-          "name":"scope",
-          "address": {
-              "street_address":"801 Ocean Drive",
-              "city":"Miami Beach",
-              "state":"FL",
-              "zip_code": "33139"
-          },
-          "website": "www.scope-art.com",
-          "director": "",
-          "dates": [
-            {
-              "day": "Tuesday",
-              "month":"December",
-              "time": "12:00pm - 4:00pm",
-              "information": "Platinum First View - Invitation or Platinum VIP card for entry"
-            },
-            {
-              "day": "Tuesday",
-              "month":"December",
-              "time": "4:00pm - 8:00pm",
-              "information": "VIP | Press Preview - VIP card holders and Press only"
-            },
-            {
-              "day": "Wednesday ",
-              "month":"December",
-              "time": "11:00am - 8:00pm",
-              "information": "General Admissions"
-            },
-            {
-              "day": "Thursday",
-              "month":"December",
-              "time": "11:00am - 7:00pm",
-              "information": "General Admissions"
-            }, 
-            {
-              "day": "Friday",
-              "month":"December",
-              "time": "11:00am - 8:00pm",
-              "information": "General Admissions"
-            }, 
-            {
-              "day": "Saturday",
-              "month":"December",
-              "time": "11:00am - 8:00pm",
-              "information": "General Admissions"
-            },
-              {
-              "day": "Sunday",
-              "month":"December",
-              "time": "11:00am - 8:00pm",
-              "information": "General Admissions"
-            },
-           ],
-          "admission": [
-            {
-              "entryLevel": "VIP cardholders",
-              "price": "$0",
-              "age": "",
-              "information": ""
-            },
-            {
-              "entryLevel": "Platinum First View",
-              "price": "$150",
-              "age": "",
-              "information": "Tuesday 12:00pm - 4:00pm"
-            },
-            {
-              "entryLevel": "General VIP & Press",
-              "price": "$100",
-              "age": "",
-              "information": "Tuesday 4:00pm - 8:00pm"
-            },
-              {
-              "entryLevel": "Public",
-              "price": "$35",
-              "age": "",
-              "information": "Wednesday - Sunday"
-            },
-              {
-              "entryLevel": "Student",
-              "price": "$25",
-              "age": "",
-              "information": "Wednesday - Sunday 11:00pm - 8:00pm"
-            },
-          ],
-          "highlights": "",
-          "contact": {
-              "name": "",
-              "phone": "",
-              "email": ""
-          },
-          "sponsor": "no",
-          "maps": "500"
-        }
-      }
-      }
-    }
-  ]
-}
-{
-  "location": [{
-    "miami_beach":{
-      "fairs":{
-        "Untitled 4th Edition": {
-          "name":"Untitled",
-          "address": {
-              "street_address":"Ocean Drive and 12th Street",
-              "city":"Miami Beach",
-              "state":"FL",
-              "zip_code": "33139"
-          },
-          "website": "www.art-untitled.com",
-          "director": "",
-          "dates": [
-            {
-              "day": "Tuesday",
-              "month":"December",
-              "time": "4:00pm - 6:00pm",
-              "information": "VIP Preview"
-            },
-            {
-              "day": "Wednesday ",
-              "month":"December",
-              "time": "11:00am - 7:00pm",
-              "information": ""
-            },
-            {
-              "day": "Thursday",
-              "month":"December",
-              "time": "11:00am - 7:00pm",
-              "information": ""
-            }, 
-            {
-              "day": "Friday",
-              "month":"December",
-              "time": "11:00am - 7:00pm",
-              "information": ""
-            }, 
-            {
-              "day": "Saturday",
-              "month":"December",
-              "time": "11:00am - 7:00pm",
-              "information": ""
-            },
-              {
-              "day": "Sunday",
-              "month":"December",
-              "time": "11:00am - 5:00pm",
-              "information": ""
-            },
-           ],
-          "admission": [
-            {
-              "entryLevel": "Adults",
-              "price": "$25",
-              "age": "",
-              "information": ""
-            },
-            {
-              "entryLevel": "Seniors, students, multi-day, and Miami Beach residents",
-              "price": "$15",
-              "age": "",
-              "information": ""
-            },
-          ],
-          "highlights": "Housed in a unique temporary structure designed by venerated architecture firm K/R that is suffused with natural light and will take full advantage of the unique attributes of its surroundings.",
-          "contact": {
-              "name": "",
-              "phone": "",
-              "email": ""
-          },
-          "sponsor": "no",
-          "maps": "500"
-        }
-      }
-      }
-    }
-  ]
-}
 }
