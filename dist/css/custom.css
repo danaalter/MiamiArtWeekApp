@@ -1,4 +1,9 @@
+@import url("geosans/geofont.css");
+@import url("lato/latofonts.css");
 
+body{
+	font-family: 'LatoWeb';
+}
 /*Color scheme*/
 .content{
     background: rgba(146,38,72,1);
