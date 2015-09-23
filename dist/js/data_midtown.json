@@ -30,66 +30,66 @@
      "state":"FL",
      "zip_code":"33137"}
     },
-"pintamiami":{
-"name":"PintaMiami",
-"location":"midtown",
-"dates":"dec1dec2dec3dec4dec5dec6",
-"datesFullText":"Byinvitationonly:<br>Tuesday,December1,2015<br>6pm–9pm<br>Preview:<br>Wednesday,December2,2015<br>5pm–9pm<br>GeneralAdmission:<br>Thursday,December3,2015<br>11am–8pm<br>Friday,December4,2015<br>11am–8pm<br>Saturday,December5,2015<br>11am–8pm<br>Sunday,December6,2015<br>11am–6pm",
-"admissionFullText":"One-dayfairticket:<br>USD20<br>One-dayfairticket+catalog:<br>USD40<br>Three-dayfairticket:<br>USD45<br>Three-dayfairticket+catalog:<br>USD65<br>PintaMiami2014Catalog:<br>USD25<br>Students(12-18years)andSeniors:<br>USD15<br>Childrenunder12yearsaccompaniedbyadult:<br>Free<br>Groups(10+):<br>$15",
-"highlights":"",
-"website":"http://www.pintamiami.com",
-"phone":"",
-"address":{
-"street_address":"318NW23rdStreet",
-"city":"Miami",
-"state":"FL",
-"zip_code":"33127"}
-},
-"reddotartfairmiami":{
-"name":"RedDotArtFairMiami",
-"location":"midtown",
-"dates":"dec1dec2dec3dec4dec5dec6",
-"datesFullText":"Openingreception:<br>Tuesday,December1,2015<br>6pm–9pm<br>GeneralAdmission:<br>Wednesday,December2,2015<br>11am–5pm<br>Thursday,December3,2015<br>11am–8pm<br>Friday,December4,2015<br>11am–8pm<br>Saturday,December5,2015<br>11am–8pm<br>Sunday,December6,2015<br>11am–6pm(DOORSCLOSEAT5PM)",
-"admissionFullText":"VIPWeekPass(entitlestheholderandoneguestentrytoRedDotArtFaironalldaysofthefair,aswellasentrytoouropeningreception):<br>USD25<br>Dayticket:<br>USD15",
-"highlights":"",
-"website":"http://www.reddotfair.com",
-"phone":"",
-"address":{
-"street_address":"3011NE1stAvenue",
-"city":"Miami",
-"state":"FL",
-"zip_code":""}
-},
-"spectrum":{
-"name":"MiamiSpectrum",
-"location":"midtown",
-"dates":"dec2dec3dec4dec5dec5",
-"datesFullText":"OpeningPreview:<br>Wednesday,December2,2015<br>6pm–10pm<br>GeneralAdmission:<br>Thursday,December3,2015<br>1pm–9pm<br>Friday,December4,2015<br>1pm–9pm<br>Saturday,December5,2015<br>1pm–9pm<br>Sunday,December6,2015<br>12pmnoon-6pm",
-"admissionFullText":"OpeningPreview+5DayShowPass:<br>USD50<br>GeneralAdmission(Validforonetimeuseonly.ExcludesVIPOpening&LatenightPartyEvents):<br>USD20<br>VIPLateNightPartiesEveningPass(+21)(IncludesSpecialEvents&DrinksDec.3,4,5from7pm–9pm,validforonenightuseONLY):<br>USD20<br>Students/SeniorAdmission(Validforonetimeuseonly,excludesVIPOpening&LateNightPartyEvents):<br>USD10<br>Childrenunder15:<br>Free",
-"highlights":"DiscoverSPECTRUMMiami—ajuried,contemporaryartfairintheheartofMidtownMiamifeaturinganinternationalslateofartistsandgalleries",
-"website":"http://www.spectrum-miami.com",
-"phone":"",
-"address":{
-"street_address":"3011NE1stAvenue",
-"city":"Miami",
-"state":"FL",
-"zip_code":""}
-},
-"xcontemporary":{
-"name":"x-contemporary",
-"location":"midtown",
-"dates":"dec1dec2dec3dec4dec5dec6",
-"datesFullText":"Openingreception:<br>Tuesday,December1,2015<br>5pm–10pm<br>GeneralAdmission:<br>Wednesday,December2,2015<br>12noon–9pm<br>Thursday,December3,2015<br>12noon–9pm<br>Friday,December4,2015<br>12noon–9pm<br>Saturday,December5,2015<br>12noon–9pm<br>Sunday,December6,2015<br>12noon–6pm",
-"admissionFullText":"VIP:<br>USD50<br>GeneralAdmission:<br>USD20<br>Multi-DayPass:<br>USD25",
-"highlights":"Inadditiontothefair’sopenhours,therewillbeanightlyscheduleofliveeventsmeanttocreateadestinationspotatXContemporarywhenfairbusinesshourstransitiontonightlife.ThesymbolXrepresentsadestinationpointandanareaofintersection,anevocativetitleforanewbreedofartfairthatwillemphasizeacrossoverbetweenthevisualandperformingartsandinviteuniquemusic,fashionandbrandcollaborations.",
-"website":"http://www.x-contemporary.com",
-"phone":"",
-"address":{
-"street_address":"3401",
-"city":"Miami",
-"state":"FL",
-"zip_code":"33137"}
-}
+   "pintamiami": {
+    "name":"PintaMiami",
+    "location":"midtown",
+    "dates":"dec1dec2dec3dec4dec5dec6",
+    "datesFullText":"Byinvitationonly:<br>Tuesday,December1,2015<br>6pm–9pm<br>Preview:<br>Wednesday,December2,2015<br>5pm–9pm<br>GeneralAdmission:<br>Thursday,December3,2015<br>11am–8pm<br>Friday,December4,2015<br>11am–8pm<br>Saturday,December5,2015<br>11am–8pm<br>Sunday,December6,2015<br>11am–6pm",
+    "admissionFullText":"One-dayfairticket:<br>USD20<br>One-dayfairticket+catalog:<br>USD40<br>Three-dayfairticket:<br>USD45<br>Three-dayfairticket+catalog:<br>USD65<br>PintaMiami2014Catalog:<br>USD25<br>Students(12-18years)andSeniors:<br>USD15<br>Childrenunder12yearsaccompaniedbyadult:<br>Free<br>Groups(10+):<br>$15",
+    "highlights":"",
+    "website":"http://www.pintamiami.com",
+    "phone":"",
+    "address":{
+     "street_address":"318NW23rdStreet",
+     "city":"Miami",
+     "state":"FL",
+     "zip_code":"33127"}
+    },
+   "reddotartfairmiami":{
+    "name":"RedDotArtFairMiami",
+    "location":"midtown",
+    "dates":"dec1dec2dec3dec4dec5dec6",
+    "datesFullText":"Openingreception:<br>Tuesday,December1,2015<br>6pm–9pm<br>GeneralAdmission:<br>Wednesday,December2,2015<br>11am–5pm<br>Thursday,December3,2015<br>11am–8pm<br>Friday,December4,2015<br>11am–8pm<br>Saturday,December5,2015<br>11am–8pm<br>Sunday,December6,2015<br>11am–6pm(DOORSCLOSEAT5PM)",
+    "admissionFullText":"VIPWeekPass(entitlestheholderandoneguestentrytoRedDotArtFaironalldaysofthefair,aswellasentrytoouropeningreception):<br>USD25<br>Dayticket:<br>USD15",
+    "highlights":"",
+    "website":"http://www.reddotfair.com",
+    "phone":"",
+    "address":{
+     "street_address":"3011NE1stAvenue",
+     "city":"Miami",
+     "state":"FL",
+     "zip_code":""}
+    },
+   "spectrum":{
+    "name":"MiamiSpectrum",
+    "location":"midtown",
+    "dates":"dec2dec3dec4dec5dec5",
+    "datesFullText":"OpeningPreview:<br>Wednesday,December2,2015<br>6pm–10pm<br>GeneralAdmission:<br>Thursday,December3,2015<br>1pm–9pm<br>Friday,December4,2015<br>1pm–9pm<br>Saturday,December5,2015<br>1pm–9pm<br>Sunday,December6,2015<br>12pmnoon-6pm",
+    "admissionFullText":"OpeningPreview+5DayShowPass:<br>USD50<br>GeneralAdmission(Validforonetimeuseonly.ExcludesVIPOpening&LatenightPartyEvents):<br>USD20<br>VIPLateNightPartiesEveningPass(+21)(IncludesSpecialEvents&DrinksDec.3,4,5from7pm–9pm,validforonenightuseONLY):<br>USD20<br>Students/SeniorAdmission(Validforonetimeuseonly,excludesVIPOpening&LateNightPartyEvents):<br>USD10<br>Childrenunder15:<br>Free",
+    "highlights":"DiscoverSPECTRUMMiami—ajuried,contemporaryartfairintheheartofMidtownMiamifeaturinganinternationalslateofartistsandgalleries",
+    "website":"http://www.spectrum-miami.com",
+    "phone":"",
+    "address":{
+     "street_address":"3011NE1stAvenue",
+     "city":"Miami",
+     "state":"FL",
+     "zip_code":""}
+    },
+   "xcontemporary":{
+    "name":"x-contemporary",
+    "location":"midtown",
+    "dates":"dec1dec2dec3dec4dec5dec6",
+    "datesFullText":"Openingreception:<br>Tuesday,December1,2015<br>5pm–10pm<br>GeneralAdmission:<br>Wednesday,December2,2015<br>12noon–9pm<br>Thursday,December3,2015<br>12noon–9pm<br>Friday,December4,2015<br>12noon–9pm<br>Saturday,December5,2015<br>12noon–9pm<br>Sunday,December6,2015<br>12noon–6pm",
+    "admissionFullText":"VIP:<br>USD50<br>GeneralAdmission:<br>USD20<br>Multi-DayPass:<br>USD25",
+    "highlights":"Inadditiontothefair’sopenhours,therewillbeanightlyscheduleofliveeventsmeanttocreateadestinationspotatXContemporarywhenfairbusinesshourstransitiontonightlife.ThesymbolXrepresentsadestinationpointandanareaofintersection,anevocativetitleforanewbreedofartfairthatwillemphasizeacrossoverbetweenthevisualandperformingartsandinviteuniquemusic,fashionandbrandcollaborations.",
+    "website":"http://www.x-contemporary.com",
+    "phone":"",
+    "address":{
+     "street_address":"3401",
+     "city":"Miami",
+     "state":"FL",
+     "zip_code":"33137"}
+    }
   }
 }
 
