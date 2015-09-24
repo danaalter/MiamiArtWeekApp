@@ -40,3 +40,34 @@ function concatValues( obj ) {
   }
   return value;
 }
+
+    var jqxhr = $.ajax({
+                    url: 'dist/js/test.json',
+                    dataType: 'json' })
+    .done(function(data) {
+            $.each(data.fairs, function(i,item){
+              console.log(item);
+              //adding classes for filtering
+              var $li = $("<li class='table-view-cell media navigate-right artfair'>").addClass(item.location + " " +item.dates);
+              //adding link to details
+              var $a = $("<a href='details.html#" + item.name + "' data-transition='slide-in'>");
+              var $div = $("<div class='media-body'>");
+            //var $name = $("<b class='eventname'").append(item.name);
+              var $fair = "<b class='eventname'>" + item.name + "</b> "+ "<br>Address:" + item.address.street_address + " " + item.address.city + " " + item.address.state + " " + item.address.zip_code + "<br>";
+              var $link = $("<a>").attr("href", item.website).append(item.website);
+              $div.html($fair).append($link);
+              $div.appendTo($a);
+              // <b class="eventname">Art Basel Miami Beach</b><br>
+              // Phone: (305) 674-1292<br>
+              // Address: 1901 Convention Center Dr, Miami Beach, FL 33139<br>
+              // <a href="http://artbasel.com/" >Visit Website</a>
+              $li.append($a);
+              $li.appendTo(".table-view");
+            });
+    })
+    .fail(function(e) {
+    console.log(e);
+    });
+
+
+
