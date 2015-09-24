@@ -51,8 +51,12 @@ body,input, textarea, button, select,h1 ,h2 , h3, h4, h5, h6{
     text-align: center;
 }
 
+header.bar {
+    padding-top: 15px;
+}
+
 .bar-nav ~ .content {
-    padding-top: 53px;
+    padding-top: 63px;
 }
 
 .bar-nav .btn {
