@@ -1,10 +1,10 @@
  function position(){
           if( window.location.hash == '#hotel' ){
-              alert("Diplay Hotels");
+              alert("Display Hotels");
           }else if( window.location.hash == '#restaurant' ){
-              alert("Diplay Restaut");
+              alert("Display Restaut");
           }else if( window.location.hash == '#landmark' ){
-              alert("Diplay Landmarks");
+              alert("Display Landmarks");
           }
       }
 position();
