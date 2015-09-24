@@ -1,9 +1,11 @@
-window.addEventListener('push', checkPage);
+console.log("adding event listener");
 
 var checkPage = function(){
 
+    console.log("checkPage");
     var elm = document.getElementsByClassName("content")[0];
     var script = elm.id;
+    console.log("script" + script);
 
     if(script) {
         $.getScript("dist/js/"+elm.id+".js")
@@ -17,6 +19,10 @@ var checkPage = function(){
         });
     }
 };
+
+window.addEventListener('push', checkPage);
+
+
 
 
 function accordion(){
