@@ -151,6 +151,32 @@
             "city": "Miami Beach",
             "state": "FL",
             "zip_code": "33139"}
+        },
+                "mana" :  {
+        "name": "Mana Miami 2nd Edition",
+        "location": "Wynwood",
+        "dates": "dec2 dec3 dec4 dec5 dec6",
+        "datesFullText": "Preview Hours - Access for VIP Cardholders & Press (by invitation only): <br>Tuesday, December 1, 2015 <br>5:30pm – 10pm <br> <br>General Admission: <br>Wednesday, December 2, 2015 <br>10am – 9pm <br> <br>Thursday, December 3, 2015 <br>10am – 9pm <br> <br>Friday, December 5, 2015 <br>10am – 9pm <br> <br>Saturday, December 6, 2015 <br>10am – 9pm <br> <br>Sunday, December 7, 2015 <br>10am – 5pm", 
+        "admissionFullText": "General Admission: $20 <br>Seniors/Students: $15 (must present valid ID) <br>Group Admission (10 or more): $10 each <br>Multi-Pass (4-day entry): $25 each; <br>includes re-entry for all public hours <br>Free for children under age 10", 
+        "website": "http://www.mana-miami.com",
+        "address": {
+            "street_address": "318 NW 23rd Street",
+            "city": "Miami",
+            "state": "FL",
+            "zip_code": "33127"}
+        },
+        "sculpt" :  {
+        "name": "Sculpt 8th Edition",
+        "location": "Wynwood",
+        "dates": "dec2 dec3 dec4 dec5 dec6",
+        "datesFullText": "5 Day Fair (Wednesday, December 2th through Sunday, December 6th, 2014)<br>Daily Hours, 11 am – 8 pm", 
+        "admissionFullText": "",
+        "website": "http://www.sculptmiami.com",
+        "address": {
+            "street_address": "46 NW 36th Street",
+            "city": "Miami",
+            "state": "FL",
+            "zip_code": "33127"}
         }
     }
 }
