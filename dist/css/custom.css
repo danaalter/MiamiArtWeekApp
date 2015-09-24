@@ -52,11 +52,11 @@ body,input, textarea, button, select,h1 ,h2 , h3, h4, h5, h6{
 }
 
 header.bar {
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .bar-nav ~ .content {
-    padding-top: 63px;
+    padding-top: 68px;
 }
 
 .bar-nav .btn {
@@ -539,11 +539,6 @@ button[disabled], html input[disabled] {
 
 .button-group .button a, .button-group .button a:active, .button-group .button a:hover {
     color: #fff;
-}
-
-.button-group .button:hover {
-  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
-  color: #222;
 }
 
 .button-group .button:active,
