@@ -1,5 +1,3 @@
-console.log("adding event listener");
-
 var checkPage = function(){
 
     console.log("checkPage");
