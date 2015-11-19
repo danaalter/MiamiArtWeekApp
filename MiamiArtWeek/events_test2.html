@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Miami Art Week mApp</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="dist/css/ratchet.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="dist/js/ratchet.js"></script>
+
+    <!-- Include the phonegap JS -->
+    <!--<script src="phonegap.js"></script>-->
+
+    <!-- styles CSS -->
+    <link href="dist/css/custom.css" rel="stylesheet">
+
+
+    <!-- javascript link-->
+      <script src="dist/js/bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="dist/js/accordion.js"></script>
+  
+  </head>
+ 
+ 
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+        <button class="btn pull-left">
+
+            <a href="events.html" data-transition="slide-out">BACK</a>
+
+        </button>
+        <img src="dist/img/mawlogo.png" height="100%" alt="Miami Art Week mApp" class="headerlogo">
+    </header>
+
+    <!--bottom nav-->
+
+    <nav class="bar bar-tab">
+      <a class="tab-item" href="map.html">
+        Map
+      </a>
+      <a class="tab-item" href="events.html">
+        Events
+      </a>
+      <a class="tab-item" href="explore.html">
+        Explore
+      </a>
+    </nav>    
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+        <!--accordion menu-->
+        <div class="accordion-container">
+        <div class="event-title">
+        <h4>Title</h4>
+        </div>
+        <div class="set">
+                <h3>
+                    CONTACT
+                    <span class="icon icon-down"></span>
+                </h3>
+                <div class="menu-content">
+                    <ul>
+                        <li> Phone: (305) 674-1292</li>
+                        <li>Address: 1901 Convention Center Dr, Miami Beach, FL 33139 </li>
+                        <li> <a href="http://artbasel.com/" >Visit Website</a></li>
+                       
+                        
+                    </ul>
+                </div>
+            </div><!--end set-->
+            <div class="set">
+                <h3>
+                   DATES
+                    <span class="icon icon-down"></span>
+                </h3>
+                <div class="menu-content">
+                    <ul> 
+                        <li><b>12/01 </b>VIP 11 am - 8 pm</li>
+                        <li><b>12/01 </b>VIP 11 am - 8 pm </li>
+                        <li><b>12/01 </b>VIP 11 am - 8 pm </li>
+                        <li><b>12/01 </b>VIP 11 am - 8 pm </li>
+                    </ul>
+                </div>
+            </div><!--end set-->
+            <div class="set">
+                <h3>
+                    ADMISSION
+                    <span class="icon icon-down"></span>
+                </h3>
+                <div class="menu-content">
+                    <ul>
+                        <li>Day Ticket $45/$30</li>
+                        <li>Permanent Ticket $100 </li>
+                        <li>Combination w /Design Miami $55</li>
+                         <li>< 16 years old FREE/li>
+                        
+                    </ul>
+                </div>
+            </div><!--end set-->
+            <div class="set">
+                <h3>
+                   HIGHLIGHTS
+                    <span class="icon icon-down"></span>
+                </h3>
+                <div class="menu-content">
+                    <ul>
+                        <li>265 galleries + Project based sectors: Survey, Kabinnet, Public and Film</li>
+                   
+                    </ul>
+                </div>
+            </div><!--end set-->
+            <div class="set">
+                <h3>
+                    INFORMATION
+                    <span class="icon icon-down"></span>
+                </h3>
+                <div class="menu-content content-padded">
+                    <ul>
+                        <li><b>Director</b> Marc Spiegler</li>
+                       
+                    </ul>
+                </div>
+            </div><!--end set-->
+
+        </div><!--End accordion menu-->
+        
+      
+
+    </div><!--end content-->
+    
+  </body>
+</html>

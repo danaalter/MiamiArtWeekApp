@@ -1,0 +1,33 @@
+    "fairs": {
+        "miamiriverartfair" :  {
+        "name": "MiamiRiverArtFair",
+        "location": "downtown",
+        "dates": "dec3 dec4 dec4dec5dec6",
+        "datesFullText": "BlackTieVernissage(byinvitationonly):<br>Thursday,December3,2015<br>6pm-11pm<br>GeneralAdmission:<br>Friday,December4,2015<br>12-8<br>Saturday,December5,2015<br>12pm-8pm<br>Sunday,December6,2015<br>12pm-8pm", 
+        "admissionFullText": "VIP:USD50<br>GeneralAdmission:USD20<br>Multi-DayPass:USD25",       
+        "highlights": "",
+        "website": "http://www.miamiriverartfair.com",
+        "phone": "NONE",
+        "address": {
+            "street_address": "400SE2ndAve",
+            "city": "Miami",
+            "state": "FL",
+            "zip_code": "33131"}
+        },
+        "PrizmArtFair" :  {
+        "name": "PrizmArtFair",
+        "location": "downtown",
+        "dates": "dec2dec3dec4dec5dec6",
+        "datesFullText": "VIPopeningnight(by invitation only):<br>Wednesday,December2,2015<br>7pm-10pm<br>GeneralAdmission:<br>Thursday,December3,2015<br>10am-5pm<br>Friday,December4,2015<br>10am-5:30pm<br>Saturday,December5,2015<br>10am-5:30pm<br>Sunday,December6,2015<br>10am-5:30pm", 
+        "admissionFullText": "GeneralAdmission:USD20",       
+        "highlights": "",
+        "website": "http://www.prizmartfair.com",
+        "phone": "NONE",
+        "address": {
+            "street_address": "7300BiscayneBlvd",
+            "city": "Miami",
+            "state": "FL",
+            "zip_code": "33138"}
+        }
+    }
+}

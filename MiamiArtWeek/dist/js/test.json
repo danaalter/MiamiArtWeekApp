@@ -1,0 +1,41 @@
+{
+    "fairs": {
+        "pulse":
+        {
+        "name": "Pulse",
+        "location": "downtown",
+        "dates": "dec1 dec3",
+        "datesFullText": "Private day (by invitation only): Wednesday, December 2, 2015 11 am  - 8 pm Vernissage(by invitation only): Thursday, December 3, 2015 11 am  - 3 pm General Admission: Thursday, December 3, 2015 3 pm  8 pm Friday, December 4, 2015 12 noon  - 8 pm Saturday, December 5, 2015 12 noon  - 8 pm Sunday, December 6, 2015 12 noon  - 6 pm ", 
+        "admissionFullText": "VIP: USD 50 General Admission: USD 20 Multi-Day Pass: USD 25", 
+        "phone": "305-123-1212",
+        "time": "3: 00pm-4: 00pm",
+        "price": "$24.00",
+        "highlights": "Boom shakalaka boom",
+        "website": "www.example.com",
+        "address": {
+            "street_address": "Indiana Beach Park, 4601 Collins Avenue",
+            "city": "Miami Beach",
+            "state": "FL",
+            "zip_code": "33140"
+        }
+    }, 
+    "concept":
+    {
+        "name": "Concept",
+        "location": "miami",
+        "dates": "dec1 dec2",
+        "datesFullText": "Private day (by invitation only): Wednesday, December 2, 2015 11 am  - 8 pm Vernissage(by invitation only): Thursday, December 3, 2015 11 am  - 3 pm General Admission: Thursday, December 3, 2015 3 pm  8 pm Friday, December 4, 2015 12 noon  - 8 pm Saturday, December 5, 2015 12 noon  - 8 pm Sunday, December 6, 2015 12 noon  - 6 pm ", 
+        "admissionFullText": "VIP: USD 50 General Admission: USD 20 Multi-Day Pass: USD 25", 
+        "phone": "305-123-1212",
+        "time": "3: 00pm-4: 00pm",
+        "price": "$124.00",
+        "highlights": "New Mexico Experimental Bla bla",
+        "website": "www.example.com",
+        "address": {
+            "street_address": "IndianaBeachPark,4601CollinsAvenue",
+            "city": "MiamiBeach",
+            "state": "FL",
+            "zip_code": "33140"
+        }
+    }}
+}

@@ -1,0 +1,94 @@
+{
+  "fairs":{
+    "artmiami": {
+    "name":"Art Miami",
+    "location":"midtown",
+    "dates":"dec1 dec2 dec3 dec4 dec4 dec5 dec6",
+    "datesFullText":"VIP Preview(Access for CONTEXT, Art Miami & Aqua VIP Cardholders & Press:<br>Tuesday, December 1,2015<br>5:30pm - 10pm<br><br>General Admission:<br>Wednesday, December 2, 2015<br>11am - 8pm<br><br>Thursday, December 3,2015<br>11am- 8pm<br><br>Friday, December 4,2015<br>11am - 8pm<br><br>Saturday,December 5,2015<br>11am - 8pm<br><br>Sunday, December 6, 2015<br>11am - 6pm",
+    "admissionFullText":"Day ticket (Art Miami and CONTEXT Only):<br>USD40<br><br>Seniors(62 years+):<br>USD25<br><br>Children(under 12 years accompanied by adult):<br>Free<br><br>Groups 10+ (online tickets only):<br>USD10<br><br>Multi-day fair ticket(Aqua, CONTEXT and ArtMiami):<br>USD85<br><br>A Multi-Day Fair Pass provides admission to Aqua Art Miami, CONTEXT, and Art Miami<br><br>All tickets are nonrefundable",
+    "highlights":"",
+    "website":"http://www.miamifair.com",
+    "phone":"",
+    "address":{
+      "street_address":"3101 NE 1st Avenue",
+      "city":"Miami",
+      "state":"FL",
+      "zip_code":"33137"}
+    },
+   "context": {
+    "name":"Context",
+    "location":"midtown",
+    "dates":"dec1 dec2 dec3 dec4 dec5 dec6",
+    "datesFullText":"VIP Preview (Access for CONTEXT, Art Miami & Aqua VIP Card holders & Press:<br>Tuesday, December 1,2015<br>5:30pm - 10pm<br><br>General Admission:<br>Wednesday, December 2, 2015<br>11am - 8pm<br><br>Thursday, December 3,2015<br>11am - 8pm<br><br>Friday, December 4,2015<br>11am - 8pm<br><br>Saturday, December 5,2015<br>11am - 8pm<br><br>Sunday, December 6, 2015<br>11am - 6pm",
+    "admissionFullText":"Day ticket (Art Miami and CONTEXT Only):<br>USD40<br><br>Seniors (62 years+):<br>USD25<br><br>Children (under 12 years accompanied by adult):<br>Free<br><br>Groups 10+ (online tickets only):<br>USD10<br><br>Multi-day fair ticket (Aqua, CONTEXT and Art Miami):<br>USD85<br><br>A Multi-Day Fair Pass provides admission to Aqua Art Miami, CONTEXT, and Art Miami<br><br>All tickets are nonrefundable",    
+    "highlights":"",
+    "website":"http://www.contextartmiami.com",
+    "phone":"",
+    "address":{
+     "street_address":"2901 NE 1st Avenue",
+     "city":"Miami Beach",
+     "state":"FL",
+     "zip_code":"33137"}
+    },
+   "pintamiami": {
+    "name":"Pinta Miami",
+    "location":"midtown",
+    "dates":"dec1 dec2 dec3 dec4 dec5 dec6",
+    "datesFullText":"By invitation only:<br>Tuesday, December 1, 2015<br>6pm – 9pm<br><br>Preview:<br>Wednesday, December 2, 2015<br>5pm – 9pm<br><br>General Admission:<br>Thursday, December 3, 2015<br>11am – 8pm<br><br>Friday, December 4, 2015<br>11am – 8pm<br><br>Saturday, December 5, 2015<br>11am – 8pm<br><br>Sunday, December 6, 2015<br>11am – 6pm",
+    "admissionFullText":"One-day fair ticket:<br>USD20<br><br>One-day fair ticket + catalog:<br>USD40<br><br>Three-day fair ticket:<br>USD45<br><br>Three-day fair ticket + catalog:<br>USD65<br><br>Pinta Miami 2014 Catalog:<br>USD25<br><br>Students (12 - 18years) and Seniors:<br>USD15<br><br>Children under 12years accompanied by adult:<br>Free<br><br>Groups (10+):<br>$15",
+    "highlights":"",
+    "website":"http://www.pintamiami.com",
+    "phone":"",
+    "address":{
+     "street_address":"318 NW 23rd Street",
+     "city":"Miami",
+     "state":"FL",
+     "zip_code":"33127"}
+    },
+   "reddotartfairmiami":{
+    "name":"Red Dot Art Fair Miami",
+    "location":"midtown",
+    "dates":"dec1 dec2 dec3 dec4 dec5 dec6",
+    "datesFullText":"Opening reception:<br>Tuesday, December 1, 2015<br>6pm – 9pm<br><br>General Admission:<br>Wednesday, December 2, 2015<br>11am – 5pm<br><br>Thursday, December 3, 2015<br>11am – 8pm<br><br>Friday, December 4, 2015<br>11am – 8pm<br><br>Saturday, December 5, 2015<br>11am – 8pm<br><br>Sunday, December 6, 2015<br>11am – 6pm(DOORS CLOSE AT 5PM)",
+    "admissionFullText":"VIP Week Pass (entitles the holder and one guest entry to Red Dot Art Fair on all days of the fair,as well as entry to our opening reception):<br>USD25<br><br>Day ticket:<br>USD15",
+    "highlights":"",
+    "website":"http://www.reddotfair.com",
+    "phone":"",
+    "address":{
+     "street_address":"3011 NE 1st Avenue",
+     "city":"Miami",
+     "state":"FL",
+     "zip_code":""}
+    },
+   "spectrum":{
+    "name":"Miami Spectrum",
+    "location":"midtown",
+    "dates":"dec2 dec3 dec4 dec5 dec6",
+    "datesFullText":"Opening Preview:<br>Wednesday, December 2, 2015<br>6pm – 10pm<br><br>General Admission:<br><br>Thursday, December 3, 2015<br>1pm – 9pm<br><br>Friday, December 4,2015<br>1pm – 9pm<br><br>Saturday, December 5, 2015<br>1pm – 9pm<br><br>Sunday, December 6, 2015<br>12pm noon - 6pm",
+    "admissionFullText":"Opening Preview + 5 Day Show Pass:<br>USD50<br><br>General Admission (Valid for one time use only. Excludes VIP Opening & Late night Party Events):<br>USD20<br><br>VIP Late Night Parties Evening Pass (+21) (Includes Special Events & Drinks Dec. 3, 4, 5 from 7pm – 9pm, valid for one night use ONLY):<br>USD20<br><br>Students/ Senior Admission (Valid for one time use only,excludes VIP Opening & Late Night Party Events):<br>USD10<br><br>Children under 15:<br>Free",
+    "highlights":"Discover SPECTRUM Miami — a juried, contemporary art fair in the heart of Midtown Miami featuring an international slate of artists and galleries",
+    "website":"http://www.spectrum-miami.com",
+    "phone":"",
+    "address":{
+     "street_address":"3011 NE 1st Avenue",
+     "city":"Miami",
+     "state":"FL",
+     "zip_code":""}
+    },
+   "xcontemporary":{
+    "name":"X-Contemporary",
+    "location":"midtown",
+    "dates":"dec1 dec2 dec3 dec4 dec5 dec6",
+    "datesFullText":"Opening reception:<br>Tuesday, December 1, 2015<br>5pm – 10pm<<br>br>General Admission:<br>Wednesday, December 2, 2015<br>12 noon – 9pm<br><br>Thursday, December 3, 2015<br>12 noon – 9pm<br><br>Friday, December 4, 2015<br>12 noon – 9pm<br><br>Saturday, December 5, 2015<br>12 noon – 9pm<br><br>Sunday, December 6, 2015<br>12 noon – 6pm",
+    "admissionFullText":"VIP:<br>USD50<br><br>General Admission:<br>USD20<br><br>Multi-Day Pass:<br>USD25",
+    "highlights":"In addition to the fair’s open hours,there will be a nightly schedule of live events meant to create a destination spot at XContemporary when fair business hours transition to night life.The symbol X represents a destination point and an area of intersection,an evocative title for a new breed of art fair that will emphasize a crossover between the visual and performing arts and invite unique music,fashion and brand collaborations.",
+    "website":"http://www.x-contemporary.com",
+    "phone":"",
+    "address":{
+     "street_address":"3401 NE 1st Avenue",
+     "city":"Miami",
+     "state":"FL",
+     "zip_code":"33137"}
+    }
+  }
+}
