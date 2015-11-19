@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Miami Art Week mApp</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="dist/css/ratchet.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="dist/js/ratchet.js"></script>
+
+    <!-- Include the phonegap JS -->
+    <!--<script src="phonegap.js"></script>-->
+
+    <!-- styles CSS -->
+    <link href="dist/css/custom.css" rel="stylesheet">
+
+
+    <!-- javascript link-->
+    <script src="dist/js/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="dist/js/accordion.js"></script>
+</head>
+
+
+
+<body>
+
+<!--  Header   -->
+
+
+<!-- Make sure all your bars are the first things in your <body> -->
+<header class="bar bar-nav">
+    <button class="btn pull-left">
+        <a href="index.html">Menu</a>
+    </button>
+    <h1 class="title">Miami Art Week mApp</h1>
+</header>
+
+<!-- Secondary Header   -->
+
+
+<div class="bar bar-standard bar-header-secondary">
+<div class="segmented-control">
+    <a class="control-item active">Downtown</a>
+    <a class="control-item">Miami Beach</a>
+    <a class="control-item">Midtown</a>
+    <a class="control-item">Wynwood</a>
+</div>
+</div>
+
+
+<!-- Map List   -->
+
+<div class="content">
+<ul class="table-view">
+    <li class="table-view-cell media">
+        <a class="navigate-right">
+            <img class="media-object pull-left" src="http://www.locustprojects.org/images/content/about-three.jpg" width="42"  height="42">
+            <div class="media-body">
+                LOCUST ART
+                <address>3852 N Miami Ave, Miami, FL 33127</address>
+                <p>Locust Projects is a not for profit exhibition space dedicated to providing contemporary visual artists the freedom to experiment with new ideas without the pressures of gallery sales or limitations of conventional exhibition spaces. </p>
+            </div>
+        </a>
+    </li>
+    <li class="table-view-cell media">
+        <a class="navigate-right">
+            <img class="media-object pull-left" src="http://static.dezeen.com/uploads/2013/12/Perez-Art-Museum-Miami-by-Herzog-de-Meuron-17-sq.jpg" width="42"  height="42">
+            <div class="media-body">
+                PEREZ ART MUSEUM
+                <address>1103 Biscayne Blvd, Miami, FL 33132</address>
+                <p>Pérez Art Museum Miami (PAMM) is a modern and contemporary art museum dedicated to collecting and exhibiting international art of the 20th and 21st centuries.</p>
+            </div>
+        </a>
+    </li>
+    <li class="table-view-cell media">
+        <a class="navigate-right">
+            <img class="media-object pull-left" src="http://thinkspacegallery.com/wp-content/uploads/2014/12/scopemiami2014.jpg" width="42"  height="42">
+            <div class="media-body">
+                SCOPE GALLERY
+                <address>801 Ocean Dr, Miami Beach, FL 33139</address>
+                <p>SCOPE taps into the cultural psyche to present only the most pioneering work across multiple creative disciplines.</p>
+            </div>
+        </a>
+    </li>
+    <li class="table-view-cell media">
+        <a class="navigate-right">
+            <img class="media-object pull-left" src="https://pbs.twimg.com/profile_images/518504773394235392/gkSk8JYa.jpeg" width="42"  height="42">
+            <div class="media-body">
+                EMERSON
+                <address>3852 N Miami Ave, Miami, FL 33127</address>
+                <p>A leading contemporary art gallery in Miami, the gallery was the first in the city’s Wynwood District, where it is a central figure of its internationally acclaimed art scene. Throughout its twenty year history the gallery has served as a nexus of multimedia exhibitions, performances, and events across a variety of disciplines. </p>
+            </div>
+        </a>
+    </li>
+    <li class="table-view-cell media">
+        <a class="navigate-right">
+            <img class="media-object pull-left" src="http://functionandmodernity.com/wp-content/uploads/2014/07/005_art-basel-miami-beach_theredlist.jpg" width="42"  height="42">
+            <div class="media-body">
+                ART BASEL
+                <address>1103 Biscayne Blvd, Miami, FL 33132</address>
+                <p>Since 1970, Art Basel’s goal has been to connect the world's premier galleries and their patrons, serving as a meeting point for the international art world. Now, over forty years later, its three fairs – in Basel, Hong Kong and Miami Beach – rank as the premier shows of their kind, presenting 20th and 21st century art with a strong curatorial perspective.</p>
+            </div>
+        </a>
+    </li>
+    <li class="table-view-cell media">
+        <a class="navigate-right">
+            <img class="media-object pull-left" src="http://spectrum-miami.com/wp-content/themes/spectrum-miami/images/spectrum-logo-miami.png" width="42"  height="42">
+            <div class="media-body">
+                SPECTRUM
+                <address>3011 NE 1st Avenue at NE 30th St Miami, FL 33137</address>
+                <p>Discover SPECTRUM Miami—a juried, contemporary art show in the heart of Midtown Miami featuring an international slate of artists and galleries. It’s where contemporary meets extraordinary. Join us for a 5-day fine art experience, featuring music, entertainment and other special events.</p>
+            </div>
+        </a>
+    </li>
+    <li class="table-view-cell media">
+        <a class="navigate-right">
+            <img class="media-object pull-left" src="http://artdesign.gsu.edu/files/2014/06/aqua-art-miami-2013.jpg" width="42"  height="42">
+            <div class="media-body">
+                 AQUA ART MIAMI
+                <address>801 Ocean Dr, Miami Beach, FL 33139</address>
+                <p>Aqua Art Miami announces its eleventh edition – its third since joining the Art Miami family of fairs. Aqua has consistently earned critical recognition for presenting vibrant and noteworthy international art programs with a particular interest in supporting young and established galleries with strong emerging and mid-career artists. - See more at: http://www.aquaartmiami.com/#sthash.bz0kETHi.dpuf</p>
+        </div>
+        </a>
+    </li>
+    <li class="table-view-cell media">
+        <a class="navigate-right">
+            <img class="media-object pull-left" src="https://d32dm0rphc51dk.cloudfront.net/eoUNkdavqNS51TO506N_Vw/square140.png" width="42"  height="42">
+            <div class="media-body">
+                Pulse Miami Beach
+                <address>1103 Biscayne Blvd, Miami, FL 33132</address>
+                <p>PULSE Miami Beach returns to Indian Beach Park, 4601 Collins Avenue, with new dates, from Tuesday, December 1 to Saturday, December 5, 2015. For more information including hours, directions and how to purchase tickets, please see our Visitors page.</p>
+            </div>
+        </a>
+    </li>
+    <li class="table-view-cell media">
+        <a class="navigate-right">
+            <img class="media-object pull-left" src="http://www.myartguides.com/art-basel-miami-beach-2012/media/k2/items/cache/873514e130e46a244b5aae0b135db01f_XL.jpg" width="42"  height="42">
+            <div class="media-body">
+                Miami Project
+                <address>3011 NE 1st Avenue at NE 30th St Miami, FL 33137</address>
+                <p>Art Market Productions is a partnership between Jeffrey Wainhause, Max Fishko and the dealers they work with. Since 2011 Art Market Productions has produced a different type of art fair that focuses on creating the highest quality fair experience by connecting collectors with dealers in the most optimal settings and contexts. Art Market Productions is dedicated to improving the art world by creating platforms and expanding networks of connection.</p>
+            </div>
+        </a>
+    </li>
+    <li class="table-view-cell media">
+        <a class="navigate-right">
+            <img class="media-object pull-left" src="https://artjetset.files.wordpress.com/2011/12/nada-art-fair-installation-view.jpg" width="42"  height="42">
+            <div class="media-body">
+                NADA Art Fair Miami Beach
+                <address>3852 N Miami Ave, Miami, FL 33127</address>
+                <p>The New Art Dealers Alliance (NADA) is the definitive non-profit arts organization dedicated to the cultivation, support, and advancement of new voices in contemporary art.
+                </p>
+            </div>
+        </a>
+    </li>
+    <li class="table-view-cell media">
+        <a class="navigate-right">
+            <img class="media-object pull-left" src="http://www.oxenbergart.com/wp-content/uploads/2011/07/Red-Dot-Miami-2011-Square-Pic.jpg" width="42"  height="42">
+            <div class="media-body">
+                Red Dot Miami
+                <address>801 Ocean Dr, Miami Beach, FL 33139</address>
+                <p>Red Dot Art Fair is pleased to announce its  9th edition and return to the same  prime location in the Wynwood Art District in Miami, December 1 - 6, 2015, concurrent  with Art Basel Miami Beach.  Building upon its reputation as a diverse fair, Red Dot will offer a unique selection of approximately sixty galleries exhibiting contemporary painting, sculpture, photography and secondary market curated by Jane Sauer. </p>
+            </div>
+        </a>
+    </li>
+    <li class="table-view-cell media">
+        <a class="navigate-right">
+            <img class="media-object pull-left" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/v/t1.0-1/c31.0.160.160/p160x160/30533_119592621402619_2106826_n.jpg?oh=eddf69b6df27e3c3c2ad33550d58a81c&oe=561856AE&__gda__=1444470824_b5d6af639ad0f7037080932cc750b5e9" width="42"  height="42">
+            <div class="media-body">
+                Sculpt Miami
+                <address>345 Ocean Dr, Miami Beach, FL 33139</address>
+                <p>After its successful debut in 2008 as a unique sculpture art fair, Sculpt Miami is looking forward to welcoming art lovers, collectors and dealers in 2014 to the Wynwood Art District of Miami.
+                    Sculpt Miami positions itself among important international art fairs making their presence in Miami during the celebrated “Art Basel Season”.</p>
+            </div>
+        </a>
+    </li>
+</ul>
+</div>
+
+<!--  Bottom Nav    -->
+
+<nav class="bar bar-tab">
+    <a class="tab-item active" href="#">
+        Map
+    </a>
+    <a class="tab-item" href="#">
+        Events
+    </a>
+    <a class="tab-item" href="#">
+        Explore
+    </a>
+</nav>
+
+</body>
+</html>
