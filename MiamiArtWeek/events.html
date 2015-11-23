@@ -20,6 +20,7 @@
     <script src="dist/js/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
 
+
 </head>
 
 <body>
@@ -84,24 +85,19 @@
     // Retrieve new posts as they are added to our database
     ref.on("child_added", function(snapshot, prevChildKey) {
         var artfair = snapshot.val();
-        console.log("Fair: " + artfair.fair);
-        console.log("Address: " + artfair.address);
 
-var $li = $("<li class='table-view-cell media navigate-right artfair'>").addClass(artfair.location + " " + artfair.filterdates);
-                //adding link to details
-                var $a = $("<a href='details.html#' data-transition='slide-in'>");
-                var $div = $("<div class='media-body'>");
-                //var $name = $("<b class='eventname'").append(item.name);
-                var $fair = "<b class='eventname'>" + artfair.fair + "</b> " + "<br>Address:" + artfair.address + "<br>";
-                var $link = $("<a>").attr("href", artfair.website).append(artfair.website);
-                $div.html($fair).append($link);
-                $div.appendTo($a);
-                // <b class="eventname">Art Basel Miami Beach</b><br>
-                // Phone: (305) 674-1292<br>
-                // Address: 1901 Convention Center Dr, Miami Beach, FL 33139<br>
-                // <a href="http://artbasel.com/" >Visit Website</a>
-                $li.append($a);
-                $li.appendTo(".table-view");
+        var $li = $("<li class='table-view-cell media navigate-right artfair'>").addClass(artfair.location + " " + artfair.filterdates);
+        //adding link to details
+        var $a = $("<a href='details.html#' data-transition='slide-in'>");
+        var $div = $("<div class='media-body'>");
+        var $fair = "<b class='eventname'>" + artfair.fair + "</b> " + "<br>Address:" + artfair.address + "<br>";
+        var $link = $("<a>").attr("href", artfair.website).append(artfair.website);
+        $div.html($fair).append($link);
+        $div.appendTo($a);
+        $li.append($a);
+        $li.appendTo(".table-view");
+
+        $(".card").css("height", "100%");
 
     });
     </script>
@@ -109,6 +105,9 @@ var $li = $("<li class='table-view-cell media navigate-right artfair'>").addClas
     <script src="dist/js/ratchet.js"></script>
     <script src="dist/js/isotop.js"></script>
     <script src=" dist/js/isotope.pkgd.js"></script>
+
+
+
 </body>
 
 </html>
