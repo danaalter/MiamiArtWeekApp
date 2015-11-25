@@ -1,0 +1,505 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Miami Art Week mApp</title>
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="dist/css/ratchet.css" rel="stylesheet">
+    <!-- Include the compiled Ratchet JS -->
+    <!-- Include the phonegap JS -->
+    <!--<script src="phonegap.js"></script>-->
+    <!-- styles CSS -->
+    <link href="dist/css/custom.css" rel="stylesheet">
+    <!-- javascript link-->
+    <script src="dist/js/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="dist/js/firebase.js"></script>
+</head>
+
+<body>
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+        <button class="btn pull-left">
+            <a href="index.html" data-transition="slide-out">Menu</a>
+        </button>
+        <img src="dist/img/mawlogo.png" height="100%" alt="Miami Art Week mApp" class="headerlogo">
+    </header>
+    <!--bottom nav-->
+    <nav class="bar bar-tab">
+        <a class="tab-item" href="map.html" data-transition="slide-out">
+        Map
+      </a>
+        <a class="tab-item" href="events.html">
+        Events
+      </a>
+        <a class="tab-item active" href="explore.html" data-transition="slide-in">
+        Explore
+      </a>
+    </nav>
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+        <div class="filters">
+            <div class="segmented-control" data-filter-group="location">
+                <a class="button is-checked control-item" data-filter="">ALL</a>
+                <a class="button control-item" data-filter=".downtown">DOWN<br>TOWN</a>
+                <a class="button control-item" data-filter=".miamibeach">MIAMI<br>BEACH</a>
+                <a class="button control-item" data-filter=".midtown">MID<br>TOWN</a>
+                <a class="button control-item" data-filter=".wynwood">WYN<br>WOOD</a>
+            </div>
+            <div class="ui-group box">
+                <div class="button-group js-radio-button-group eventsmenu" data-filter-group="date">
+                    <button class="button is-checked full " data-filter="">All </button>
+                    <button class="button full" data-filter=".nov-30">Nov
+                        <br>30</button>
+                    <button class="button full" data-filter=".dec-1">Dec
+                        <br>1</button>
+                    <button class="button full" data-filter=".dec-2">Dec
+                        <br>2</button>
+                    <button class="button full" data-filter=".dec-3">Dec
+                        <br>3</button>
+                    <button class="button full" data-filter=".dec-4">Dec
+                        <br>4</button>
+                    <button class="button full" data-filter=".dec-5">Dec
+                        <br>5</button>
+                    <button class="button full" data-filter=".dec-6">Dec
+                        <br>6</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <!--All Events -->
+            <ul class="table-view">
+                <li class="table-view-cell media navigate-right artfair artofblack dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+                    <a href="details.html#African Heritage Cultural Arts Center" data-transition="slide-in">
+                        <div class="media-body"><b class="eventname">African Heritage Cultural Arts Center</b>
+                            <br>Address:6161 NW 22 Ave., Miami, Fl 33142
+                            <br>
+                            <a href=""></a>
+                        </div>
+                    </a>
+                </li>
+                <li class="table-view-cell media navigate-right artfair miamibeach nov-30">
+                    <a href="details.html#All Soul" s="" episcopal="" center '="" data-transition="slide-in"><div class="media-body"><b class="eventname">All Soul's Episcopal Center</b>
+                        <br>Address:4025 Pine Tree Drive, Miami Beach, FL 33140
+                        <br>
+                        <a href=""></a>
+        </div>
+        </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair miamibeach dec-1">
+            <a href="details.html#Aqua Art Miami    11th Edition" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Aqua Art Miami    11th Edition</b>
+                    <br>Address: Aqua Hotel 1530 Collins Avenue Miami Beach, FL 33139
+                    <br><a href="www.aquaartmiami.com">www.aquaartmiami.com</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair miamibeach dec-2">
+            <a href="details.html#Art Basel" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Art Basel</b>
+                    <br>Address:Miami Beach Convention Center 1901 Convention Center Drive Miami Beach, USA
+                    <br><a href="artbasel.com">artbasel.com</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair midtown dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#Art Miami" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Art Miami</b>
+                    <br>Address:The Art Miami Pavilion Midtown|Wynwood Arts District 3101 NE 1st Avenue Miami, FL 33137
+                    <br><a href="http://www.art-miami.co">http://www.art-miami.co</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair miamibeach dec-2">
+            <a href="details.html#Art on Paper" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Art on Paper</b>
+                    <br>Address:Deauville Beach Resort - 6701 Collins Avenue, Miami Beach
+                    <br><a href="http://thepaperfair.com">http://thepaperfair.com</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair artofblack dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#Arts and Recreation Center" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Arts and Recreation Center</b>
+                    <br>Address:675 Ali Baba Ave., Opa-Locka, FL 33054
+                    <br><a href="www.opalockaart.com">www.opalockaart.com</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair wynwood dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#Bakehouse Art Complex" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Bakehouse Art Complex</b>
+                    <br>Address:561 NW 32 St., Miami, FL 33127
+                    <br><a href="http://www.bacfl.org">http://www.bacfl.org</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair miamibeach dec-4">
+            <a href="details.html#Bass Museum of Art" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Bass Museum of Art</b>
+                    <br>Address:2100 Collins Avenue, Miami Beach, Florida 33139
+                    <br><a href="www.bassmuseum.org">www.bassmuseum.org</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair artofblack dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#Betty Ferguson Recreational Complex" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Betty Ferguson Recreational Complex</b>
+                    <br>Address:3000 NW 199 Street, Miami Gardens, FL 33056
+                    <br><a href="www.afropolis.us">www.afropolis.us</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair midtown dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#CONTEXT" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">CONTEXT</b>
+                    <br>Address:Art Miami Pavilion | 2901 NE 1st Avenue | Wynwood Arts District​
+                    <br><a href="http://www.contextartmiami.com">http://www.contextartmiami.com</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair artofblack dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#Chef Creole" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Chef Creole</b>
+                    <br>Address:200 NW 54 St., Miami, Fl 33127
+                    <br><a href="www.muce305.com">www.muce305.com</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair downtown dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#Cisneros Fontanals Art Foundation" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Cisneros Fontanals Art Foundation</b>
+                    <br>Address:1018 North Miami Avenue, Miami, FL 33136
+                    <br><a href="http://www.cifo.org">http://www.cifo.org</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair wynwood dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#De La Cruz" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">De La Cruz</b>
+                    <br>Address:23 NE 41 Street, Miami, FL 33137
+                    <br><a href="http://www.delacruzcollection.org">http://www.delacruzcollection.org</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair miamibeach dec-2">
+            <a href="details.html#Design Miami " data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Design Miami </b>
+                    <br>Address:Meridian Avenue &amp; 19th Street Adjacent to the Miami Beach Convention Center Miami Beach, USA
+                    <br><a href="designmiami.com">designmiami.com</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair miamibeach dec-3">
+            <a href="details.html#Fridge Art Fair" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Fridge Art Fair</b>
+                    <br>Address:Holiday Inn Miami Beach 4333 Collins Avenue Miami Beach, FL 33140
+                    <br><a href="fridgeartfair.com">fridgeartfair.com</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair artofblack dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#Historic Lyric Theatre Cultural Arts Complex" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Historic Lyric Theatre Cultural Arts Complex</b>
+                    <br>Address:819 NW 2 Ave., Miami, Fl 33136
+                    <br><a href="www.artafricanmiamiartfair.com">www.artafricanmiamiartfair.com</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair artofblack dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#Historic Ward Cultural Tourist Gallery" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Historic Ward Cultural Tourist Gallery</b>
+                    <br>Address:249 NW 9 St., Miami, Fl 33136
+                    <br><a href="www.theblackarchives.corg">www.theblackarchives.corg</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair downtown dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#History Miami Museum" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">History Miami Museum</b>
+                    <br>Address:101 West Flagler Street, Miami, FL 33130
+                    <br><a href="http://www.historymiami.org">http://www.historymiami.org</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair downtown dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#Holoscenes" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Holoscenes</b>
+                    <br>Address:Kyriakides Plaza, NE 4th St &amp; NE 2nd Avenue at Miami Dade College, Wolfson Campus
+                    <br><a href="http://mdclivearts.org">http://mdclivearts.org</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair miamibeach dec-3">
+            <a href="details.html#INK Miami Art Fair" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">INK Miami Art Fair</b>
+                    <br>Address:Suites of Dorchester 1850 Collins Avenue (19th St) Miami Beach, Florida 33139
+                    <br><a href="inkartfair.com">inkartfair.com</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair midtown dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#Institute of Contemporary Art" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Institute of Contemporary Art</b>
+                    <br>Address:4040 NE 2nd Avenue, Miami, FL 33137
+                    <br><a href="http://www.icamiami.org/">http://www.icamiami.org/</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair miamibeach nov-30">
+            <a href="details.html#Jewish Museum of Florida" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Jewish Museum of Florida</b>
+                    <br>Address:301 Washington Ave., Miami, Fl 33139
+                    <br><a href="www.jewishmuseum.com">www.jewishmuseum.com</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair artofblack dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#Kroma Gallery" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Kroma Gallery</b>
+                    <br>Address:3670 Grand Ave., Coconut Grove, FL 33133; www.kromamiami.com
+                    <br><a href="www.kromamiami.com">www.kromamiami.com</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair artofblack dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#Little Haiti Cultural Center" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Little Haiti Cultural Center</b>
+                    <br>Address:212 NE 59 Terrace, Miami, Fl 33137
+                    <br><a href="www.littlehaiticulturalcenter.com">www.littlehaiticulturalcenter.com</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair downtown dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#MDC Museum Art + Design" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">MDC Museum Art + Design</b>
+                    <br>Address:600 Biscayne Boulevard, Miami, FL 33132
+                    <br><a href="http://www.MDCMOAD.org">http://www.MDCMOAD.org</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair midtown dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#Martha Friedman, Pore" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Martha Friedman, Pore</b>
+                    <br>Address:Locust Projects, 3852 N. Miami Ave, Design District
+                    <br><a href="http://locustprojects.org">http://locustprojects.org</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair wynwood dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#Martin Z. Margulies Collection" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Martin Z. Margulies Collection</b>
+                    <br>Address:591 NW 27 Street, Miami, FL 33127
+                    <br><a href="http://www.marguileswarehouse.com">http://www.marguileswarehouse.com</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair downtown dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#Miami International University of Art &amp; Design" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Miami International University of Art &amp; Design</b>
+                    <br>Address:1501 Biscayne Boulevard, Miami, FL 33132
+                    <br><a href="http://www.mymiu.edu">http://www.mymiu.edu</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair miamibeach dec-1">
+            <a href="details.html#Miami Project" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Miami Project</b>
+                    <br>Address:Deauville Beach Resort - 6701 Collins Avenue, Miami Beach
+                    <br><a href="miami-project.com">miami-project.com</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair downtown dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#Miami River Art Fair" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Miami River Art Fair</b>
+                    <br>Address:MIAMI CONVENTION CENTER @ JAMES L. KNIGHT CENTER, 400 SE. 2nd. AVE, MIAMI FL. 33131
+                    <br><a href="http://www.miamiriverartfair.com">http://www.miamiriverartfair.com</a></div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair artofblack dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#Museum of Contemporary Art" data-transition="slide-in">
+                <div class="media-body"><b class="eventname">Museum of Contemporary Art</b>
+                    <br>Address:770 NE 125 St., North Miami, FL 33161
+                    <br>
+                    <a href=""></a>
+                </div>
+            </a>
+        </li>
+        <li class="table-view-cell media navigate-right artfair artofblack dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+            <a href="details.html#N" namdi="" contemporary="" fine="" art="" gallery '="" data-transition="slide-in"><div class="media-body"><b class="eventname">N'Namdi Contemporary Fine Art Gallery</b>
+                <br>Address:177 NW 23 St., Miami, Fl 33127
+                <br>
+                <a href=""></a>
+    </div>
+    </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair miamibeach dec-1">
+        <a href="details.html#NADA / New Art Dealears Alliance" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">NADA / New Art Dealears Alliance</b>
+                <br>Address:The Fontainebleau Miami Beach 4441 Collins Ave Miami Beach, FL 33140
+                <br><a href="newartdealers.org">newartdealers.org</a></div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair downtown dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+        <a href="details.html#National YoungArts Foundation" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">National YoungArts Foundation</b>
+                <br>Address:2100 Biscayne Boulevard, Miami, FL 33131
+                <br><a href="http://www.youngarts.org">http://www.youngarts.org</a></div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair downtown dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+        <a href="details.html#Perez Art Museum Miami" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">Perez Art Museum Miami</b>
+                <br>Address:Museum Park, 1103 Biscayne Boulevard, Miami, FL 33132
+                <br><a href="http://www.PAMM.org">http://www.PAMM.org</a></div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair wynwood dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+        <a href="details.html#Pinta Miami " data-transition="slide-in">
+            <div class="media-body"><b class="eventname">Pinta Miami </b>
+                <br>Address:Mana Wynwood 318 NW 23 rd Street Miami, FL 33127 USA
+                <br><a href="http://www.pintamiami.com">http://www.pintamiami.com</a></div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair midtown dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+        <a href="details.html#Prizm Art Fair" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">Prizm Art Fair</b>
+                <br>Address:7300 BISCAYNE BLVD. MIAMI, FL 33138
+                <br><a href="http://prizmartfair.com">http://prizmartfair.com</a></div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair artofblack dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+        <a href="details.html#Prizm Art Miami" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">Prizm Art Miami</b>
+                <br>Address:7300 BISCAYNE BLVD. MIAMI, FL 33138
+                <br><a href="prizmartfair.com">prizmartfair.com</a></div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair miamibeach dec-2">
+        <a href="details.html#Pulse  Contemporary Art Fair" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">Pulse  Contemporary Art Fair</b>
+                <br>Address:Indian Beach Park, 4601 Collins Avenue, Miami Beach, FL, 33140
+                <br><a href="pulse-art.com">pulse-art.com</a></div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair downtown dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+        <a href="details.html#Red Dot Art Fair Miami " data-transition="slide-in">
+            <div class="media-body"><b class="eventname">Red Dot Art Fair Miami </b>
+                <br>Address:1700 NE 2nd Ave., Miami, FL 33132 Corner of 17 Street and NE 2nd Avenue
+                <br><a href="http://reddotfair.com">http://reddotfair.com</a></div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair wynwood dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+        <a href="details.html#Rubell Family Collection" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">Rubell Family Collection</b>
+                <br>Address:95 NW 29 Street, Miami, FL 33127
+                <br><a href="http://www.rfc.museum.com">http://www.rfc.museum.com</a></div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair miamibeach dec-2">
+        <a href="details.html#SATELLITE" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">SATELLITE</b>
+                <br>Address:Several beachfront venues, Miami Beach, Fl 7410 Ocean Terrace - Hotel 7433 Collins Avenue - Restaurant 7432 Collins Avenue - Pharmacy 7300 Collins Avenue - Amphitheater
+                <br><a href="satellite-show.com">satellite-show.com</a></div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair miamibeach dec-3">
+        <a href="details.html#SCOPE - Miami Beach" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">SCOPE - Miami Beach</b>
+                <br>Address:801 Ocean Drive Miami Beach, Florida USA
+                <br><a href="scope-art.com">scope-art.com</a></div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair downtown dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+        <a href="details.html#SPECTRUM Miami partnered with Miami Photo Salon" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">SPECTRUM Miami partnered with Miami Photo Salon</b>
+                <br>Address:1700 NE 2nd Ave., Miami, FL 33132 Corner of 17 Street and NE 2nd Avenue
+                <br><a href="http://spectrum-miami.com">http://spectrum-miami.com</a></div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair midtown dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+        <a href="details.html#Spinello Projects" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">Spinello Projects</b>
+                <br>Address:7221 NW 2nd Ave., Miami, FL 33150
+                <br><a href="http://spinelloprojects.com/">http://spinelloprojects.com/</a></div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair artofblack dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+        <a href="details.html#The Caribbean Marketplace" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">The Caribbean Marketplace</b>
+                <br>Address:5925 NW 2 Ave., Miami, Fl 33137
+                <br>
+                <a href=""></a>
+            </div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair artofblack dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+        <a href="details.html#Thunder &amp; Lightening Mural" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">Thunder &amp; Lightening Mural</b>
+                <br>Address:3275 NW 79 St., Miami, Fl 33142
+                <br>
+                <a href=""></a>
+            </div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair miamibeach nov-30">
+        <a href="details.html#UNTITLED" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">UNTITLED</b>
+                <br>Address:Ocean Drive and 12th Street
+                <br><a href="art-untitled.com">art-untitled.com</a></div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair artofblack dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+        <a href="details.html#University of Miami College of Arts &amp; Science Gallery" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">University of Miami College of Arts &amp; Science Gallery</b>
+                <br>Address:1210 Stanford Dr., Coral Gables, Fl 33146
+                <br>
+                <a href=""></a>
+            </div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair artofblack dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+        <a href="details.html#Viernes Culturales Futurama Building" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">Viernes Culturales Futurama Building</b>
+                <br>Address:1637 SW 8 St., Miami, FL 33127
+                <br><a href="www.facebook.com/umbrellasoflittlehavana">www.facebook.com/umbrellasoflittlehavana</a></div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair miamibeach dec-3">
+        <a href="details.html#Wolfsonian Museum" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">Wolfsonian Museum</b>
+                <br>Address:1001 Washington Ave., Miami Beach, Fl 33139
+                <br><a href="www.wolfsonian.org">www.wolfsonian.org</a></div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair miamibeach dec-4">
+        <a href="details.html#World Erotic Art Museum" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">World Erotic Art Museum</b>
+                <br>Address:1205 Washington Ave., Miami Beach, FL 33139
+                <br><a href="www.weam.com">www.weam.com</a></div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair wynwood dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+        <a href="details.html#Wynwood Walls" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">Wynwood Walls</b>
+                <br>Address:2520 NW 2nd Ave., Miami, FL 33127
+                <br><a href="http://www.wynwoodwalls.com">http://www.wynwoodwalls.com</a></div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair artofblack dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+        <a href="details.html#Yeelen Art Gallery" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">Yeelen Art Gallery</b>
+                <br>Address:294 NW 54 St., Miami, FL 33137
+                <br><a href="www.yeelenart.com">www.yeelenart.com</a></div>
+        </a>
+    </li>
+    <li class="table-view-cell media navigate-right artfair wynwood dec-1 dec-2 dec-3 dec-4 dec-5 dec-6">
+        <a href="details.html#x-contemporary" data-transition="slide-in">
+            <div class="media-body"><b class="eventname">x-contemporary</b>
+                <br>Address:240-252 NW 25 St. Miami, FL 33127 United States
+                <br><a href="http://www.x-contemporary.com">http://www.x-contemporary.com</a></div>
+        </a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    <!--end content-->
+    <script type="text/javascript">
+    var ref = new Firebase("https://miamiartweek.firebaseio.com/fairs");
+    // Retrieve new posts as they are added to our database
+    ref.on("child_added", function(snapshot, prevChildKey) {
+        var fairrecord = snapshot.val();
+        var $li = $("<li class='table-view-cell media navigate-right artfair'>").addClass(fairrecord.location + " " + fairrecord.filterdates);
+        var $a = $("<a href='details.html#" + fairrecord.fair + "' data-transition='slide-in'>");
+        var $div = $("<div class='media-body'>");
+        var $fair = "<b class='eventname'>" + fairrecord.fair + "</b> " + "<br>Address:" + fairrecord.address + "<br>";
+        var $link = $("<a>").attr("href", fairrecord.website).append(fairrecord.website);
+        $div.html($fair).append($link);
+        $div.appendTo($a);
+        $li.append($a);
+        $li.appendTo(".table-view");
+    });
+    </script>
+    <script src="dist/js/ratchet.js"></script>
+    <script src="dist/js/isotop.js"></script>
+    <script src="dist/js/isotope.pkgd.js"></script>
+</body>
+
+</html>

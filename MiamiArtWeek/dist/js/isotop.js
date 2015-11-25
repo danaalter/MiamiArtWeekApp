@@ -1,7 +1,15 @@
-// JavaScript Document
-$(document).ready( function() {
-  // init Isotope
-  var $card = $('.card').isotope({
+// flatten object by concatting values
+function concatValues( obj ) {
+  var value = '';
+  for ( var prop in obj ) {
+    value += obj[ prop ];
+  }
+  return value;
+}
+
+function doIsotope(){
+
+    var $card = $('.card').isotope({
     itemSelector: '.artfair'
   });
 
@@ -29,14 +37,4 @@ $(document).ready( function() {
       $( this ).addClass('is-checked');
     });
   });
-  
-});
-
-// flatten object by concatting values
-function concatValues( obj ) {
-  var value = '';
-  for ( var prop in obj ) {
-    value += obj[ prop ];
-  }
-  return value;
 }

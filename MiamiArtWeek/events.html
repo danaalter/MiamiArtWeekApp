@@ -12,15 +12,14 @@
     <!-- Include the compiled Ratchet CSS -->
     <link href="dist/css/ratchet.css" rel="stylesheet">
     <!-- Include the compiled Ratchet JS -->
+    
     <!-- Include the phonegap JS -->
     <!--<script src="phonegap.js"></script>-->
     <!-- styles CSS -->
     <link href="dist/css/custom.css" rel="stylesheet">
     <!-- javascript link-->
     <script src="dist/js/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
-
-
+    <script src="dist/js/firebase.js"></script>
 </head>
 
 <body>
@@ -36,7 +35,7 @@
         <a class="tab-item" href="map.html" data-transition="slide-out">
         Map
       </a>
-        <a class="tab-item" href="events.html">
+        <a class="tab-item" href="events.html" >
         Events
       </a>
         <a class="tab-item active" href="explore.html" data-transition="slide-in">
@@ -47,66 +46,59 @@
     <div class="content">
         <div class="filters">
             <div class="segmented-control" data-filter-group="location">
-                <a class="button is-checked control-item" data-filter="">ALL</a>
-                <a class="button control-item" data-filter=".downtown">DOWN<br>TOWN</a>
-                <a class="button control-item" data-filter=".miamibeach">MIAMI<br>BEACH</a>
-                <a class="button control-item" data-filter=".midtown">MID<br>TOWN</a>
-                <a class="button control-item" data-filter=".wynwood">WYN<br>WOOD</a>
-            </div>
+      <a class="button is-checked control-item" data-filter="">ALL</a>
+      <a class="button control-item" data-filter=".downtown">DOWN<br>TOWN</a>
+      <a class="button control-item" data-filter=".miamibeach">MIAMI<br>BEACH</a>
+      <a class="button control-item" data-filter=".midtown">MID<br>TOWN</a>
+      <a class="button control-item" data-filter=".wynwood">WYN<br>WOOD</a>
+  </div>
             <div class="ui-group box">
                 <div class="button-group js-radio-button-group eventsmenu" data-filter-group="date">
                     <button class="button is-checked full " data-filter="">All </button>
-                    <button class="button full" data-filter=".nov-30">Nov
-                        <br>30</button>
-                    <button class="button full" data-filter=".dec-1">Dec
-                        <br>1</button>
-                    <button class="button full" data-filter=".dec-2">Dec
-                        <br>2</button>
-                    <button class="button full" data-filter=".dec-3">Dec
-                        <br>3</button>
-                    <button class="button full" data-filter=".dec-4">Dec
-                        <br>4</button>
-                    <button class="button full" data-filter=".dec-5">Dec
-                        <br>5</button>
-                    <button class="button full" data-filter=".dec-6">Dec
-                        <br>6</button>
+                    <button class="button full" data-filter=".nov-30">Nov<br>30</button>
+                    <button class="button full" data-filter=".dec-1">Dec<br>1</button>
+                    <button class="button full" data-filter=".dec-2">Dec<br>2</button>
+                    <button class="button full" data-filter=".dec-3">Dec<br>3</button>
+                    <button class="button full" data-filter=".dec-4">Dec<br>4</button>
+                    <button class="button full" data-filter=".dec-5">Dec<br>5</button>
+                    <button class="button full" data-filter=".dec-6">Dec<br>6</button>
                 </div>
             </div>
         </div>
         <div class="card">
             <!--All Events -->
             <ul class="table-view"></ul>
+ 
         </div>
     </div>
     <!--end content-->
 
-    <script>
+<script src="dist/js/isotope.pkgd.js"></script>
+<script src="dist/js/isotop.js"></script>
+
+    <script type="text/javascript">
     var ref = new Firebase("https://miamiartweek.firebaseio.com/fairs");
+
+    ref.once("value", function(snap) {
+      doIsotope();
+    });
+
     // Retrieve new posts as they are added to our database
     ref.on("child_added", function(snapshot, prevChildKey) {
-        var artfair = snapshot.val();
-
-        var $li = $("<li class='table-view-cell media navigate-right artfair'>").addClass(artfair.location + " " + artfair.filterdates);
-        //adding link to details
-        var $a = $("<a href='details.html#' data-transition='slide-in'>");
-        var $div = $("<div class='media-body'>");
-        var $fair = "<b class='eventname'>" + artfair.fair + "</b> " + "<br>Address:" + artfair.address + "<br>";
-        var $link = $("<a>").attr("href", artfair.website).append(artfair.website);
-        $div.html($fair).append($link);
-        $div.appendTo($a);
-        $li.append($a);
-        $li.appendTo(".table-view");
-
-        $(".card").css("height", "100%");
-
+      var fairrecord = snapshot.val();
+      var $li = $("<li class='table-view-cell media navigate-right artfair'>").addClass(fairrecord.location + " " +fairrecord.filterdates);
+      var $a = $("<a href='details.html#" + fairrecord.fair + "' data-transition='slide-in'>");
+      var $div = $("<div class='media-body'>");
+      var $fair = "<b class='eventname'>" + fairrecord.fair + "</b> "+ "<br>Address:" + fairrecord.address+ "<br>";
+      var $link = $("<a>").attr("href", fairrecord.website).append(fairrecord.website);
+      $div.html($fair).append($link);
+      $div.appendTo($a);
+      $li.append($a);
+      $li.appendTo(".table-view");
     });
     </script>
 
-    <script src="dist/js/ratchet.js"></script>
-    <script src="dist/js/isotop.js"></script>
-    <script src=" dist/js/isotope.pkgd.js"></script>
-
-
+<script src="dist/js/ratchet.js"></script>
 
 </body>
 
