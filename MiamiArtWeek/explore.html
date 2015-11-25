@@ -62,7 +62,7 @@
         <div class="segmented-control" data-filter-group="location">
             <a class="button is-checked control-item" data-filter="">ALL</a>
             <a class="button control-item" data-filter=".downtown">DOWN<br>TOWN</a>
-            <a class="button control-item" data-filter=".miami">MIAMI<br>BEACH</a>
+            <a class="button control-item" data-filter=".miamibeach">MIAMI<br>BEACH</a>
             <a class="button control-item" data-filter=".midtown">MID<br>TOWN</a>
             <a class="button control-item" data-filter=".wynwood">WYN<br>WOOD</a>
         </div>
@@ -71,9 +71,9 @@
         <div class="ui-group box">
          
           <div class="button-group js-radio-button-group exploremenu" data-filter-group="location">
-            <button class="button is-checked full " data-filter="">All  </button>
-            <button class="button full" data-filter=".restaurant"><a href="#resturant">Restaurants</a></button>
-            <button class="button full" data-filter=".landmark"><a href="#landmark">Local Communitites</a></button>
+            <button class="button is-checked full " data-filter="">All</button>
+            <button class="button full" data-filter=".restaurant"><a href="#restaurant">Restaurants</a></button>
+            <button class="button full" data-filter=".community"><a href="#community">Local Communitites</a></button>
           </div>
         </div>
 
@@ -96,18 +96,24 @@
 
 
 
-
+<script src="dist/js/isotope.pkgd.js"></script>
+<script src="dist/js/isotope_explore.js"></script>
 
 <script type="text/javascript">
 
-var ref = new Firebase("https://miamiartweek.firebaseio.com/restaurants");
+var ref = new Firebase("https://miamiartweek.firebaseio.com/explore");
+
+ref.once("value", function(snap) {
+  doIsotope();
+});
+
 // Retrieve new posts as they are added to our database
 ref.on("child_added", function(snapshot, prevChildKey) {
   var record = snapshot.val();
-  var $li = $("<li class='table-view-cell media navigate-right artfair'>").addClass(record.location + " " +record.filterdates);
+  var $li = $("<li class='table-view-cell media navigate-right explore'>").addClass(record.location + " " +record.type);
   var $a = $("<a href='details.html#" + record.name + "' data-transition='slide-in'>");
   var $div = $("<div class='media-body'>");
-  var $fair = "<b class='eventname'>" + record.name + "</b> "+ "<br>Location: " + record.location+ "<br>";
+  var $fair = "<b class='eventname'>" + record.name + "</b><br>";
   var $link = $("<a>").attr("href", record.details).append(record.details);
   $div.html($fair).append($link);
   $div.appendTo($a);
@@ -117,7 +123,6 @@ ref.on("child_added", function(snapshot, prevChildKey) {
 </script>
 
 
-<script src="dist/js/isotope.pkgd.js"></script>
   
 
 
