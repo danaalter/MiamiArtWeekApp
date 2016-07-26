@@ -1,142 +1,108 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Miami Art Week mApp</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-    <!-- Sets initial viewport load and disables zooming  -->
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>Jumbotron Template for Bootstrap</title>
 
-    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Bootstrap core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Include the compiled Ratchet CSS -->
-    <link href="dist/css/ratchet.css" rel="stylesheet">
-      <!-- styles CSS -->
-      <link href="dist/css/custom.css" rel="stylesheet">
-      <link href='dist/css/mapbox.css' rel='stylesheet' />
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Include the compiled Ratchet JS -->
-    <script src="dist/js/ratchet.js"></script>
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
 
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
-        <!-- Include the prevent touch script JS
-    <script src="dist/js/preventtouch.js"></script> -->
-      <!-- javascript link-->
-      <script src="dist/js/bower_components/jquery/dist/jquery.min.js"></script>
-      <script src='dist/js/mapbox.js'></script>
-      <script src="dist/js/app.js"></script>
-
-
-    <!-- Include the phonegap JS -->
-    <!--<script src="phonegap.js"></script>-->
-
-
-
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
- 
- 
+
   <body>
 
-    <!-- Make sure all your bars are the first things in your <body> -->
-    <header class="bar bar-nav">
-        <img src="dist/img/mawlogo.png" height="100%" alt="Miami Art Week mApp" class="headerlogo">
-    </header>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
 
-    <!--bottom nav-->
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
 
-    <nav class="btm-nav bar bar-tab">
-      <a class="tab-item" href="map.html" data-transition="slide-in">
-        Map
-      </a>
-      <a class="tab-item" href="events.html" data-transition="slide-in">
-        Events
-      </a>
-      <a class="tab-item" href="explore.html" data-transition="slide-in">
-        Explore
-      </a>
-    </nav>    
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
 
-    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
-    <div class="content" id="index">
+      <hr>
 
-        <!--accordion menu-->
-        <div class="accordion-container">
-            <div class="set">
-                <h3>
-                    MAPS
-                    <span class="icon icon-down"></span>
-                </h3>
-                <div class="menu-content">
-                    <ul>
-                        <li><a class="tab-item active" href="map.html#all" data-transition="slide-in" data-ignore="push">All</a></li>
-                        <li><a class="tab-item active" href="map.html#downtown"  data-transition="slide-in" data-ignore="push">Downtown</a></li>
-                        <li><a class="tab-item active" href="map.html#miamibeach"  data-transition="slide-in" data-ignore="push">Miami Beach</a> </li>
-                        <li><a class="tab-item active" href="map.html#midtown"  data-transition="slide-in" data-ignore="push">Midtown</a> </li>
-                        <li><a class="tab-item active" href="map.html#wynwood"  data-transition="slide-in" data-ignore="push">Wynwood</a> </li>
-                        <li><a class="tab-item active" href="map.html#artofblack"  data-transition="slide-in" data-ignore="push">Art Of Black Miami</a> </li>
-                    </ul>
-                </div>
-            </div><!--end set-->
-            <div class="set">
-                <h3>
-                    EVENTS
-                    <span class="icon icon-down"></span>
-                </h3>
-                <div class="menu-content">
-                    <ul>
-                        <li><a class="tab-item active" href="events.html"  data-transition="slide-in">All</a></li>
-                        <li><a class="tab-item active" href="events.html"  data-transition="slide-in">Downtown</a></li>
-                        <li><a class="tab-item active" href="events.html"  data-transition="slide-in">Miami Beach</a> </li>
-                        <li><a class="tab-item active" href="events.html"  data-transition="slide-in">Midtown</a> </li>
-                        <li><a class="tab-item active" href="events.html"  data-transition="slide-in">Wynwood</a> </li>
-                    </ul>
-                </div>
-            </div><!--end set-->
-            <div class="set">
-                <h3>
-                    EXPLORE
-                    <span class="icon icon-down"></span>
-                </h3>
-                <div class="menu-content">
-                    <ul>
-                        <li><a class="tab-item active" href="explore.html" data-transition="slide-in">All</a></li>
-                        <li><a class="tab-item active" href="explore.html#restaurant" data-transition="slide-in">Restaurants</a> </li>
-                        <li><a class="tab-item active" href="explore.html#landmark" data-transition="slide-in">Local Communitites</a> </li>
-                    </ul>
-                </div>
-            </div><!--end set-->
-            <div class="set">
-                <h3>
-                    INFORMATION
-                    <span class="icon icon-down"></span>
-                </h3>
-                <div class="menu-content">
-                    <ul>
-                        <li><a class="tab-item active" href="about.html"  data-transition="slide-in"> About</a></li>
-                        <li><a class="tab-item active" href="sponsors.html"  data-transition="slide-in">Sponsors</a> </li>
-                    </ul>
-                </div>
-            </div><!--end set-->
-
-        </div><!--End accordion menu-->
-        
-        
-        
-        <!--Sponsor Logos-->
-        <div class="home-sponsors">
-    		<a href="http://spectrum-miami.com/?gclid=Cj0KEQjwvJqvBRCL77m2-uKczsIBEiQAkx8VjPJv2KL062ca9XlmtbehjBRDdzekRjtIUS1CGsXyLiEaAruv8P8HAQ"><img src="dist/img/sponsors/spectrum-logo-white.png" width="125"></a>
-			<a href="https://www.artinstitutes.edu/miami"><img src="dist/img/sponsors/50th-MIU-wt.png" width="125"></a>
-        </div><!--end sponsor logos-->
-
-    </div><!--end content-->
-  
+      <footer>
+        <p>&copy; 2016 Company, Inc.</p>
+      </footer>
+    </div> <!-- /container -->
 
 
-<!-- For Debugging with weinre -->
-<!--<script src="http://192.168.1.113:8080/target/target-script-min.js#anonymous"></script>-->
-
-
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>

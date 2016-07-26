@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Miami Art Week mApp</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="dist/css/ratchet.css" rel="stylesheet">
+      <!-- styles CSS -->
+      <link href="dist/css/custom.css" rel="stylesheet">
+      <link href='dist/css/mapbox.css' rel='stylesheet' />
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="dist/js/ratchet.js"></script>
+
+
+        <!-- Include the prevent touch script JS
+    <script src="dist/js/preventtouch.js"></script> -->
+      <!-- javascript link-->
+      <script src="dist/js/bower_components/jquery/dist/jquery.min.js"></script>
+      <script src='dist/js/mapbox.js'></script>
+      <script src="dist/js/app.js"></script>
+
+
+    <!-- Include the phonegap JS -->
+    <!--<script src="phonegap.js"></script>-->
+
+
+
+  </head>
+ 
+ 
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+        <img src="dist/img/mawlogo.png" height="100%" alt="Miami Art Week mApp" class="headerlogo">
+    </header>
+
+    <!--bottom nav-->
+
+    <nav class="btm-nav bar bar-tab">
+      <a class="tab-item" href="map.html" data-transition="slide-in">
+        Map
+      </a>
+      <a class="tab-item" href="events.html" data-transition="slide-in">
+        Events
+      </a>
+      <a class="tab-item" href="explore.html" data-transition="slide-in">
+        Explore
+      </a>
+    </nav>    
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content" id="index">
+
+        <!--accordion menu-->
+        <div class="accordion-container">
+            <div class="set">
+                <h3>
+                    MAPS
+                    <span class="icon icon-down"></span>
+                </h3>
+                <div class="menu-content">
+                    <ul>
+                        <li><a class="tab-item active" href="map.html#all" data-transition="slide-in" data-ignore="push">All</a></li>
+                        <li><a class="tab-item active" href="map.html#downtown"  data-transition="slide-in" data-ignore="push">Downtown</a></li>
+                        <li><a class="tab-item active" href="map.html#miamibeach"  data-transition="slide-in" data-ignore="push">Miami Beach</a> </li>
+                        <li><a class="tab-item active" href="map.html#midtown"  data-transition="slide-in" data-ignore="push">Midtown</a> </li>
+                        <li><a class="tab-item active" href="map.html#wynwood"  data-transition="slide-in" data-ignore="push">Wynwood</a> </li>
+                        <li><a class="tab-item active" href="map.html#artofblack"  data-transition="slide-in" data-ignore="push">Art Of Black Miami</a> </li>
+                    </ul>
+                </div>
+            </div><!--end set-->
+            <div class="set">
+                <h3>
+                    EVENTS
+                    <span class="icon icon-down"></span>
+                </h3>
+                <div class="menu-content">
+                    <ul>
+                        <li><a class="tab-item active" href="events.html"  data-transition="slide-in">All</a></li>
+                        <li><a class="tab-item active" href="events.html"  data-transition="slide-in">Downtown</a></li>
+                        <li><a class="tab-item active" href="events.html"  data-transition="slide-in">Miami Beach</a> </li>
+                        <li><a class="tab-item active" href="events.html"  data-transition="slide-in">Midtown</a> </li>
+                        <li><a class="tab-item active" href="events.html"  data-transition="slide-in">Wynwood</a> </li>
+                    </ul>
+                </div>
+            </div><!--end set-->
+            <div class="set">
+                <h3>
+                    EXPLORE
+                    <span class="icon icon-down"></span>
+                </h3>
+                <div class="menu-content">
+                    <ul>
+                        <li><a class="tab-item active" href="explore.html" data-transition="slide-in">All</a></li>
+                        <li><a class="tab-item active" href="explore.html#restaurant" data-transition="slide-in">Restaurants</a> </li>
+                        <li><a class="tab-item active" href="explore.html#landmark" data-transition="slide-in">Local Communitites</a> </li>
+                    </ul>
+                </div>
+            </div><!--end set-->
+            <div class="set">
+                <h3>
+                    INFORMATION
+                    <span class="icon icon-down"></span>
+                </h3>
+                <div class="menu-content">
+                    <ul>
+                        <li><a class="tab-item active" href="about.html"  data-transition="slide-in"> About</a></li>
+                        <li><a class="tab-item active" href="sponsors.html"  data-transition="slide-in">Sponsors</a> </li>
+                    </ul>
+                </div>
+            </div><!--end set-->
+
+        </div><!--End accordion menu-->
+        
+        
+        
+        <!--Sponsor Logos-->
+        <div class="home-sponsors">
+    		<a href="http://spectrum-miami.com/?gclid=Cj0KEQjwvJqvBRCL77m2-uKczsIBEiQAkx8VjPJv2KL062ca9XlmtbehjBRDdzekRjtIUS1CGsXyLiEaAruv8P8HAQ"><img src="dist/img/sponsors/spectrum-logo-white.png" width="125"></a>
+			<a href="https://www.artinstitutes.edu/miami"><img src="dist/img/sponsors/50th-MIU-wt.png" width="125"></a>
+        </div><!--end sponsor logos-->
+
+    </div><!--end content-->
+  
+
+
+<!-- For Debugging with weinre -->
+<!--<script src="http://192.168.1.113:8080/target/target-script-min.js#anonymous"></script>-->
+
+
+  </body>
+</html>
